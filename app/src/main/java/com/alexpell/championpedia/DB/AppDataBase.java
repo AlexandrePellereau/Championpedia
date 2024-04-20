@@ -16,7 +16,7 @@ public abstract class AppDataBase extends RoomDatabase {
     private static volatile AppDataBase instance;
     private static final Object LOCK = new Object();
 
-    public abstract LoginLogDAO loginLogDAO();
+    public abstract UserDAO loginLogDAO();
 
     public static AppDataBase getInstance(Context context) {
         if (instance == null) {

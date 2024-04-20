@@ -14,7 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.alexpell.championpedia.DB.AppDataBase;
-import com.alexpell.championpedia.DB.LoginLogDAO;
+import com.alexpell.championpedia.DB.UserDAO;
 import com.alexpell.championpedia.databinding.ActivityLoginBinding;
 
 import java.util.List;
@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private ActivityLoginBinding binding;
 
-    private LoginLogDAO loginLogDAO;
+    private UserDAO mUserDAO;
     private List<User> mUsers;
 
     private EditText email;
@@ -47,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
         email = binding.editTextEmailAddress;
         password = binding.editTextPassword;
         Button button = binding.buttonSubmit;
-        loginLogDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
+        mUserDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
                 .allowMainThreadQueries()
                 .build()
                 .loginLogDAO();
@@ -88,7 +88,7 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         if (createAccount) {
-            loginLogDAO.insert(new User(emailText, emailText, passwordText, false));
+            mUserDAO.insert(new User(emailText, emailText, passwordText, false));
             getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
                     putBoolean("loggedIn", true).
                     putString("username", emailText).
@@ -113,7 +113,7 @@ public class LoginActivity extends AppCompatActivity {
                 return;
             }
 
-            mUsers = loginLogDAO.getLoginLogs();
+            mUsers = mUserDAO.getLoginLogs();
             for (User user : mUsers) {
                 if (user.getEmail().equals(emailText) && user.getPassword().equals(passwordText)) {
                     binding.TextviewTitle.setText(R.string.login_successful);

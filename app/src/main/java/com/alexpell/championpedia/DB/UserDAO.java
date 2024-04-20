@@ -11,7 +11,7 @@ import com.alexpell.championpedia.User;
 import java.util.List;
 
 @Dao
-public interface LoginLogDAO {
+public interface UserDAO {
 
     @Insert
     void insert(User... user);
