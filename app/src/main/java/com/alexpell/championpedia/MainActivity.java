@@ -18,20 +18,29 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-       binding = ActivityMainBinding.inflate(getLayoutInflater());
+
+        if (getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE).getBoolean("loggedIn", false))
+            startActivity(new Intent(getApplicationContext(), LandingPage.class));
+
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
+
         binding.login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                intent.putExtra("createAccount", false);
+                startActivity(intent);
             }
         });
 
         binding.createAccountButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), LandingPage.class));
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                intent.putExtra("createAccount", true);
+                startActivity(intent);
             }
         });
 

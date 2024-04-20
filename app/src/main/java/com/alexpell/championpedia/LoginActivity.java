@@ -41,6 +41,11 @@ public class LoginActivity extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
 
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            createAccount = extras.getBoolean("createAccount");
+        }
+
         Toast.makeText(this, "Starting...", Toast.LENGTH_SHORT).show();
         email = binding.editTextEmailAddress;
         password = binding.editTextPassword;
@@ -85,21 +90,42 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-
-
         if (createAccount) {
-            loginLogDAO.insert(new LoginLog(emailText, passwordText));
+            loginLogDAO.insert(new LoginLog(emailText, emailText, passwordText, false));
+            getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
+                    putBoolean("loggedIn", true).
+                    putString("username", emailText).
+                    putString("email", emailText).
+                    putString("password", passwordText).
+                    putBoolean("isAdmin", false).
+                    apply();
             binding.TextviewTitle.setText(R.string.account_created);
+            startActivity(new Intent(getApplicationContext(), LandingPage.class));
+            return;
         } else {
             if (email.equals("admin") && password.equals("admin")) {
                 binding.TextviewTitle.setText(R.string.login_admin_successful);
+                getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
+                        putBoolean("loggedIn", true).
+                        putString("username", "admin").
+                        putString("email", "admin").
+                        putString("password", "admin").
+                        putBoolean("isAdmin", true).
+                        apply();
                 return;
             }
 
             loginLogs = loginLogDAO.getLoginLogs();
             for (LoginLog loginLog : loginLogs) {
-                if (loginLog.getLogin().equals(emailText) && loginLog.getPassword().equals(passwordText)) {
+                if (loginLog.getEmail().equals(emailText) && loginLog.getPassword().equals(passwordText)) {
                     binding.TextviewTitle.setText(R.string.login_successful);
+                    getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
+                            putBoolean("loggedIn", true).
+                            putString("username", loginLog.getUsername()).
+                            putString("email", loginLog.getEmail()).
+                            putString("password", loginLog.getPassword()).
+                            putBoolean("isAdmin", loginLog.getIsAdmin()).
+                            apply();
                     startActivity(new Intent(getApplicationContext(), LandingPage.class));
                     return;
                 }

@@ -11,19 +11,27 @@ public class LoginLog {
     @PrimaryKey(autoGenerate = true)
     private int mLogId;
 
-    private String mLogin;
+    private String mUsername;
+    private String mEmail;
     private String mPassword;
+    private boolean mIsAdmin;
 
-    public LoginLog(String login, String password) {
-        mLogin = login;
+    public LoginLog(String username, String email, String password, Boolean isAdmin) {
+        mUsername = username;
+        mEmail = email;
         mPassword = password;
+        mIsAdmin = isAdmin;
     }
 
     @Override
-    public String toString() {
-        return "GymLog{" +
-                "mLogin='" + mLogin + '\'' +
+    public String
+    toString() {
+        return "LoginLog{" +
+                "mLogId=" + mLogId +
+                ", mUsername='" + mUsername + '\'' +
+                ", mEmail='" + mEmail + '\'' +
                 ", mPassword='" + mPassword + '\'' +
+                ", mIsAdmin=" + mIsAdmin +
                 '}';
     }
 
@@ -35,12 +43,20 @@ public class LoginLog {
         mLogId = logId;
     }
 
-    public String getLogin() {
-        return mLogin;
+    public String getUsername() {
+        return mUsername;
     }
 
-    public void setLogin(String login) {
-        mLogin = login;
+    public void setUsername(String username) {
+        mUsername = username;
+    }
+
+    public String getEmail() {
+        return mEmail;
+    }
+
+    public void setEmail(String email) {
+        mEmail = email;
     }
 
     public String getPassword() {
@@ -49,5 +65,13 @@ public class LoginLog {
 
     public void setPassword(String password) {
         mPassword = password;
+    }
+
+    public boolean getIsAdmin() {
+        return mIsAdmin;
+    }
+
+    public void setIsAdmin(Boolean admin) {
+        mIsAdmin = admin;
     }
 }
