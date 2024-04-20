@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -88,21 +89,23 @@ public class LoginActivity extends AppCompatActivity {
 
         if (createAccount) {
             loginLogDAO.insert(new LoginLog(emailText, passwordText));
-            binding.TextviewTitle.setText("Account Created");
+            binding.TextviewTitle.setText(R.string.account_created);
         } else {
             if (email.equals("admin") && password.equals("admin")) {
-                binding.TextviewTitle.setText("Login Admin Successful");
+                binding.TextviewTitle.setText(R.string.login_admin_successful);
                 return;
             }
 
             loginLogs = loginLogDAO.getLoginLogs();
             for (LoginLog loginLog : loginLogs) {
                 if (loginLog.getLogin().equals(emailText) && loginLog.getPassword().equals(passwordText)) {
-                    binding.TextviewTitle.setText("Login Successful");
+                    binding.TextviewTitle.setText(R.string.login_successful);
+                    startActivity(new Intent(getApplicationContext(), LandingPage.class));
                     return;
                 }
             }
-            binding.TextviewTitle.setText("Login Failed");
+
+            Toast.makeText(this, R.string.login_failed, Toast.LENGTH_SHORT).show();
         }
     }
 }

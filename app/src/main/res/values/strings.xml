@@ -13,5 +13,9 @@
     <string name="logout">Logout</string>
     <string name="Title">Login</string>
     <string name="submit">Submit</string>
+    <string name="account_created">Account Created</string>
+    <string name="login_admin_successful">Login Admin Successful</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="login_failed">Login Failed</string>
 
 </resources>
