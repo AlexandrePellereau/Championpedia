@@ -22,6 +22,9 @@ public interface LoginLogDAO {
     @Delete
     void delete(LoginLog loginLog);
 
+    @Query("SELECT * FROM " + AppDataBase.LOGINLOG_TABLE)
+    List<LoginLog> getLoginLogs();
+
     @Query("SELECT * FROM " + AppDataBase.LOGINLOG_TABLE + " WHERE mLogID = :logId")
     List<LoginLog> getLoginLog(int logId);
 }

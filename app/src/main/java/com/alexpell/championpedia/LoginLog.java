@@ -1,7 +1,11 @@
 package com.alexpell.championpedia;
 
+import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+import com.alexpell.championpedia.DB.AppDataBase;
+
+@Entity(tableName = AppDataBase.LOGINLOG_TABLE)
 public class LoginLog {
 
     @PrimaryKey(autoGenerate = true)

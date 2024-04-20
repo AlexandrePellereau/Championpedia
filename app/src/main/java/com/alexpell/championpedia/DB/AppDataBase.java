@@ -12,7 +12,7 @@ import com.alexpell.championpedia.LoginLog;
 public abstract class AppDataBase extends RoomDatabase {
 
     public static final String LOGINLOG_TABLE = "login_log";
-    private static final String DATABASE_NAME = "LoginLog.DB";
+    public static final String DATABASE_NAME = "LoginLog.DB";
     private static volatile AppDataBase instance;
     private static final Object LOCK = new Object();
 
