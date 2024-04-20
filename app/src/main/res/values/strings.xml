@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Championpedia</string>
+    <string name="championpedia">Championpedia</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="logged_in_as">Logged in as :</string>
+    <string name="akali">Akali</string>
+    <string name="vel_koz">Vel\'Koz</string>
+    <string name="admin">Admin</string>
+    <string name="karma">Karma</string>
+    <string name="aatrox">Aatrox</string>
+    <string name="ahri">Ahri</string>
+    <string name="logout">Logout</string>
 </resources>
