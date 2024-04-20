@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+
 import com.alexpell.championpedia.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,5 +27,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), LandingPage.class));
             }
         });
+
     }
 }

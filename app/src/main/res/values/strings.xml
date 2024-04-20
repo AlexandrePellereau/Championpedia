@@ -11,4 +11,7 @@
     <string name="aatrox">Aatrox</string>
     <string name="ahri">Ahri</string>
     <string name="logout">Logout</string>
+    <string name="Title">Login</string>
+    <string name="submit">Submit</string>
+
 </resources>
