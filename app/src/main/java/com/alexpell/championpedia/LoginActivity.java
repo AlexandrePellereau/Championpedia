@@ -23,12 +23,15 @@ import java.util.List;
 
 public class LoginActivity extends AppCompatActivity {
 
-    public static boolean createAccount = true;
+    public static boolean createAccount = false;
 
     private ActivityLoginBinding binding;
 
     private LoginLogDAO loginLogDAO;
     private List<LoginLog> loginLogs;
+
+    private EditText email;
+    private EditText password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,21 +41,23 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(view);
 
         Toast.makeText(this, "Starting...", Toast.LENGTH_SHORT).show();
-        EditText email = binding.editTextEmailAddress;
-        EditText password = binding.editTextPassword;
+        email = binding.editTextEmailAddress;
+        password = binding.editTextPassword;
         Button button = binding.buttonSubmit;
         loginLogDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
                 .allowMainThreadQueries()
                 .build()
                 .loginLogDAO();
 
+        if (createAccount)
+            binding.TextviewTitle.setText(R.string.create_account);
+        else
+            binding.TextviewTitle.setText(R.string.login);
 
-        String emailText = email.getText().toString();
-        String passwordText = password.getText().toString();
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                login(emailText, passwordText);
+                login();
             }
         });
         password.setOnEditorActionListener(new TextView.OnEditorActionListener() {//when the user presses the enter key
@@ -61,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
                 boolean handled = false;
                 if (actionId == EditorInfo.IME_ACTION_SEND) {
                     Toast.makeText(LoginActivity.this, "test2", Toast.LENGTH_SHORT).show();
-                    login(emailText, passwordText);
+                    login();
                     handled = true;
                 }
                 return handled;
@@ -70,26 +75,34 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    public void login(String email, String password) {
-        Toast.makeText(this, "test3", Toast.LENGTH_SHORT).show();
+    public void login() {
+        String emailText = email.getText().toString();
+        String passwordText = password.getText().toString();
+
+        if (emailText.isEmpty() || passwordText.isEmpty()) {
+            Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+
 
         if (createAccount) {
-            loginLogDAO.insert(new LoginLog(email, password));
+            loginLogDAO.insert(new LoginLog(emailText, passwordText));
             binding.TextviewTitle.setText("Account Created");
         } else {
+            if (email.equals("admin") && password.equals("admin")) {
+                binding.TextviewTitle.setText("Login Admin Successful");
+                return;
+            }
+
             loginLogs = loginLogDAO.getLoginLogs();
             for (LoginLog loginLog : loginLogs) {
-                if (loginLog.getLogin().equals(email) && loginLog.getPassword().equals(password)) {
+                if (loginLog.getLogin().equals(emailText) && loginLog.getPassword().equals(passwordText)) {
                     binding.TextviewTitle.setText("Login Successful");
                     return;
                 }
             }
             binding.TextviewTitle.setText("Login Failed");
-        }
-
-
-        if (email.equals("admin") && password.equals("admin")) {
-            binding.TextviewTitle.setText("Login Successful");
         }
     }
 }
