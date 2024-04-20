@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Championpedia</string>
+    <string name="Title">Login</string>
+    <string name="submit">Submit</string>
 </resources>
