@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -24,6 +26,9 @@ import java.util.List;
 
 public class LoginActivity extends AppCompatActivity {
 
+    SharedPreferences sharedPreferences;
+    SharedPreferences.Editor editor;
+
     public static boolean createAccount = false;
 
     private ActivityLoginBinding binding;
@@ -36,6 +41,8 @@ public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        sharedPreferences  = getSharedPreferences("my_preferences", Context.MODE_PRIVATE);
+        editor = sharedPreferences.edit();
         super.onCreate(savedInstanceState);
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();

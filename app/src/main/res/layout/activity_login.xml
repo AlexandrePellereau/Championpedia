@@ -40,7 +40,7 @@
         android:layout_marginTop="136dp"
         android:fontFamily="@font/lol_medium"
         android:gravity="center"
-        android:text="@string/Title"
+        android:text="@string/login"
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
