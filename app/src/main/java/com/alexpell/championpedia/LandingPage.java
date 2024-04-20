@@ -20,9 +20,9 @@ public class LandingPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        sharedPreferences = getSharedPreferences("my_preferences", Context.MODE_PRIVATE);
+        sharedPreferences = getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE);
         binding = ActivityLandingPageBinding.inflate(getLayoutInflater());
-        if (sharedPreferences.getBoolean("is_admin",false)){
+        if (sharedPreferences.getBoolean("isAdmin",false)){
             binding.adminButton.setVisibility(View.VISIBLE);
         }
         else{
@@ -35,10 +35,10 @@ public class LandingPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 editor = sharedPreferences.edit();
-                editor.putBoolean("is_logged_in",false);
-                editor.putBoolean("is_admin",false);
+                editor.putBoolean("loggedIn",false);
+                editor.putBoolean("isAdmin",false);
                 editor.apply();
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
             }
         });
     }

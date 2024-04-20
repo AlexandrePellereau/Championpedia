@@ -6,7 +6,7 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.alexpell.championpedia.LoginLog;
+import com.alexpell.championpedia.User;
 
 import java.util.List;
 
@@ -14,17 +14,17 @@ import java.util.List;
 public interface LoginLogDAO {
 
     @Insert
-    void insert(LoginLog... loginLog);
+    void insert(User... user);
 
     @Update
-    void update(LoginLog... loginLog);
+    void update(User... user);
 
     @Delete
-    void delete(LoginLog loginLog);
+    void delete(User user);
 
     @Query("SELECT * FROM " + AppDataBase.LOGINLOG_TABLE)
-    List<LoginLog> getLoginLogs();
+    List<User> getLoginLogs();
 
     @Query("SELECT * FROM " + AppDataBase.LOGINLOG_TABLE + " WHERE mLogID = :logId")
-    List<LoginLog> getLoginLog(int logId);
+    List<User> getLoginLog(int logId);
 }

@@ -2,13 +2,9 @@ package com.alexpell.championpedia;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
-import androidx.room.RoomDatabase;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -20,29 +16,23 @@ import android.widget.Toast;
 import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.DB.LoginLogDAO;
 import com.alexpell.championpedia.databinding.ActivityLoginBinding;
-import com.alexpell.championpedia.databinding.ActivityMainBinding;
 
 import java.util.List;
 
 public class LoginActivity extends AppCompatActivity {
-
-    SharedPreferences sharedPreferences;
-    SharedPreferences.Editor editor;
 
     public static boolean createAccount = false;
 
     private ActivityLoginBinding binding;
 
     private LoginLogDAO loginLogDAO;
-    private List<LoginLog> loginLogs;
+    private List<User> mUsers;
 
     private EditText email;
     private EditText password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        sharedPreferences  = getSharedPreferences("my_preferences", Context.MODE_PRIVATE);
-        editor = sharedPreferences.edit();
         super.onCreate(savedInstanceState);
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
@@ -98,7 +88,7 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         if (createAccount) {
-            loginLogDAO.insert(new LoginLog(emailText, emailText, passwordText, false));
+            loginLogDAO.insert(new User(emailText, emailText, passwordText, false));
             getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
                     putBoolean("loggedIn", true).
                     putString("username", emailText).
@@ -110,7 +100,7 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(), LandingPage.class));
             return;
         } else {
-            if (email.equals("admin") && password.equals("admin")) {
+            if (emailText.equals("admin") && passwordText.equals("admin")) {
                 binding.TextviewTitle.setText(R.string.login_admin_successful);
                 getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
                         putBoolean("loggedIn", true).
@@ -119,19 +109,20 @@ public class LoginActivity extends AppCompatActivity {
                         putString("password", "admin").
                         putBoolean("isAdmin", true).
                         apply();
+                startActivity(new Intent(getApplicationContext(), LandingPage.class));
                 return;
             }
 
-            loginLogs = loginLogDAO.getLoginLogs();
-            for (LoginLog loginLog : loginLogs) {
-                if (loginLog.getEmail().equals(emailText) && loginLog.getPassword().equals(passwordText)) {
+            mUsers = loginLogDAO.getLoginLogs();
+            for (User user : mUsers) {
+                if (user.getEmail().equals(emailText) && user.getPassword().equals(passwordText)) {
                     binding.TextviewTitle.setText(R.string.login_successful);
                     getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
                             putBoolean("loggedIn", true).
-                            putString("username", loginLog.getUsername()).
-                            putString("email", loginLog.getEmail()).
-                            putString("password", loginLog.getPassword()).
-                            putBoolean("isAdmin", loginLog.getIsAdmin()).
+                            putString("username", user.getUsername()).
+                            putString("email", user.getEmail()).
+                            putString("password", user.getPassword()).
+                            putBoolean("isAdmin", user.getIsAdmin()).
                             apply();
                     startActivity(new Intent(getApplicationContext(), LandingPage.class));
                     return;

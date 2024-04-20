@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey;
 import com.alexpell.championpedia.DB.AppDataBase;
 
 @Entity(tableName = AppDataBase.LOGINLOG_TABLE)
-public class LoginLog {
+public class User {
 
     @PrimaryKey(autoGenerate = true)
     private int mLogId;
@@ -16,7 +16,7 @@ public class LoginLog {
     private String mPassword;
     private boolean mIsAdmin;
 
-    public LoginLog(String username, String email, String password, Boolean isAdmin) {
+    public User(String username, String email, String password, Boolean isAdmin) {
         mUsername = username;
         mEmail = email;
         mPassword = password;

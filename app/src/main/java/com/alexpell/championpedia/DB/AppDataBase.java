@@ -6,9 +6,9 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.alexpell.championpedia.LoginLog;
+import com.alexpell.championpedia.User;
 
-@Database(entities = {LoginLog.class}, version = 1)
+@Database(entities = {User.class}, version = 1)
 public abstract class AppDataBase extends RoomDatabase {
 
     public static final String LOGINLOG_TABLE = "login_log";
