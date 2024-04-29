@@ -3,14 +3,11 @@ package com.alexpell.championpedia.DB;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import com.alexpell.championpedia.DB.AppDataBase;
-
 @Entity(tableName = AppDataBase.LOGINLOG_TABLE)
 public class User {
 
     @PrimaryKey(autoGenerate = true)
     private int mLogId;
-
     private String mUsername;
     private String mEmail;
     private String mPassword;
@@ -24,8 +21,7 @@ public class User {
     }
 
     @Override
-    public String
-    toString() {
+    public String toString() {
         return "LoginLog{" +
                 "mLogId=" + mLogId +
                 ", mUsername='" + mUsername + '\'' +
