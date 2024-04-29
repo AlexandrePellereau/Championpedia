@@ -6,8 +6,6 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.alexpell.championpedia.User;
-
 import java.util.List;
 
 @Dao

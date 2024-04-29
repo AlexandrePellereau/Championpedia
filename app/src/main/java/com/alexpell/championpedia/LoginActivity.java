@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.alexpell.championpedia.DB.AppDataBase;
+import com.alexpell.championpedia.DB.User;
 import com.alexpell.championpedia.DB.UserDAO;
 import com.alexpell.championpedia.databinding.ActivityLoginBinding;
 
