@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
@@ -84,53 +85,57 @@ public class LoginActivity extends AppCompatActivity {
         String passwordText = password.getText().toString();
 
         if (emailText.isEmpty() || passwordText.isEmpty()) {
-            Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show();
+            showToast("Please fill in all fields");
             return;
         }
 
         if (createAccount) {
-            mUserDAO.insert(new User(emailText, emailText, passwordText, false));
-            getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
-                    putBoolean("loggedIn", true).
-                    putString("username", emailText).
-                    putString("email", emailText).
-                    putString("password", passwordText).
-                    putBoolean("isAdmin", false).
-                    apply();
-            binding.TextviewTitle.setText(R.string.account_created);
-            startActivity(new Intent(getApplicationContext(), LandingPage.class));
+            createUserAndLogin(emailText, passwordText, false);
             return;
-        } else {
-            if (emailText.equals("admin") && passwordText.equals("admin")) {
-                binding.TextviewTitle.setText(R.string.login_admin_successful);
-                getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
-                        putBoolean("loggedIn", true).
-                        putString("username", "admin").
-                        putString("email", "admin").
-                        putString("password", "admin").
-                        putBoolean("isAdmin", true).
-                        apply();
-                startActivity(new Intent(getApplicationContext(), LandingPage.class));
+        }
+
+        if (emailText.equals("admin") && passwordText.equals("admin")) {
+            loginAdmin();
+            return;
+        }
+
+        loginExistingUser(emailText, passwordText);
+    }
+
+    private void createUserAndLogin(String email, String password, boolean admin) {
+        User newUser = new User(email, email, password, admin);
+        mUserDAO.insert(newUser);
+        loginSuccess(newUser.getUsername(), email, password, admin);
+    }
+
+    private void loginAdmin() {
+        loginSuccess("admin", "admin", "admin", true);
+    }
+
+    private void loginExistingUser(String email, String password) {
+        mUsers = mUserDAO.getLogins();
+        for (User user : mUsers) {
+            if (user.getEmail().equals(email) && user.getPassword().equals(password)) {
+                loginSuccess(user.getUsername(), email, password, user.getAdmin());
                 return;
             }
-
-            mUsers = mUserDAO.getLogins();
-            for (User user : mUsers) {
-                if (user.getEmail().equals(emailText) && user.getPassword().equals(passwordText)) {
-                    binding.TextviewTitle.setText(R.string.login_successful);
-                    getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
-                            putBoolean("loggedIn", true).
-                            putString("username", user.getUsername()).
-                            putString("email", user.getEmail()).
-                            putString("password", user.getPassword()).
-                            putBoolean("isAdmin", user.getAdmin()).
-                            apply();
-                    startActivity(new Intent(getApplicationContext(), LandingPage.class));
-                    return;
-                }
-            }
-
-            Toast.makeText(this, R.string.login_failed, Toast.LENGTH_SHORT).show();
         }
+        showToast(getString(R.string.login_failed));
     }
+
+    private void loginSuccess(String username, String email, String password, boolean isAdmin) {
+        SharedPreferences.Editor editor = getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit();
+        editor.putBoolean("loggedIn", true);
+        editor.putString("username", username);
+        editor.putString("email", email);
+        editor.putString("password", password);
+        editor.putBoolean("isAdmin", isAdmin);
+        editor.apply();
+        startActivity(new Intent(getApplicationContext(), LandingPage.class));
+    }
+
+    private void showToast(String message) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+    }
+
 }
