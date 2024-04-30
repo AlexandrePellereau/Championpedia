@@ -114,7 +114,7 @@ public class LoginActivity extends AppCompatActivity {
                 return;
             }
 
-            mUsers = mUserDAO.getLoginLogs();
+            mUsers = mUserDAO.getLogins();
             for (User user : mUsers) {
                 if (user.getEmail().equals(emailText) && user.getPassword().equals(passwordText)) {
                     binding.TextviewTitle.setText(R.string.login_successful);

@@ -9,7 +9,7 @@ import androidx.room.Update;
 import java.util.List;
 
 @Dao
-public interface UserDAO {
+public interface CommentDAO {
 
     @Insert
     void insert(User... user);
@@ -20,9 +20,7 @@ public interface UserDAO {
     @Delete
     void delete(User user);
 
-    @Query("SELECT * FROM " + AppDataBase.LOGIN_TABLE)
-    List<User> getLogins();
+    @Query("SELECT * FROM " + AppDataBase.COMMENT_TABLE + " WHERE championId = :championId")
+    List<Comment> getComments(int championId);
 
-    @Query("SELECT * FROM " + AppDataBase.LOGIN_TABLE + " WHERE mLogID = :logId")
-    List<User> getLogin(int logId);
 }

@@ -4,11 +4,11 @@ import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName = AppDataBase.LOGINLOG_TABLE,
+@Entity(tableName = AppDataBase.LOGIN_TABLE,
         foreignKeys = @ForeignKey(entity = User.class,
                 parentColumns = "mLogId",
                 childColumns = "userId"))
-public class Comments {
+public class Comment {
 
     @PrimaryKey(autoGenerate = true)
     private int id;
@@ -17,7 +17,7 @@ public class Comments {
     private String content;
     private boolean publicationDate;
 
-    public Comments(int championId, int userId, String content, boolean publicationDate) {
+    public Comment(int championId, int userId, String content, boolean publicationDate) {
         this.championId = championId;
         this.userId = userId;
         this.content = content;

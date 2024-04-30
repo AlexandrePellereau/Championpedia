@@ -3,7 +3,7 @@ package com.alexpell.championpedia.DB;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName = AppDataBase.LOGINLOG_TABLE)
+@Entity(tableName = AppDataBase.LOGIN_TABLE)
 public class User {
 
     @PrimaryKey(autoGenerate = true)
