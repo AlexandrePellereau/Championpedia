@@ -2,46 +2,46 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "f4b1bae93c605c3ee07c1a81b1b48bcf",
+    "identityHash": "f700c04f71a298eae963e5f332277a5e",
     "entities": [
       {
-        "tableName": "login_log",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`mLogId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `mUsername` TEXT, `mEmail` TEXT, `mPassword` TEXT, `mIsAdmin` INTEGER NOT NULL)",
+        "tableName": "user",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `username` TEXT, `email` TEXT, `password` TEXT, `admin` INTEGER NOT NULL)",
         "fields": [
           {
-            "fieldPath": "mLogId",
-            "columnName": "mLogId",
+            "fieldPath": "id",
+            "columnName": "id",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
-            "fieldPath": "mUsername",
-            "columnName": "mUsername",
+            "fieldPath": "username",
+            "columnName": "username",
             "affinity": "TEXT",
             "notNull": false
           },
           {
-            "fieldPath": "mEmail",
-            "columnName": "mEmail",
+            "fieldPath": "email",
+            "columnName": "email",
             "affinity": "TEXT",
             "notNull": false
           },
           {
-            "fieldPath": "mPassword",
-            "columnName": "mPassword",
+            "fieldPath": "password",
+            "columnName": "password",
             "affinity": "TEXT",
             "notNull": false
           },
           {
-            "fieldPath": "mIsAdmin",
-            "columnName": "mIsAdmin",
+            "fieldPath": "admin",
+            "columnName": "admin",
             "affinity": "INTEGER",
             "notNull": true
           }
         ],
         "primaryKey": {
           "columnNames": [
-            "mLogId"
+            "id"
           ],
           "autoGenerate": true
         },
@@ -52,7 +52,7 @@
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f4b1bae93c605c3ee07c1a81b1b48bcf')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f700c04f71a298eae963e5f332277a5e')"
     ]
   }
 }

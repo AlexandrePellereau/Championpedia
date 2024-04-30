@@ -13,11 +13,11 @@ public class User {
     private String password;
     private boolean admin;
 
-    public User(String username, String email, String password, Boolean isAdmin) {
+    public User(String username, String email, String password, Boolean admin) {
         this.username = username;
         this.email = email;
         this.password = password;
-        admin = isAdmin;
+        this.admin = admin;
     }
 
     @Override
@@ -63,11 +63,11 @@ public class User {
         this.password = password;
     }
 
-    public boolean getIsAdmin() {
+    public boolean getAdmin() {
         return admin;
     }
 
-    public void setIsAdmin(Boolean admin) {
+    public void setAdmin(Boolean admin) {
         this.admin = admin;
     }
 }

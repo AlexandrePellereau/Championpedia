@@ -123,7 +123,7 @@ public class LoginActivity extends AppCompatActivity {
                             putString("username", user.getUsername()).
                             putString("email", user.getEmail()).
                             putString("password", user.getPassword()).
-                            putBoolean("isAdmin", user.getIsAdmin()).
+                            putBoolean("isAdmin", user.getAdmin()).
                             apply();
                     startActivity(new Intent(getApplicationContext(), LandingPage.class));
                     return;
