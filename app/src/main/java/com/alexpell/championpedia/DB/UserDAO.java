@@ -20,9 +20,9 @@ public interface UserDAO {
     @Delete
     void delete(User user);
 
-    @Query("SELECT * FROM " + AppDataBase.LOGIN_TABLE)
+    @Query("SELECT * FROM " + AppDataBase.USER_TABLE)
     List<User> getLogins();
 
-    @Query("SELECT * FROM " + AppDataBase.LOGIN_TABLE + " WHERE mLogID = :logId")
+    @Query("SELECT * FROM " + AppDataBase.USER_TABLE + " WHERE id = :logId")
     List<User> getLogin(int logId);
 }

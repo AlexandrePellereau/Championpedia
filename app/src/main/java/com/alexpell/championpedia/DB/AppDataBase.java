@@ -9,8 +9,8 @@ import androidx.room.RoomDatabase;
 @Database(entities = {User.class}, version = 1)
 public abstract class AppDataBase extends RoomDatabase {
 
-    public static final String LOGIN_TABLE = "login";
-    public static final String COMMENT_TABLE = "comments";
+    public static final String USER_TABLE = "user";
+    public static final String COMMENT_TABLE = "comment";
     public static final String DATABASE_NAME = "LoginLog.DB";
     private static volatile AppDataBase instance;
     private static final Object LOCK = new Object();
