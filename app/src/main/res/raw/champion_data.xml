@@ -1,0 +1,51 @@
+<champions>
+<champion>
+    <name>Aatrox</name>
+    <lore>The Darkin Blade</lore>
+    <full_lore>Aatrox is a Darkin blade who thirsts for destruction.</full_lore>
+    <pickrate>0.15</pickrate>
+    <banrate>0.02</banrate>
+    <winrate>0.48</winrate>
+    <difficulty>4</difficulty>
+</champion>
+
+<champion>
+<name>Ahri</name>
+<lore>The Nine-Tailed Fox</lore>
+<full_lore>Ahri is a vastaya who can reshape magic into orbs of raw energy.</full_lore>
+<pickrate>0.25</pickrate>
+<banrate>0.05</banrate>
+<winrate>0.50</winrate>
+<difficulty>3</difficulty>
+</champion>
+
+<champion>
+<name>Akali</name>
+<lore>The Rogue Assassin</lore>
+<full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+<pickrate>0.20</pickrate>
+<banrate>0.04</banrate>
+<winrate>0.52</winrate>
+<difficulty>3</difficulty>
+</champion>
+
+<champion>
+<name>Karma</name>
+<lore>The Enlightened One</lore>
+<full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+<pickrate>0.18</pickrate>
+<banrate>0.03</banrate>
+<winrate>0.49</winrate>
+<difficulty>2</difficulty>
+</champion>
+
+<champion>
+<name>Vel'Koz</name>
+<lore>The Eye of the Void</lore>
+<full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+<pickrate>0.22</pickrate>
+<banrate>0.03</banrate>
+<winrate>0.51</winrate>
+<difficulty>3</difficulty>
+</champion>
+</champions>

@@ -41,6 +41,61 @@ public class LandingPage extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
             }
         });
+
+        setChampions();
+
+    }
+
+    private void setChampions(){
+        binding.imageAatrox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editor = sharedPreferences.edit();
+                editor.putString("champion","aatrox");
+                editor.apply();
+                startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
+            }
+        });
+
+        binding.imageAhri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editor = sharedPreferences.edit();
+                editor.putString("champion","ahri");
+                editor.apply();
+                startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
+            }
+        });
+
+        binding.imageAkali.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editor = sharedPreferences.edit();
+                editor.putString("champion","akali");
+                editor.apply();
+                startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
+            }
+        });
+
+        binding.imageKarma.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editor = sharedPreferences.edit();
+                editor.putString("champion","karma");
+                editor.apply();
+                startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
+            }
+        });
+
+        binding.imageVelKoz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editor = sharedPreferences.edit();
+                editor.putString("champion","velkoz");
+                editor.apply();
+                startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
+            }
+        });
     }
 
 }

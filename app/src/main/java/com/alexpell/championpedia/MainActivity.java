@@ -11,6 +11,10 @@ import android.view.View;
 
 import com.alexpell.championpedia.databinding.ActivityMainBinding;
 
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
+
 public class MainActivity extends AppCompatActivity {
 
     ActivityMainBinding binding;
@@ -21,8 +25,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        sharedPreferences = getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE);
+        editor = sharedPreferences.edit();
 
-        if (getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE).getBoolean("loggedIn", false))
+       /* if (!sharedPreferences.getBoolean("DbInstantiated",false)){
+
+            try {
+                Initialise.initialiseDB(getApplicationContext());
+            } catch (XmlPullParserException e) {
+                throw new RuntimeException(e);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            editor.putBoolean("DbInstantiated",true);
+        }*/
+
+        if (sharedPreferences.getBoolean("loggedIn", false))
             startActivity(new Intent(getApplicationContext(), LandingPage.class));
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());

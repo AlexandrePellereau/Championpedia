@@ -16,5 +16,6 @@
     <string name="login_admin_successful">Login Admin Successful</string>
     <string name="login_successful">Login Successful</string>
     <string name="login_failed">Login Failed</string>
+    <string name="back">Back</string>
 
 </resources>
