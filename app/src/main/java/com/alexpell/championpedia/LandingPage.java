@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.alexpell.championpedia.databinding.ActivityMainBinding;
 import com.alexpell.championpedia.databinding.ActivityLandingPageBinding;
+import com.alexpell.championpedia.legacy.CommentActivity;
 
 public class LandingPage extends AppCompatActivity {
 
@@ -39,6 +40,14 @@ public class LandingPage extends AppCompatActivity {
                 editor.putBoolean("isAdmin",false);
                 editor.apply();
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            }
+        });
+
+        //TODO : remove (for testing purposes)
+        binding.adminButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), CommentActivity.class));
             }
         });
     }

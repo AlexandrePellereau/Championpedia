@@ -1,4 +1,4 @@
-package com.alexpell.championpedia;
+package com.alexpell.championpedia.legacy;
 
 public class CommentModel {
 

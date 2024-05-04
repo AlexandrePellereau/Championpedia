@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
         if (getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE).getBoolean("loggedIn", false))
             startActivity(new Intent(getApplicationContext(), LandingPage.class));
 
@@ -46,6 +47,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }
