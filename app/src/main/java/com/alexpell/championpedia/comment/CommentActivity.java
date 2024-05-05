@@ -8,6 +8,7 @@ import androidx.room.Room;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.DB.AppDataBase;
@@ -54,10 +55,14 @@ public class CommentActivity extends AppCompatActivity {
                 String username = allDAO.getUser(getUserId()).getUsername();
                 String date = getDateTime();
                 String content = binding.commentEditText.getText().toString();
-                commentModels.add(new CommentModel(username, date, content, getImages(username)));
-                //commentRVAdapter.notifyDataSetChanged();
+                allDAO.insert(new Comment(1, getUserId(), content, date));//TODO : change championId to the current champion
+                Comment comment = allDAO.getLastComment();
+                commentModels.add(new CommentModel(comment.getId(), username, date, content, getImages(username)));
                 commentRVAdapter.notifyItemInserted(commentModels.size() - 1);
-                AddCommentToDB(getUserId(), date, content);
+
+                if (commentModels.size() == 1) {
+                    binding.commentEmpty.setVisibility(View.GONE);
+                }
             }
         });
     }
@@ -66,17 +71,15 @@ public class CommentActivity extends AppCompatActivity {
         return getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE).getInt("userId", 42);
     }
 
-    private void AddCommentToDB(int userId, String date, String content) {
-        allDAO.insert(new Comment(1, userId, content, date));
-    }
-
     private void setUpCommentModels() {
-        //TODO : remove example comments and add a textView "No comments yet" if there are no comments
-        commentModels.add(new CommentModel("name1", "date1", "content1", getImages("name1")));
-        commentModels.add(new CommentModel("name2", "date2", "content2", getImages("name2")));
-        for (Comment comment : allDAO.getComments(1)) {
+        List<Comment> comments = allDAO.getCommentsByChampion(1);//TODO : change championId to the current champion
+        if (comments.size() == 0) {
+            binding.commentEmpty.setVisibility(View.VISIBLE);
+            return;
+        }
+        for (Comment comment : comments) {
             String username = allDAO.getUser(comment.getUserId()).getUsername();
-            commentModels.add(new CommentModel(username, comment.getPublicationDate(), comment.getContent(), getImages(username)));
+            commentModels.add(new CommentModel(comment.getId(), username, comment.getPublicationDate(), comment.getContent(), getImages(username)));
         }
     }
 

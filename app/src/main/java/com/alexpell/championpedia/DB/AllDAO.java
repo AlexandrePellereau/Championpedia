@@ -39,5 +39,12 @@ public interface AllDAO {
     void delete(Comment comment);
 
     @Query("SELECT * FROM " + AppDataBase.COMMENT_TABLE + " WHERE championId = :championId")
-    List<Comment> getComments(int championId);
+    List<Comment> getCommentsByChampion(int championId);
+
+    @Query("DELETE FROM " + AppDataBase.COMMENT_TABLE + " WHERE id = :commentId")
+    void deleteComment(int commentId);
+
+    //get last comment
+    @Query("SELECT * FROM " + AppDataBase.COMMENT_TABLE + " ORDER BY id DESC LIMIT 1")
+    Comment getLastComment();
 }

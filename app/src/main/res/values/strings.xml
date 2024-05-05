@@ -21,6 +21,7 @@
     <string name="send">Send</string>
     <string name="coms">Coms</string>
     <string name="del">Del</string>
+    <string name="no_comments_yet">There is no comments yet.\n Be the first one to comment!</string>
 
     <string-array name="comment_tests">
         <item>Test Comment 1</item>

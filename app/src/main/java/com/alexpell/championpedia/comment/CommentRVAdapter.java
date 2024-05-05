@@ -4,12 +4,16 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.room.Room;
 
+import com.alexpell.championpedia.DB.AllDAO;
+import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.R;
 
 import java.util.ArrayList;
@@ -18,10 +22,12 @@ public class CommentRVAdapter extends RecyclerView.Adapter<CommentRVAdapter.MyVi
 
     Context context;
     ArrayList<CommentModel> commentModels;
+    boolean isAdmin = false;
 
     public CommentRVAdapter(Context context, ArrayList<CommentModel> commentModels) {
         this.context = context;
         this.commentModels = commentModels;
+        isAdmin = context.getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE).getBoolean("isAdmin", false);
     }
 
     @NonNull
@@ -34,10 +40,27 @@ public class CommentRVAdapter extends RecyclerView.Adapter<CommentRVAdapter.MyVi
 
     @Override
     public void onBindViewHolder(@NonNull CommentRVAdapter.MyViewHolder holder, int position) {
-        holder.name.setText(commentModels.get(position).getName());
-        holder.date.setText(commentModels.get(position).getDate());
-        holder.content.setText(commentModels.get(position).getContent());
-        holder.image.setImageResource(commentModels.get(position).getImage());
+        CommentModel commentModel = commentModels.get(position);
+        holder.name.setText(commentModel.getName());
+        holder.date.setText(commentModel.getDate());
+        holder.content.setText(commentModel.getContent());
+        holder.image.setImageResource(commentModel.getImage());
+
+        if (isAdmin) {
+            holder.delete.setVisibility(View.VISIBLE);
+            holder.delete.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    AllDAO allDAO = Room.databaseBuilder(context, AppDataBase.class, AppDataBase.DATABASE_NAME)
+                            .allowMainThreadQueries()
+                            .build()
+                            .getAllDAO();
+                    allDAO.deleteComment(commentModels.get(position).getId());
+                    commentModels.remove(position);
+                    notifyItemRemoved(position);
+                }
+            });
+        }
     }
 
     @Override
@@ -49,6 +72,7 @@ public class CommentRVAdapter extends RecyclerView.Adapter<CommentRVAdapter.MyVi
 
         TextView name, date, content;
         ImageView image;
+        Button delete;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -57,6 +81,7 @@ public class CommentRVAdapter extends RecyclerView.Adapter<CommentRVAdapter.MyVi
             date = itemView.findViewById(R.id.date);
             content = itemView.findViewById(R.id.content);
             image = itemView.findViewById(R.id.avatar);
+            delete = itemView.findViewById(R.id.deleteButton);
         }
     }
 }

@@ -43,11 +43,17 @@ public class LandingPage extends AppCompatActivity {
             }
         });
 
-        //TODO : remove (for testing purposes)
         binding.adminButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), AdminActivity.class));
+            }
+        });
+
+        binding.imageAatrox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), CommentActivity.class));
             }
         });
     }
