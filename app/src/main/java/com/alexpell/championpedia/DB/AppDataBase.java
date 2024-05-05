@@ -8,32 +8,30 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
+import com.alexpell.championpedia.champion.Champion;
 import com.alexpell.championpedia.champion.ContextProvider;
 import com.alexpell.championpedia.champion.Initialise;
 
-@Database(entities = {User.class, Comment.class}, version = 1)
+@Database(entities = {User.class, Comment.class, Champion.class}, version = 1)
 public abstract class AppDataBase extends RoomDatabase {
 
     public static final String USER_TABLE = "user";
     public static final String COMMENT_TABLE = "comment";
-    public static final String DATABASE_NAME = "Championpedia.DB";
-
     public static final String CHAMPIONS_TABLE = "champion_table";
-
+    public static final String DATABASE_NAME = "Championpedia.DB";
     private static volatile AppDataBase instance;
     private static final Object LOCK = new Object();
 
     public abstract AllDAO getAllDAO();
 
-    public abstract ChampionDAO championsDAO();
-
     public static AppDataBase getInstance(Context context) {
         if (instance == null) {
             synchronized (LOCK) {
                 if (instance == null) {
-                    instance = Room.databaseBuilder(context.getApplicationContext(),
-                            AppDataBase.class,
-                            DATABASE_NAME).allowMainThreadQueries().addCallback(addDefaultValues).fallbackToDestructiveMigration().build();
+                    instance = Room.databaseBuilder(context.getApplicationContext(), AppDataBase.class, DATABASE_NAME)
+                            .allowMainThreadQueries().
+                            addCallback(addDefaultValues).
+                            fallbackToDestructiveMigration().build();
                 }
             }
         }

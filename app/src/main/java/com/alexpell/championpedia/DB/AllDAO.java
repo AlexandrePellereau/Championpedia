@@ -6,11 +6,14 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
+import com.alexpell.championpedia.champion.Champion;
+
 import java.util.List;
 
 @Dao
 public interface AllDAO {
 
+    //Users
     @Insert
     void insert(User... user);
 
@@ -29,6 +32,9 @@ public interface AllDAO {
     @Query("DELETE FROM " + AppDataBase.USER_TABLE + " WHERE id = :userId")
     void deleteUser(int userId);
 
+
+
+    //Comments
     @Insert
     void insert(Comment... comment);
 
@@ -44,7 +50,27 @@ public interface AllDAO {
     @Query("DELETE FROM " + AppDataBase.COMMENT_TABLE + " WHERE id = :commentId")
     void deleteComment(int commentId);
 
-    //get last comment
     @Query("SELECT * FROM " + AppDataBase.COMMENT_TABLE + " ORDER BY id DESC LIMIT 1")
     Comment getLastComment();
+
+
+
+    //Champions
+    @Insert
+    void insert(Champion entity);
+
+    @Update
+    void update(Champion entity);
+
+    @Delete
+    void delete(Champion entity);
+
+    @Query("SELECT * FROM " + AppDataBase.CHAMPIONS_TABLE + " WHERE id = :id")
+    Champion getChampionById(Integer id);
+
+    @Query("SELECT * FROM " + AppDataBase.CHAMPIONS_TABLE + " WHERE champion_name = :name")
+    Champion getChampionByName(String name);
+
+    @Query("DELETE FROM " + AppDataBase.CHAMPIONS_TABLE)
+    void boom();
 }

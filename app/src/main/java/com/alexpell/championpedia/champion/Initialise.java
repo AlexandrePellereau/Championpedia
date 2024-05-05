@@ -3,8 +3,10 @@ package com.alexpell.championpedia.champion;
 import android.content.Context;
 import android.widget.Toast;
 
+import androidx.room.Room;
+
+import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.DB.AppDataBase;
-import com.alexpell.championpedia.DB.ChampionDAO;
 import com.alexpell.championpedia.R;
 
 import org.xmlpull.v1.XmlPullParserException;
@@ -63,19 +65,17 @@ public class Initialise {
     }
 
     public static void addChampions(Context context, List<Champion> champions){
-        AppDataBase database = AppDataBase.getInstance(context);
-        ChampionDAO championDAO = database.championsDAO();
+        AllDAO allDAO = Room.databaseBuilder(context, AppDataBase.class, AppDataBase.DATABASE_NAME).build().getAllDAO();
         databaseWriteExecutor.execute(() -> {
             for (Champion champion : champions) {
-                championDAO.insert(champion);
+                allDAO.insert(champion);
             }
         });
     }
 
     public static void boomTable(Context context){
-        AppDataBase database = AppDataBase.getInstance(context);
-        ChampionDAO championDAO = database.championsDAO();
-        championDAO.boom();
+        AllDAO allDAO = Room.databaseBuilder(context, AppDataBase.class, AppDataBase.DATABASE_NAME).build().getAllDAO();
+        allDAO.boom();
     }
 
 
