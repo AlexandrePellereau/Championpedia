@@ -9,13 +9,11 @@ public class User {
     @PrimaryKey(autoGenerate = true)
     private int id;
     private String username;
-    private String email;
     private String password;
     private boolean admin;
 
-    public User(String username, String email, String password, Boolean admin) {
+    public User(String username, String password, Boolean admin) {
         this.username = username;
-        this.email = email;
         this.password = password;
         this.admin = admin;
     }
@@ -25,7 +23,6 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
-                ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", admin=" + admin +
                 '}';
@@ -45,14 +42,6 @@ public class User {
 
     public void setUsername(String username) {
         this.username = username;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public String getPassword() {

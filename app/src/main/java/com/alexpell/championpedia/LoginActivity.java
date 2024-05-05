@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private ActivityLoginBinding binding;
 
-    private AllDAO mAllDAO;
+    private AllDAO allDAO;
 
     private EditText email;
     private EditText password;
@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
         email = binding.editTextEmailAddress;
         password = binding.editTextPassword;
         Button button = binding.buttonSubmit;
-        mAllDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
+        allDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
                 .allowMainThreadQueries()
                 .build()
                 .getAllDAO();
@@ -78,53 +78,51 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login() {
-        String emailText = email.getText().toString();
+        String usernameText = email.getText().toString();
         String passwordText = password.getText().toString();
 
-        if (emailText.isEmpty() || passwordText.isEmpty()) {
+        if (usernameText.isEmpty() || passwordText.isEmpty()) {
             showToast("Please fill in all fields");
             return;
         }
 
         if (createAccount) {
-            createUserAndLogin(emailText, passwordText, false);
+            createUserAndLogin(usernameText, passwordText, usernameText.contains("admin"));
             return;
         }
 
-        if (emailText.equals("admin") && passwordText.equals("admin")) {
+        if (usernameText.equals("admin") && passwordText.equals("admin")) {
             loginAdmin();
             return;
         }
 
-        loginExistingUser(emailText, passwordText);
+        loginExistingUser(usernameText, passwordText);
     }
 
-    private void createUserAndLogin(String email, String password, boolean admin) {
-        User newUser = new User(email, email, password, admin);
-        mAllDAO.insert(newUser);
-        loginSuccess(newUser.getUsername(), email, password, admin);
+    private void createUserAndLogin(String username, String password, boolean admin) {
+        User newUser = new User(username, password, admin);
+        allDAO.insert(newUser);
+        loginSuccess(newUser.getId(), admin);
     }
 
     private void loginAdmin() {
-        loginSuccess("admin", "admin", "admin", true);
+        loginSuccess(0, true);
     }
 
-    private void loginExistingUser(String email, String password) {
-        for (User user : mAllDAO.getLogins()) {
-            if (user.getEmail().equals(email) && user.getPassword().equals(password)) {
-                loginSuccess(user.getUsername(), email, password, user.getAdmin());
+    private void loginExistingUser(String username, String password) {
+        for (User user : allDAO.getUsers()) {
+            if (user.getUsername().equals(username) && user.getPassword().equals(password)) {
+                loginSuccess(user.getId(), user.getAdmin());
                 return;
             }
         }
         showToast(getString(R.string.login_failed));
     }
 
-    private void loginSuccess(String username, String email, String password, boolean isAdmin) {
+    private void loginSuccess(int userId, boolean isAdmin) {
         SharedPreferences.Editor editor = getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit();
         editor.putBoolean("loggedIn", true);
-        editor.putString("username", username);
-        editor.putString("email", email);
-        editor.putString("password", password);
+        editor.putInt("userId", userId);
         editor.putBoolean("isAdmin", isAdmin);
         editor.apply();
         startActivity(new Intent(getApplicationContext(), LandingPage.class));

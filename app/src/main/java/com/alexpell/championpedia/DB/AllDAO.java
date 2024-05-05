@@ -21,10 +21,10 @@ public interface AllDAO {
     void delete(User user);
 
     @Query("SELECT * FROM " + AppDataBase.USER_TABLE)
-    List<User> getLogins();
+    List<User> getUsers();
 
-    @Query("SELECT * FROM " + AppDataBase.USER_TABLE + " WHERE id = :logId")
-    List<User> getLogin(int logId);
+    @Query("SELECT * FROM " + AppDataBase.USER_TABLE + " WHERE id = :userId")
+    List<User> getUser(int userId);
 
     @Insert
     void insert(Comment... comment);
