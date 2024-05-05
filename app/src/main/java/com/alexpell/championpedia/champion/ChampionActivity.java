@@ -38,16 +38,8 @@ public class ChampionActivity extends AppCompatActivity {
 
         String championName = sharedPreferences.getString("champion","velkoz");
 
-        /* Crash : champion = championDAO.getChampionByName("Aatrox");*/
         Log.d("ChampionActivity", "onCreate: "+championName);
         champion = allDAO.getChampionByName(championName);
-        Log.d("ChampionActivity", "onCreate: "+champion);
-        Log.d("ChampionActivity", "onCreate: "+champion.getName());
-        Toast.makeText(this, champion.getName(), Toast.LENGTH_SHORT).show();
-
-
-        int resourceId = getResources().getIdentifier(championName, "drawable", getPackageName());
-       //  Crash : binding.championImage.setImageResource(resourceId);
 
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,5 +62,28 @@ public class ChampionActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),AddReview.class));
             }
         });
+
+        setTexts(champion);
+    }
+
+    public static String ParseString(String s) {
+        return s.toLowerCase().replace("'","");
+    }
+
+    private void setTexts(Champion champion) {
+        int resourceId = getResources().getIdentifier(ParseString(champion.getName()), "drawable", getPackageName());
+
+        binding.championName.setText(champion.getName());
+
+        binding.championImage.setImageResource(resourceId);
+
+        binding.championLore.setText(champion.getLore());
+
+        binding.banrate.setText(String.valueOf(champion.getBanrate()));
+
+        binding.pickrate.setText(String.valueOf(champion.getPickrate()));
+
+        binding.winrate.setText(String.valueOf(champion.getWinrate()));
+
     }
 }
