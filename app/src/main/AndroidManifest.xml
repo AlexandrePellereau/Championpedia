@@ -19,7 +19,13 @@
             android:name=".comment.CommentActivity"
             android:exported="false" />
         <activity
-            android:name=".legacy.CommentActivity"
+            android:name=".AddReview"
+            android:exported="false" />
+        <activity
+            android:name=".FullLoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChampionActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"

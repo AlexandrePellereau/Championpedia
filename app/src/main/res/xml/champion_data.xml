@@ -1,0 +1,2123 @@
+<champions>
+    <champion>
+        <name>Aatrox</name>
+        <lore>Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.
+
+        </lore>
+        <full_lore>
+
+            AATROX
+            THE DARKIN BLADE
+            Whether mistaken for a demon or god, many tales have been told of the Darkin Blade... but few know his real name, or the story of his fall.
+
+            In ancient times, long before desert sands swallowed the empire, a mighty champion of Shurima was brought before the Sun Disc to become the avatar for a now forgotten celestial ideal. Remade as one of the Ascended, his wings were the golden light of dawn, and his armor sparkled like a constellation of hope from beyond the great veil.
+
+            Aatrox was his name. He was at the vanguard of every noble conflict. So true and just was his conduct that other god-warriors would always gather at his side, and ten thousand mortals of Shurima marched behind him. When Setaka, the Ascended warrior-queen, called for his help against the rebellion of Icathia, Aatrox answered without hesitation.
+
+            But no one predicted the extent of the horrors that the rebels would unleash—the Void quickly overwhelmed its Icathian masters, and began the grinding annihilation of all life it encountered.
+
+            After many years of desperate battle, Aatrox and his brethren finally halted the Void’s perverse advance, and seared the largest rifts shut. But the surviving Ascended, the self-described Sunborn, had been forever changed by what they had encountered. Though Shurima had triumphed, they all had lost something in their victory... even noble Aatrox.
+
+            And in time, Shurima fell, as all empires must.
+
+            Without any monarch to defend, or the existential threat of the Void to test them, Aatrox and the Sunborn began to clash with one another, and eventually this became a war for the ruins of their world. Mortals fleeing the conflict came to know them instead by a new and scornful name: the darkin.
+
+            Fearing that these fallen Ascended were as dangerous to Runeterra’s survival as the Void incursions had been, the Targonians intervened. It is said that the Aspect of Twilight gave mortals the knowledge to trap the darkin, and the newly reborn Aspect of War united many in fighting back against them. Never fearing any foe, Aatrox and his armies were ready, and he realized only too late that they had been deceived. A force greater than a thousand dead suns pulled him inside the sword he had carried into battle countless times, and forever bound his immortal essence to it.
+
+            The weapon was a prison, sealing his consciousness in suffocating, eternal darkness, robbing him even of the ability to die. For centuries, he strained against this hellish confinement... until some nameless mortal was foolish enough to try and wield the blade once more. Aatrox seized upon this opportunity, forcing his will and an imitation of his original form onto his bearer, though the process quickly drained all life from the new body.
+
+            In the years that followed, Aatrox groomed many more hosts—men and women of exceptional vitality or fortitude. Though his grasp of such magics had been limited in life, he learned to take control of a mortal in the span of single breath, and in battle he discovered he could feast on his victims to build himself ever larger and stronger.
+
+            Aatrox traveled the land, searching desperately, endlessly, for a way return to his previous Ascended form… but the riddle of the blade proved unsolvable, and in time he realized he would never be free of it. The flesh he stole and crudely shaped began to feel like a mockery of his former glory—a cage only slightly larger than the sword. Despair and loathing grew in his heart. The heavenly powers that Aatrox had once embodied had been wiped from the world, and all memory.
+
+            Raging against this injustice, he arrived at a solution that could only be born of a prisoner’s desperation. If he could not destroy the blade or free himself, then he would embrace oblivion instead.
+
+            Now, Aatrox marches toward this merciless goal, bringing war and death wherever he goes. He clings to a blind hope: if he can drive all of creation into a final, apocalyptic battle—where everything, everything else is destroyed—then maybe he and the blade will also cease to exist.
+
+        </full_lore>
+        <pickrate>8.59</pickrate>
+        <banrate>12.39</banrate>
+        <winrate>48.96</winrate>
+        <difficulty>4</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Ahri</name>
+        <lore>
+            Innately connected to the magic of the spirit realm, Ahri is a fox-like vastaya who can manipulate her prey's emotions and consume their essence—receiving flashes of their memory and insight from each soul she consumes. Once a powerful yet wayward predator, Ahri is now traveling the world in search of remnants of her ancestors while also trying to replace her stolen memories with ones of her own making.</lore>
+        <full_lore>For most of her life, Ahri's origins were a mystery to her, the history of her vastayan tribe all but lost save for the twin gemstones she has carried her entire life.
+
+            Ahri's earliest memories are of running with icefoxes in the northern reaches of Shon-Xan. Though she knew she was not one of them, they clearly saw her as something of a kindred spirit, and came to accept her within the pack.
+
+            In that wild, predatory existence, Ahri nonetheless felt a deeper connection to the forests around her. In time, she came to understand that this was the magic of the vastaya that coursed through every fiber of her being, and the realm of spirits that lay beyond. With no one to teach her, instead she learned to call upon this power in her own ways—most often using it to quicken her reflexes in pursuit of prey. If she was careful and close enough, she also found she might soothe a panicked deer, so that it remained serene and calm even as she and her packmates sank their teeth into its flesh.
+
+            The world of mortals was as distant and unsettling to Ahri as it was to the icefoxes, but she felt drawn to it for reasons she could not explain. Humans in particular were coarse, gruff creatures… and when a band of huntsmen camped nearby, Ahri watched them from afar as they went about their grim business.
+
+            When one of them was wounded by a stray arrow, Ahri could feel his life seeping away. Knowing nothing but the instincts of a predator, she savored the spirit essence leaving his body, and through it gained brief flashes of his memories—the lover he had lost in battle, and the children he had left behind when he came north. Ahri subtly pushed his emotions from fear to sorrow to joy, and comforted him with visions of a sun-soaked meadow as he died.
+
+            Afterward, she found that human words now came to her easily, like something from a half-remembered dream, and Ahri knew the time had come to leave the pack behind.
+
+            Keeping to the fringes of society, she felt more alive than ever. Her predatory nature remained, but she was caught up in a riot of new experiences, emotions, and customs across Ionia. Mortals, it seemed, also became fascinated by her in return—and she often used this to her advantage, draining their essence while charming them with recollections of beauty, hallucinations of deep longing, and occasionally dreams colored by raw sorrow.
+
+            She grew drunk on memories that were not her own, and exhilarated in ending the lives of others even as she felt the grief and woe she brought to her victims. She experienced heartbreak and elation in tantalizing flashes that left her craving more. It was overwhelming, but she sensed her own power fading whenever she tried to stay away, and could not help but partake again and again…
+
+            In time, she began to see herself as mortals did: a monster.
+
+            Until one day, an artist stumbled upon her, hunched over a man as she drained his life essence from him. Where others would run, he stayed, offering his own life essence in exchange for her heart. For the first time in her life, Ahri let herself fall in love and be loved, wholly and completely.
+
+            Their days passed in warmth and laughter, Ahri curbing her hunger by feeding on her lover. She was truly happy... until she lost control, draining her lover completely.
+
+            Ahri fell into despair, her grief consuming her as she mourned the loss of the first and only person she's ever truly loved. The first and only person who ever truly loved her. Retreating even further from society, she became consumed with learning more about where she came from, in hopes that it would help her control her abilities.
+
+            With her twin sunstones in hand, she set out in search of others like her, a journey that would take her out of Ionia and across Runeterra, eventually leading her to the discovery of her ancestors, the Vesani, a vastayan tribe that brought innovation and magic to the world before being wiped out.
+
+            Inspired by their memories, Ahri has set off to travel the world in search of other remnants of the Vesani. She hopes to carry their legacy forward, bringing good into the world like they did. No longer burdened by the heavy weight of her regrets, she also hopes to finally leave her stolen memories behind and create new memories of her own making.
+
+        </full_lore>
+        <pickrate>13.44</pickrate>
+        <banrate>12.39</banrate>
+        <winrate>51.11</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+
+    </champion>
+
+    <champion>
+        <name>Akali</name>
+        <lore>
+            Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master.</lore>
+        <full_lore>Ionia has always been a land of wild magic, its vibrant people and powerful spirits seeking to live in harmony… but sometimes this peaceful equilibrium does not come easily. Sometimes it needs to be kept in check.
+
+            The Kinkou are the self-appointed keepers of Ionia’s sacred balance. The order’s loyal acolytes walk the spirit and material realms, mediating conflicts between them and, when necessary, intervening by force. Born among their ranks was Akali, daughter of Mayym Jhomen Tethi, the renowned Fist of Shadow. Mayym and her partner Tahno raised their daughter within the Kinkou Order, under the watchful leadership of Great Master Kusho, the Eye of Twilight.
+
+            Whenever her parents were called away, other members of the order stepped in as Akali’s surrogate family. Kennen, the Heart of the Tempest, spent many hours with the young girl, teaching her shuriken techniques, and emphasizing speed and agility over strength. Akali was a precocious child, and soaked up the knowledge like a sponge. It became clear to all that she would follow her parents’ path—along with the Great Master’s son and appointed successor Shen, she would lead a new generation dedicated to preserving Ionia’s balance.
+
+            But balance can be fleeting. The order found itself divided.
+
+            A wayward acolyte named Zed returned, and clashed violently with Kusho, wresting power in a bloody coup. Akali fled into the eastern mountains along with Mayym, Shen, Kennen, and a handful of other acolytes. Sadly, Tahno was not among them.
+
+            Zed’s transformation of the Kinkou into the merciless Order of Shadow was almost complete. But, as the new Eye of Twilight, Shen intended to rebuild what had been lost. They would return to the Kinkou’s three fundamental philosophies: the pure impartiality of Watching the Stars, the passage of judgment in Coursing the Sun, and the elimination of imbalance by Pruning the Tree. Even though they were now few, they would train neophytes to restore and grow their numbers once more.
+
+            When Akali came of age at fourteen, she formally entered her Kinkou training, determined to succeed her mother as the new Fist of Shadow.
+
+            She was a prodigious fighter, and mastered the kama and kunai—a handheld sickle and throwing dagger. Though she did not possess the magical abilities of many of her fellow acolytes, she proved to all she was worthy of the title, in time allowing her mother to step down and help mentor the younger neophytes.
+
+            But Akali’s soul was restless, and her eyes were open. Though the Kinkou and the Order of Shadow had come to an uneasy accord in the wake of the Noxian invasion of Ionia, she saw that her homeland continued to suffer. She questioned whether they were truly fulfilling their purpose. Pruning the Tree was meant to eliminate those who threatened the sacred balance... yet Shen would always urge restraint.
+
+            He was holding her back. All the mantras and meditations could quiet her spirit, but such platitudes would not defeat their adversaries. Her youthful precociousness turned to outright disobedience. She argued with Shen, she defied him, and she took down Ionia’s enemies her way.
+
+            In front of the whole order, she declared the impotence of the Kinkou, all its talk of spiritual balance and patience accomplishing little. Ionians were dying in the material realm, and that was the realm Akali would defend. She was trained as an assassin. She was going to be an assassin. She did not need the order anymore.
+
+            Shen let her go without a fight, knowing this was a path that Akali must walk alone. Perhaps that path would bring her back one day, but that would be for her to decide.
+
+        </full_lore>
+        <pickrate>10.3</pickrate>
+        <banrate>17.54</banrate>
+        <winrate>49.02</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Akshan</name>
+        <lore>
+            Raising an eyebrow in the face of danger, Akshan fights evil with dashing charisma, righteous vengeance, and a conspicuous lack of shirts. He is highly skilled in the art of stealth combat, able to evade the eyes of his enemies and reappear when they least expect him. With a keen sense of justice and a legendary death-reversing weapon, he rights the wrongs of Runeterra’s many scoundrels while living by his own moral code: “Don’t be an ass.”
+        </lore>
+        <full_lore>Dashing through the shadows of eastern Shurima, a righteous avenger stalks those who have harmed others. His punishment is swift, certain, and exacted by a curious weapon that rights the wrongs of his foes.
+
+            Raised on the streets of the city of Marwi, Akshan was introduced to injustice at birth. In a place where local warlords took what they wanted, most people survived by keeping their heads down and minding their own affairs. Try as he might, young Akshan could never manage to let bad deeds go unnoticed and was often quick to intervene when he saw someone being mistreated. This approach made the boy many powerful enemies, and on one fateful occasion, left him beaten within an inch of his life.
+
+            But luck was on his side. An old woman named Shadya found the boy unconscious in the street outside her dwelling. Though Marwian custom said she should not get involved, she took young Akshan inside and, against all odds, he pulled through.
+
+            As Akshan regained his faculties, he realized his savior was no ordinary woman. Shadya was a member of the Sentinels of Light, an ancient order committed to fighting Harrowings and eradicating agents of the Black Mist. She saw Akshan as a troubled youth, stubborn and defiant, but vulnerable. After butting heads with the boy over her numerous sentinel house rules, Shadya quickly discovered there was much to like about him. He had guts and a conscience—a combination seldom found in Marwi. Seeing the immense potential in the young man, Shadya made a deal with him: she would allow him to stay, free from the grasp of his countless enemies, and, in return, he would dedicate himself to the sentinel order.
+
+            Shadya and Akshan formed a fast bond as she taught him everything she knew about surviving as a solo sentinel. Akshan the scrappy street urchin grew into Akshan the full-grown bane of scoundrels. But even as Akshan’s skills grew by the day, he could see his mentor growing more distant, and more troubled.
+
+            At last, Shadya told her pupil the reason for her concern: A Harrowing was coming, bigger than any the world had ever seen, bearing an army of wraiths and ghouls from the Shadow Isles. Their only hope of stopping the cataclysm rested with the ancient sentinel weapons that lay buried within Shurima's crypts and tombs. If the world was to be saved from ruination, they needed to collect these weapons, and quickly.
+
+            To Shadya’s dismay, she found that the ancient weapons had already been plundered by local warlords. She pleaded with them to relinquish the artifacts for the fight against the inevitable Harrowing, but the warlords refused, determined to unlock the weapons’ mysterious power for themselves.
+
+            With time running out, Akshan and Shadya were forced to make do with what they had. As they took stock of their arsenal, Akshan discovered a particularly striking gun hidden away in the base’s vault. Alarmed, his mentor snatched it away and forbade Akshan from ever using it. The weapon, known as the Absolver, was imbued with an ancient enchantment that granted it a strange, unspeakable power—it could take the life of a killer and, by doing so, restore their most recent victims to life.
+
+            “It must not be wielded by anyone,” said Shadya. “Such matters of life and death are best left in the hands of fate.”
+
+            But Akshan still bristled at sentinel rules, and he had even stronger opinions on fate. He had spent his whole life seeing good people horribly mistreated while bad people did as they pleased without consequence. If fate was real, it definitely needed help—help that the Absolver could provide.
+
+            As his interest in the weapon deepened, Akshan continued to pry its history from Shadya and came to a shocking discovery: She had used the gun to save Akshan when she found him unconscious in the street all those years ago. With it, she’d slain the criminal who had nearly killed him, and, in doing so, restored young Akshan to life. He wondered: Why did he alone deserve to be revived by the gun? Surely there were others who were more worthy.
+
+            While Akshan questioned the antiquated rules of his order, his mentor continued to press the warlords to turn over their stolen weapons. Tensions between the two parties built until one tragic day Akshan returned home to find Shadya murdered in the street, almost exactly where he had fallen all those years ago.
+
+            Akshan knew what he had to do. He made some key alterations to the Absolver and set out into the scorching desert with the forbidden weapon, hungry for vengeance. Though he could not determine which of the warlords had killed his mentor, he knew one way to be certain: he would pick them off one by one until Shadya was returned to Runeterra.</full_lore>
+        <pickrate>2.62</pickrate>
+        <banrate>3.9</banrate>
+        <winrate>50.88</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Alistar</name>
+        <lore>
+            Always a mighty warrior with a fearsome reputation, Alistar seeks revenge for the death of his clan at the hands of the Noxian empire. Though he was enslaved and forced into the life of a gladiator, his unbreakable will was what kept him from truly becoming a beast. Now, free of the chains of his former masters, he fights in the name of the downtrodden and the disadvantaged, his rage as much a weapon as his horns, hooves and fists.</lore>
+        <full_lore>Many civilizations have resisted Noxus, but none as long as the clans of the Great Barrier mountains. Though these fierce minotaurs had protected the overland trade routes to the ancient city of Zaun for centuries, they preferred to avoid Valoran’s wider conflicts.
+
+            The noble warrior Alistar was respected among all the clans. Out on the mountain peaks, his roar could scatter even the bravest trespassers, leaving only the foolhardy to face him in combat. Even so, in the moot halls he would always urge his kin to forge greater bonds with other mortal races. Many saw minotaurs as little more than beasts, which soured any interaction and kept them firmly as outsiders.
+
+            Then Noxus came, promising something better. Their emissary, the matriarch of House Tewain, proclaimed that the empire was poised to take Basilich, a coastal city to the east. However, she pledged that they would not do this without the support of the great clans of the mountains, and called for parley on neutral ground.
+
+            Many of the minotaurs were eager to accept her offer. This was a way to gain the power and recognition they sought, by joining with Noxus.
+
+            But Alistar remained skeptical—he had encountered many Noxian scouts in recent years, and knew them to be a duplicitous and cunning people. For this reason, his clan sent him to meet Tewain, along with fifty of their mightiest warriors, to reject any alliance. The other clans could do as they wished, but Alistar would not accept the rule of some distant “Grand General”.
+
+            Under the banners of truce, he and his kin were betrayed.
+
+            The larger clans had already pledged themselves to Noxus, and their representatives turned against him as soon as he made his position known. The battle was swift and bloody, and Alistar himself crushed Lady Tewain’s skull with his bare hands—but soon enough he and his surviving warriors found themselves bound in chains, headed for the distant Noxian capital, accused of inciting rebellion.
+
+            These unfortunate minotaurs found themselves cast into the Reckoning arenas of the capital, as part of a grim gladiatorial festival known as the Fleshing.
+
+            Alistar was appalled by the chanting of the bloodthirsty spectators. He implored his clanfolk not to fight back, not to give these Noxians the monstrous display they so craved…
+
+            When the festival ended twenty-one days later, Alistar was the only member of his tribe left. Pelted with pebbles and rotten fruit from the crowd, dragged out to face Reckoner after Reckoner, he was driven to fight like a beast—and think like one. He killed and killed until even his memories of home became stained with blood.
+
+            Alistar had fallen far by the time he met Ayelia, a servant girl in the arenas. At first he bellowed and charged the bars of his cage, expecting her to fear or goad him like the others, but Ayelia did neither.
+
+            She returned every day, and spoke to him with gentle respect, until eventually Alistar answered in kind. Ayelia’s homeland had also been claimed by Noxus, and seeing his suffering had convinced her they should leave this hateful city together. She whispered her plans through the bars, and for the first time in years Alistar found he could think of home without dwelling on the way it had been taken from him.
+
+            One night, Ayelia brought Alistar the key to his cell. She had sacrificed much to arrange this escape, and he swore he would repay her tenfold.
+
+            They hurried to the river, where a cargo barge awaited them. However, as they boarded, Noxian agents burst from the shadows. Alistar hurled himself into battle, his vision tunneled with rage, and although Ayelia called out to him again and again, he did not hear.
+
+            By the time Alistar had slain their attackers, the boat was gone—and Ayelia with it—so he fled south on foot instead. He searched everywhere for the servant girl, but found nothing. Had she been captured? Killed? It seemed there were no clues left to find.
+
+            Weeks later, a political coup shook the empire to its dark foundations, and the arena minotaur’s escape was quite forgotten.
+
+            Alistar now travels alone, as quietly and anonymously as he can, encouraging resistance in Noxian-held territories and fighting on behalf of the downtrodden and the abused. Only when he has cleared the shame from his heart, repaying every cruelty and every kindness, will Alistar return to the mountains and leave his rage behind.
+
+            And in every city he passes through, he asks after Ayelia.</full_lore>
+        <pickrate>3.5</pickrate>
+        <banrate>1.25</banrate>
+        <winrate>49.83</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Amumu</name>
+        <lore>Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima, roaming the world in search of a friend. Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin. Those who claim to have seen him describe a living cadaver, small in stature and wrapped in creeping bandages. Amumu has inspired myths, songs, and folklore told and retold for generations—such that it is impossible to separate truth from fiction.</lore>
+        <full_lore>A lonely and melancholy soul from ancient Shurima, Amumu roams the world in search of a friend. Cursed by an ancient spell, he is doomed to remain alone forever, as his touch is death and his affection ruin. Those who claim to have seen him describe Amumu as a living cadaver, small in stature and covered in bandages the color of lichen. Amumu has inspired myths, folklore, and legends told and retold for generations – such that it is impossible to separate truth from fiction.
+
+            The hardy folk of Shurima agree upon certain things: the wind always blows from the west in the morning; a full belly on a new moon is an ill omen; buried treasure hides under the heaviest of rocks. They do not agree, however, about the tale of Amumu.
+
+            One oft-told story links Amumu to the first great ruling family of Shurima who succumbed to a disease that corrupted flesh with hideous speed. The youngest child, Amumu, was quarantined in his chambers and befriended a servant girl who heard his cries through the walls. She regaled the lonely heir with courtly news and stories of her grandmother’s mystic powers.
+
+            One morning, the girl brought word that Amumu’s last remaining brother had passed away, making him Emperor of Shurima. Saddened that he had to bear this news alone, she unlocked his door and ran inside to comfort him face to face. Amumu threw his arms around her, but as they touched, he fell back, realizing he had condemned her to the same terrible fate as his family.
+
+            Upon the girl’s death, her grandmother placed a twisted blight on the young emperor. In her mind, Amumu had as good as murdered her kin. As the curse took effect, Amumu was trapped in his moment of suffering like a locust ensnared in honeyed amber.
+
+            A second tale whispers of another crown prince, one given to bouts of petulance, cruelty, and murderous vanity. In this telling, Amumu was crowned Emperor of Shurima at a young age, and convinced he was blessed by the sun, he forced his subjects to worship him as a god.
+
+            Amumu sought the fabled Eye of Angor, an ancient relic entombed in a gilded crypt, said to grant eternal life to whoever looked upon it with an unflinching heart. He hunted the treasure for years with a host of slaves who carried him through labyrinthine catacombs, sacrificing themselves to traps so the emperor could continue without hindrance. Amumu finally reached the cyclopean golden archway, where upon dozens of his stonemasons labored to breach the sealed door.
+
+            As the young emperor rushed within, determined to look into the Eye of Angor, his slaves seized their chance and sealed the stone doorway behind him. Some say the child emperor endured in the darkness for years, his loneliness driving him to insanity and causing him to claw at his own skin, which he was forced to wrap in bandages. His life was extended by the power of the Eye as he meditated on his past transgressions, but the gift was a double edged sword, for he was cursed to remain forever alone.
+
+            When a series of devastating earthquakes shattered the foundations of his tomb, the emperor escaped with no knowledge of how much time had passed, seeking to undo the suffering he had caused in life.
+
+            Yet another story of Amumu tells of the first and last Yordle ruler of Shurima, who believed in the innate goodness of the human heart. To prove his detractors wrong, he swore an oath to live as a beggar until he made one true friend, convinced his people would rally to help their fellow Shuriman.
+
+            Though thousands walked by the disheveled Yordle, not one stopped to offer a helping hand. Amumu’s sadness grew until he eventually died of a broken heart. But his death was not the end, for some swear the Yordle still wanders the desert, forever searching for someone who might restore his faith in humanity.
+
+            These stories, despite their differences, are woven with parallels. Whatever the circumstances, Amumu is doomed to exist in a broken state of emptiness, eternally alone and friendless. Fated to forever search for a companion, his presence is cursed and his touch is death. On long winter nights when the fire is never allowed to burn low, the sad mummy can sometimes be heard weeping in the desert, despairing that he’ll never know the solace of friendship.
+
+            Whatever Amumu searches for – atonement, kinship, or a single act of kindness – one thing is as certain as the western wind at dawn: he has yet to find it.</full_lore>
+        <pickrate>4.33</pickrate>
+        <banrate>1.1</banrate>
+        <winrate>50.76</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Anivia</name>
+        <lore>
+            Anivia is a benevolent winged spirit who endures endless cycles of life, death, and rebirth to protect the Freljord. A demi-god born of unforgiving ice and bitter winds, she wields those elemental powers to thwart any who dare disturb her homeland. Anivia guides and protects the tribes of the harsh north, who revere her as a symbol of hope, and a portent of great change. She fights with every ounce of her being, knowing that through her sacrifice, her memory will endure, and she will be reborn into a new tomorrow.
+        </lore>
+        <full_lore>Anivia is an ancient Freljordian demi-god who represents the eternal cycle of life, death, and rebirth, intrinsically associated with the changing seasons. To those who venerate her, she is the elemental soul of the Freljord—a symbol of hope, and a sacred catalyst of change.
+
+            Stories passed down through the ages often tell of how she rewards those who are kind and humble. On the rare occasion a mortal glimpses her—or at least claims to—she is described as a noble spirit-bird of ice, with glittering wings that span the heavens, and a piercing cry that can be heard over even the fiercest storm.
+
+            The songs of the nomadic Notai tribe tell how Anivia’s birth first brought snow into the world. When she burst from her giant egg of ice, tiny pieces of it were hurled into the sky, and it has fallen as snow ever since. And, according to the sagas of the Mourncrow tribe, the frigid winds that scour the Freljord originate from the first beats of her wings.
+
+            Indeed, the full power of winter is Anivia’s to command, and to those who seek to desecrate her homeland, she is a bitter foe. When roused to anger, she can cleave fortresses and mountains, and her screech can summon blizzards cold enough to shatter steel.
+
+            One of the most enduring and respected beliefs is that Anivia’s greatest gift to the Freljord was the creation of True Ice. Infused with elemental magic, this unmelting substance is pure and potent, and the greatest seers and ice-mages have long strived to use shards of True Ice to amplify their might, while weapons that have even a tiny sliver forged into them are deadly beyond belief.
+
+            When mortals first arrived in the Freljord, Anivia welcomed them. Seeing that they could not withstand the cold, she guided them to secluded valleys where they could shelter, become established, and slowly harden themselves against the elements. She nurtured and watched over them for those first precarious centuries—and they, in turn, worshipped her.
+
+            Anivia hoped that these newly arrived tribes would remain unified in defending the Freljord from outsiders… but slowly, infighting and blood-feuds became all too common, making an invasion inevitable. According to legend, a greedy southern king marched his warriors up through the mountains, seeking to claim dominion over the northlands and shackle their wild magic for himself. So enraged was Anivia at the outsiders’ hubris and disrespect that she blasted them with a snowstorm that lasted a century and a day. Scattered standing stones can still be seen on the Scouring Plain, which the locals claim are all that remain of that ancient army.
+
+            Other tales include the Avarosan legend of Ulla Shatter-Spear, an Iceborn warmother who was favored by Anivia for saving a young hawk from a rimefang wolf. Across her lifetime, the Cryophoenix protected Ulla from harm, and when she finally fell in battle, having witnessed almost a hundred winters, it is said that Anivia welcomed her with wings spread wide.
+
+            If all these legends are true, then Anivia must have witnessed the rise and fall of countless mortal civilizations. While there are still some dwindling remnants of those earlier times, most have long been forgotten, and buried beneath millennia of ice.
+
+            But death cannot touch Anivia herself. The sagas speak of how she has been struck down and slain a handful of times throughout history, though she is always reborn—for as long as the Freljord exists, her soul is immortal. While it may be hundreds or even thousands of years before she rises again, each rebirth coincides with the dawning of a new era. Thus, her appearance, while regarded as a wondrous blessing, is often the harbinger of something terrible on the horizon.
+
+            Once, it is said, she sacrificed herself against a march of towering Balestriders. Anvia knew she could not slay these colossal creatures, and so she plunged into the ice beneath their feet, shattering her own body in order to entomb them.
+
+            Recently, some claim Anivia has hatched from the egg once more, and that she has appeared before the new leader of the Avarosans—the Warmother Ashe. In her, perhaps Anivia sees one who may be able to finally reunite the Freljord.
+
+            Yet if the Cryophoenix has indeed returned, as more and more shamans and spirit walkers proclaim, then it must be asked: what great threat has she come to face?</full_lore>
+        <pickrate>2.38</pickrate>
+        <banrate>1.5</banrate>
+        <winrate>51.45</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Annie</name>
+        <lore>
+            Dangerous, yet disarmingly precocious, Annie is a child mage with immense pyromantic power. Even in the shadows of the mountains north of Noxus, she is a magical outlier. Her natural affinity for fire manifested early in life through unpredictable, emotional outbursts, though she eventually learned to control these “playful tricks.” Her favorite includes the summoning of her beloved teddy bear, Tibbers, as a fiery protector. Lost in the perpetual innocence of childhood, Annie wanders the dark forests, always looking for someone to play with.</lore>
+        <full_lore>Boram Darkwill’s last years on the throne were a time of great uncertainty for Noxus, and many with an aptitude for magic left the capital for the relative peace of more distant provinces. Gregori the Gray and his wife, a witch by the name of Amoline, preferred to demonstrate their Noxian strength by taming the borderlands, rather than partaking in the political intrigue of the noble houses.
+
+            The young couple claimed a piece of land beyond the Ironspike Mountains to the north, finishing their small home just before winter and the arrival of their first child. During their journey, other colonists’ tales of the great shadow bears that once roamed the territory had captivated Amoline—now heavily pregnant, she passed the time sitting near the fireplace, creating a toy version of the protective creatures. Just as she finished sewing the last button eye on the stuffed bear, the quickening of labor overcame her. Gregori remarked later that his daughter was eager to play with her new toy, for there, on an ember-warmed hearth, Amoline brought Annie into the world.
+
+            When Annie was still a toddler, she and her father took ill. As night fell, Annie began to burn with fever, and soon she was so hot, she could no longer be held in her mother’s arms. Amoline grew desperate, deciding at last to fetch icy water from the nearby river. The next morning Gregori awoke, weak and groggy from his sickness. In the crib, a now-healthy Annie played with her stuffed bear, Tibbers, but Amoline was gone.
+
+            Naïvely, Annie believed her mother would one day return. Gregori would often find the girl sitting in her mother’s rocking chair near the hearth, hugging Tibbers and staring into a crackling fire, where he was sure there had been nothing but cold ashes. He chalked up these slips of the mind to the burden of parenting a child alone.
+
+            Years passed, bringing more colonists to the region. And in time, Gregori met Leanna, a woman seeking a new life outside the capital with her own young daughter, Daisy.
+
+            Annie was eager for a playmate, but spoiled by the indulgences of being an only child, so acclimation to her new stepfamily was difficult. Whenever Annie’s fiery temper erupted, it left Leanna uneasy, and quick to take her own daughter’s side. It fell to Gregori to keep an uneasy peace between the three.
+
+            Unused to the dangers of the untamed borderlands, Daisy’s playing ended in catastrophe for the family. Leanna, of course, blamed Annie for the loss of her daughter, focusing her rage and grief on her stepdaughter’s most prized possession: Tibbers. Annie was horrified as the last physical memory of her mother was threatened. The girl’s terror grew to an unbridled rage, releasing her latent and powerful pyromancy, and the stuffed bear was brought to life in a maelstrom of protective fire.
+
+            When the flames died down and the swirl of ash settled, Annie was left orphaned and alone.
+
+            Believing most city adults to be like her stepmother, Annie has kept to the wilder parts of her frontier homeland. On occasion, she will use her disarmingly adorable exterior to be taken in by some pioneer family long enough to be offered new clothes and a hot meal. However, fire and death awaits anyone foolish enough to try parting Annie from the stuffed bear at her side.
+
+            Kept safe by Tibbers, she wanders the dark forests of Noxus, oblivious to danger—and the dangers posed to others by her own unchecked power—hoping, one day, to find someone like her to play with.</full_lore>
+        <pickrate>2.64</pickrate>
+        <banrate>0.79</banrate>
+        <winrate>50.86</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Aphelios</name>
+        <lore>
+            Emerging from moonlight’s shadow with weapons drawn, Aphelios kills the enemies of his faith in brooding silence—speaking only through the certainty of his aim, and the firing of each gun. Though fueled by a poison that renders him mute, he is guided by his sister Alune in her distant temple sanctuary from where she pushes an arsenal of moonstone weapons into his hands. For as long as the moon shines overhead, Aphelios will never be alone.</lore>
+        <full_lore>The moon looms over the towering slopes of Mount Targon, distant, yet impossibly close.
+
+            Born during a rare lunar convergence, when the physical moon was eclipsed by its reflection in the spirit realm, Aphelios and his twin sister, Alune, were celebrated as children of destiny by those of Targon’s Lunari faith.
+
+            Mirroring the celestial event that heralded their birth, the two children knew they had been marked by fate—Aphelios physically gifted like the moon of stone, and Alune magically like its spiritual reflection. Zealously devout, they grew up within a faith of mystery, reflection, and discovery, and embraced darkness not just out of belief, but as the only thing that could keep them safe.
+
+            The Solari who ruled Targon considered the Lunari heretics, driving them into hiding until most forgot the Lunari even existed. The Lunari were left to the shadows, dwelling in temples and caves far from the Solaris’ sight.
+
+            The pressure to be exemplary weighed heavily upon Aphelios. He practiced tirelessly with mystical moonstone blades, spilling his own blood in training so he could spill that of others to protect the faith. Intense and vulnerable, he bonded deeply with his sister in lieu of any other friendships.
+
+            While Aphelios was sent on increasingly dangerous missions to protect the Lunari, Alune trained separately as a seer, using her luminous magic to reveal hidden pathways and truths by the moon’s light. In time, her tasks required her to leave the temple where they were raised.
+
+            Without Alune, Aphelios’ faith wavered.
+
+            Desperate for purpose, he undertook a ceremonial journey into darkness where Lunari were said to discover their paths—their orbits. He followed the moon’s light to a pool where rare noctum flowers bloomed beneath the water’s surface. Though poisonous, the flowers could be distilled into a liquid that opened him to the night’s power.
+
+            Drinking the noctum’s essence, Aphelios felt so much pain that it numbed him to everything else.
+
+            Soon after, an ancient temple, the Marus Omegnum, began to come into phase from the spirit realm for the first time in centuries. Lunari from across the mountain gathered, emerging from hiding to witness the balance of power shift as celestial cycles in the heavens turned.
+
+            The fortress accepted only one occupant, gifted in magic, each time it appeared. This time it would be Alune, her orbit guiding her to the temple. Aphelios, usually asking for nothing, requested to attend the event.
+
+            But as the fortress passed through the veil in a luminous display of magic, a harsher radiance filled the night. Somehow, the Lunari had been discovered even as the celestial cycles turned in their favor.
+
+            An army of Solari descended upon them.
+
+            All seemed lost, the Solari purging the Lunari heresy with fire and steel. Even Aphelios was beaten, his moonstone blades shattered on the ground, blood spilling from his lips as he reached for the noctum…
+
+            But as the battle raged, Alune traveled deeper into the temple—and when she reached its heart, her full potential unlocked. Through the noctum, Aphelios could feel Alune’s power embrace him… and he could hear her voice. With a whisper, she pushed magic into his hands—a replacement for his blades solidifying into moonstone.
+
+            Like the moon of stone and its spiritual reflection, Aphelios’s skill and Alune’s magic converged.
+
+            Those Solari would not live to see the sun again.
+
+            As her power flared, Alune pushed the temple, and herself within, back into the spirit realm where it would remain safe from the Solari. From inside, amplified by the temple’s focusing power, Alune was able to project her magic anywhere, so long as it found a focus—like the poison coursing through Aphelios’ veins.
+
+            Only now did they understand their destiny. Aphelios would hollow himself out with pain, but would become a conduit for the moon’s power. Alune would live alone, isolated in her fortress, but she would guide her brother, able to see through his eyes.
+
+            Together, they would be the weapon the Lunari needed, bound by pain and sacrifice. Only apart could they be together—their souls brushing across the veil, distant, yet impossibly close, converging into something they could not understand.
+
+            To protect the survivors of the attack who retreated back into the shadows of the mountain, Aphelios’ training as an assassin has been given reach by Alune’s magic—his blades now an arsenal of mystical weapons, perfected by Alune over the course of many missions together.
+
+            Now that the power balance of Targon is shifting, and the Solari know the Lunari still endure, Aphelios and Alune are needed more than ever.</full_lore>
+        <pickrate>4.33</pickrate>
+        <banrate>0.73</banrate>
+        <winrate>48.61</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Ashe</name>
+        <lore>
+            Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice. With her people’s belief that she is the mythological hero Avarosa reincarnated, Ashe hopes to unify the Freljord once more by retaking their ancient, tribal lands.</lore>
+        <full_lore>Ashe hails from the northern Freljord, where brutal tribal raids and inter-clan warfare are as much a part of the landscape as the scream of the frozen winds, and the unyielding cold of the tundra.
+
+            The only child of Grena, the matriarchal chieftain of the tiny Avarosan tribe, Ashe was Iceborn: a member of the warrior caste, gifted with an ancestral connection to the magic of her lands, and the rare ability to wield the power of True Ice. Everyone assumed that Ashe would follow her mother as the tribe's next leader. However, this was never a glory Ashe desired. The grim responsibility of her warlike lineage and extraordinary gifts instead left Ashe feeling isolated, burdened, and alone.
+
+            Her only respite was when Sejuani, an Iceborn girl from a sister tribe, would stay with them for the summer hunts around the Ornnkaal Rocks. The girls' friendship defined their childhoods, but was cut short just as they reached their teens. Somehow, Grena had offended Sejuani's grandmother, and the fellowship between their tribes ended suddenly.
+
+            Soon after, with her youth fading, Ashe's mother began her lifelong quest for the “Throne of Avarosa”, a supposed hoard of treasures and magical items that she hoped would return her people to greatness.
+
+            But Grena’s belief in prophecies and legends led her to take risks, which often left her tribe enfeebled. Finally, during a dangerous and unnecessary raid in another tribe's lands, Grena was killed. Her sudden death left young Ashe on the run, while most of her tribe was wiped out.
+
+            Alone, pursued, Ashe followed her mother's last map to a deserted glacier where she found the supposed grave of Avarosa, and her magical bow of True Ice. Ashe used the weapon to avenge her mother's death, then turned west.
+
+            Whether it was out of duty or loneliness, Ashe gained a reputation by protecting the many scattered hearthbound tribes she encountered. She spurned the custom of taking thralls, and instead chose to adopt these desperate people as full members of her new tribe, and her fame grew quickly. Soon many began to believe that she did not just carry the weapon of Avarosa—Ashe was the legend herself, reborn and destined to reunite the Freljord.
+
+            But tall tales would not feed her followers, and their long march south left the tribe on the verge of starvation. So, Ashe leveraged the myths surrounding her, using them to form alliances with the powerful and land-rich southern tribes, promising to unite them into a nation capable of challenging neighboring kingdoms.
+
+            These new alliances brought new dangers, and Ashe quickly found herself at the center of a political feud. A Warmother, as Freljordian tribal leaders are known, was expected to wed, and taking a husband from one of the major tribes would anger the others. Ashe could take several husbands, but this would only bring the conflict to a boil within her own household, and the ensuing bloodshed would shatter the alliances she had fought to build.
+
+            Her answer was an impoverished vagabond from a mountain clan that had been nearly wiped out—the warrior Tryndamere. He was neither a spirit-walker nor blessed with any elemental powers, but upon his arrival in Ashe’s new capital, Tryndamere had thrown himself into every dueling ring he could find. He fought with abandon, desperate to prove the destitute survivors of his clan were worthy of adoption by one of the stronger tribes. But even for the Freljord, his brutal fighting style and extraordinary vitality were unsettling, and many suspected he was touched by dark magic. Ignoring this, Ashe offered to adopt his people as her own, if he became her first and only bloodsworn.
+
+            Tryndamere accepted reluctantly. Though a political marriage, the attraction they felt for each other was palpable, and slowly a true affection blossomed.
+
+            Now, Ashe stands at the head of the largest coalition of Freljordian tribes in many generations. Even so, the unity she would bring rests upon an uneasy peace threatened by internal intrigues, foreign powers, the growing violent horde of the Winter's Claw, and a supposed destiny that Ashe must at least pretend to believe…</full_lore>
+        <pickrate>14.99</pickrate>
+        <banrate>5.57</banrate>
+        <winrate>50</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Aurelion Sol</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>7.49</pickrate>
+        <banrate>8.54</banrate>
+        <winrate>52</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Azir</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.81</pickrate>
+        <banrate>0.9</banrate>
+        <winrate>46.27</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Bard</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>1.95</pickrate>
+        <banrate>0.39</banrate>
+        <winrate>49.62</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Bel'Veth</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.59</pickrate>
+        <banrate>6.17</banrate>
+        <winrate>50.97</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Blitzcrank</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>7.81</pickrate>
+        <banrate>31.23</banrate>
+        <winrate>50.76</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Brand</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>11.08</pickrate>
+        <banrate>9.59</banrate>
+        <winrate>52.36</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Braum</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.65</pickrate>
+        <banrate>0.94</banrate>
+        <winrate>51.73</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Briar</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>6.79</pickrate>
+        <banrate>18.94</banrate>
+        <winrate>52.7</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Caitlyn</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>16.16</pickrate>
+        <banrate>11.98</banrate>
+        <winrate>49.25</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Camille</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>6.05</pickrate>
+        <banrate>4.52</banrate>
+        <winrate>50.24</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Cassiopeia</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>2.31</pickrate>
+        <banrate>1.66</banrate>
+        <winrate>51.24</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Cho'Gath</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.12</pickrate>
+        <banrate>0.68</banrate>
+        <winrate>49.06</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Corki</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>1.59</pickrate>
+        <banrate>0.18</banrate>
+        <winrate>46.1</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Darius</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>9.88</pickrate>
+        <banrate>22.4</banrate>
+        <winrate>49.85</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Diana</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>12.91</pickrate>
+        <banrate>5.48</banrate>
+        <winrate>51.27</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Dr. Mundo</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>4.45</pickrate>
+        <banrate>3.18</banrate>
+        <winrate>52.14</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Draven</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>5.36</pickrate>
+        <banrate>15.09</banrate>
+        <winrate>49</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Ekko</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>6.52</pickrate>
+        <banrate>1.92</banrate>
+        <winrate>50.01</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Elise</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>1.62</pickrate>
+        <banrate>0.75</banrate>
+        <winrate>50.1</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Evelynn</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.92</pickrate>
+        <banrate>7.36</banrate>
+        <winrate>49.71</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Ezreal</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>14.18</pickrate>
+        <banrate>5.06</banrate>
+        <winrate>47.53</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Fiddlesticks</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.22</pickrate>
+        <banrate>1.1</banrate>
+        <winrate>50.52</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Fiora</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.37</pickrate>
+        <banrate>5.94</banrate>
+        <winrate>49.51</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Fizz</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>4.78</pickrate>
+        <banrate>10.9</banrate>
+        <winrate>50.11</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Galio</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.25</pickrate>
+        <banrate>0.73</banrate>
+        <winrate>50.83</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Gangplank</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.36</pickrate>
+        <banrate>1.56</banrate>
+        <winrate>48.62</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Garen</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>9.26</pickrate>
+        <banrate>5.19</banrate>
+        <winrate>51.61</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Gnar</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>2.34</pickrate>
+        <banrate>0.51</banrate>
+        <winrate>48.58</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Gragas</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>6.02</pickrate>
+        <banrate>2.02</banrate>
+        <winrate>49.55</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Graves</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>5.16</pickrate>
+        <banrate>2.57</banrate>
+        <winrate>48.17</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Gwen</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.02</pickrate>
+        <banrate>1.62</banrate>
+        <winrate>49.54</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Hecarim</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>2.75</pickrate>
+        <banrate>1.43</banrate>
+        <winrate>48.15</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Heimerdinger</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>2.6</pickrate>
+        <banrate>1.47</banrate>
+        <winrate>49.73</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Hwei</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>8.48</pickrate>
+        <banrate>10.76</banrate>
+        <winrate>48.49</winrate>
+        <difficulty>3</difficulty>*
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Illaoi</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>4.45</pickrate>
+        <banrate>14.57</banrate>
+        <winrate>50.79</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+
+    </champion>
+
+    <champion>
+        <name>Irelia</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>6.76</pickrate>
+        <banrate>9.79</banrate>
+        <winrate>49.67</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Ivern</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>1.27</pickrate>
+        <banrate>0.47</banrate>
+        <winrate>50.77</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Janna</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>5.66</pickrate>
+        <banrate>3.73</banrate>
+        <winrate>52.02</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Jarvan IV</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>4.16</pickrate>
+        <banrate>0.83</banrate>
+        <winrate>50.36</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Jax</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>10.36</pickrate>
+        <banrate>10.87</banrate>
+        <winrate>49.95</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Jayce</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>5.18</pickrate>
+        <banrate>2.34</banrate>
+        <winrate>48.82</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Jhin</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>14.16</pickrate>
+        <banrate>3.16</banrate>
+        <winrate>50.89</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Jinx</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>25.21</pickrate>
+        <banrate>18.88</banrate>
+        <winrate>51.55</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>K'Sante</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>2.9</pickrate>
+        <banrate>1.6</banrate>
+        <winrate>45.52</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Kai'Sa</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>15.25</pickrate>
+        <banrate>2.36</banrate>
+        <winrate>47.87</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Kalista</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>2.81</pickrate>
+        <banrate>1.09</banrate>
+        <winrate>47.51</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Karma</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>7.36</pickrate>
+        <banrate>5.99</banrate>
+        <winrate>47.74</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Karthus</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.04</pickrate>
+        <banrate>1.85</banrate>
+        <winrate>50.23</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Kassadin</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>3.42</pickrate>
+        <banrate>5.32</banrate>
+        <winrate>51.04</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Katarina</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>6.31</pickrate>
+        <banrate>7.96</banrate>
+        <winrate>49.37</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Kayle</name>
+        <lore>The Rogue Assassin</lore>
+        <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
+        <pickrate>4.56</pickrate>
+        <banrate>1.6</banrate>
+        <winrate>51.84</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Kayn</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>7.73</pickrate>
+        <banrate>6.93</banrate>
+        <winrate>49.14</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Kennen</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>1.6</pickrate>
+        <banrate>0.49</banrate>
+        <winrate>49.05</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Kha'Zix</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>6.48</pickrate>
+        <banrate>3.3</banrate>
+        <winrate>49.42</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Kindred</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.63</pickrate>
+        <banrate>1.66</banrate>
+        <winrate>49.09</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Kled</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>1.62</pickrate>
+        <banrate>0.82</banrate>
+        <winrate>51.44</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Kog'Maw</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>4.07</pickrate>
+        <banrate>2.09</banrate>
+        <winrate>53.29</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>LeBlanc</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>4.29</pickrate>
+        <banrate>7.74</banrate>
+        <winrate>47.99</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Lee Sin</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>16.3</pickrate>
+        <banrate>14.02</banrate>
+        <winrate>48.4</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Leona</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>7.39</pickrate>
+        <banrate>5.99</banrate>
+        <winrate>51.44</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Lillia</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.27</pickrate>
+        <banrate>2.98</banrate>
+        <winrate>51.15</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Lissandra</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>2.6</pickrate>
+        <banrate>1.18</banrate>
+        <winrate>49.05</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Lucian</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>12.18</pickrate>
+        <banrate>4.4</banrate>
+        <winrate>49.58</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Lulu</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>8.84</pickrate>
+        <banrate>4.73</banrate>
+        <winrate>50.1</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Lux</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>18.77</pickrate>
+        <banrate>13.68</banrate>
+        <winrate>50.29</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Malphite</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>9.43</pickrate>
+        <banrate>8.68</banrate>
+        <winrate>49.92</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Malzahar</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>4.39</pickrate>
+        <banrate>6.15</banrate>
+        <winrate>50.13</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Maokai</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.46</pickrate>
+        <banrate>1.72</banrate>
+        <winrate>49.9</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Master Yi</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>9.8</pickrate>
+        <banrate>20.28</banrate>
+        <winrate>50.6</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Milio</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>4.68</pickrate>
+        <banrate>2.09</banrate>
+        <winrate>51.16</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Miss Fortune</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>10.99</pickrate>
+        <banrate>4.12</banrate>
+        <winrate>49.99</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Mordekaiser</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>9.74</pickrate>
+        <banrate>15.4</banrate>
+        <winrate>51.05</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Morgana</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>8.61</pickrate>
+        <banrate>23.95</banrate>
+        <winrate>50.23</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Naafiri</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>2.09</pickrate>
+        <banrate>1.6</banrate>
+        <winrate>50.56</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Nami</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>7.43</pickrate>
+        <banrate>0.58</banrate>
+        <winrate>51.58</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Nasus</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>5.75</pickrate>
+        <banrate>3.91</banrate>
+        <winrate>51.21</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Nautilus</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>10.16</pickrate>
+        <banrate>14.59</banrate>
+        <winrate>48.53</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+    <champion>
+        <name>Neeko</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>4.57</pickrate>
+        <banrate>2.31</banrate>
+        <winrate>49.03</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Nidalee</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.15</pickrate>
+        <banrate>1.82</banrate>
+        <winrate>48.86</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+    <champion>
+        <name>Nilah</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>2.87</pickrate>
+        <banrate>5.27</banrate>
+        <winrate>52.92</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Nocturne</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>6.38</pickrate>
+        <banrate>8.84</banrate>
+        <winrate>50.86</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Nunu and Willump</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>2.66</pickrate>
+        <banrate>0.43</banrate>
+        <winrate>48</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Olaf</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.05</pickrate>
+        <banrate>3.06</banrate>
+        <winrate>50.02</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Orianna</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.42</pickrate>
+        <banrate>0.77</banrate>
+        <winrate>48.18</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Ornn</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.04</pickrate>
+        <banrate>0.47</banrate>
+        <winrate>49.32</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Pantheon</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>6.46</pickrate>
+        <banrate>2.34</banrate>
+        <winrate>48.88</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Poppy</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.75</pickrate>
+        <banrate>1.86</banrate>
+        <winrate>50.34</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Pyke</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>7.36</pickrate>
+        <banrate>16.22</banrate>
+        <winrate>49.85</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Qiyana</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>2.3</pickrate>
+        <banrate>0.61</banrate>
+        <winrate>47.67</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Quinn</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>1.78</pickrate>
+        <banrate>1.08</banrate>
+        <winrate>50</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Rakan</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>4.58</pickrate>
+        <banrate>1.01</banrate>
+        <winrate>50.48</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Rammus</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.64</pickrate>
+        <banrate>8.48</banrate>
+        <winrate>51.59</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Rek'Sai</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.01</pickrate>
+        <banrate>3.81</banrate>
+        <winrate>50.68</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Rell</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>2.59</pickrate>
+        <banrate>0.92</banrate>
+        <winrate>50.05</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Renata Glasc</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>1.63</pickrate>
+        <banrate>0.34</banrate>
+        <winrate>51.04</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Renekton</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>6.19</pickrate>
+        <banrate>3.79</banrate>
+        <winrate>50.1</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Rengar</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>2.98</pickrate>
+        <banrate>3.24</banrate>
+        <winrate>47.91</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Riven</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.42</pickrate>
+        <banrate>0.94</banrate>
+        <winrate>48.54</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Rumble</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.97</pickrate>
+        <banrate>1.77</banrate>
+        <winrate>48.92</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Ryze</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>1.99</pickrate>
+        <banrate>0.23</banrate>
+        <winrate>49.27</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Samira</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>6.73</pickrate>
+        <banrate>16.44</banrate>
+        <winrate>49.76</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Sejuani</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>2.69</pickrate>
+        <banrate>0.27</banrate>
+        <winrate>48.42</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Senna</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>7.84</pickrate>
+        <banrate>5.73</banrate>
+        <winrate>49.53</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Seraphine</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>5.11</pickrate>
+        <banrate>1.11</banrate>
+        <winrate>49.85</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Sett</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>7.64</pickrate>
+        <banrate>2.51</banrate>
+        <winrate>51.84</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Shaco</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>9.16</pickrate>
+        <banrate>31.66</banrate>
+        <winrate>49.83</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Shen</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>4.01</pickrate>
+        <banrate>0.37</banrate>
+        <winrate>50.24</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Shyvana</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>2.46</pickrate>
+        <banrate>0.45</banrate>
+        <winrate>50.16</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Singed</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>1.65</pickrate>
+        <banrate>0.32</banrate>
+        <winrate>50.88</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Sion</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.46</pickrate>
+        <banrate>0.89</banrate>
+        <winrate>49.62</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Sivir</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.58</pickrate>
+        <banrate>0.61</banrate>
+        <winrate>50.47</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Skarner</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>11.91</pickrate>
+        <banrate>31.29</banrate>
+        <winrate>48.93</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Smolder</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>8.47</pickrate>
+        <banrate>9.37</banrate>
+        <winrate>48.41</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Sona</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.57</pickrate>
+        <banrate>0.24</banrate>
+        <winrate>52.46</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Soraka</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>4.39</pickrate>
+        <banrate>1.22</banrate>
+        <winrate>51.23</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Swain</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>4.92</pickrate>
+        <banrate>2.04</banrate>
+        <winrate>50.28</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Sylas</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>10.93</pickrate>
+        <banrate>10.1</banrate>
+        <winrate>49.83</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Syndra</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.71</pickrate>
+        <banrate>1.93</banrate>
+        <winrate>49.85</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Tahm Kench</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>4.99</pickrate>
+        <banrate>1.98</banrate>
+        <winrate>51.04</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Taliyah</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>5.75</pickrate>
+        <banrate>2.69</banrate>
+        <winrate>50.26</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Talon</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>2.8</pickrate>
+        <banrate>0.81</banrate>
+        <winrate>48.61</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Taric</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>1.47</pickrate>
+        <banrate>0.26</banrate>
+        <winrate>52.19</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Teemo</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>7.2</pickrate>
+        <banrate>10.19</banrate>
+        <winrate>50.2</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Thresh</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>11.1</pickrate>
+        <banrate>3.86</banrate>
+        <winrate>49.85</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Tristana</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>8.87</pickrate>
+        <banrate>2.79</banrate>
+        <winrate>49.47</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Trundle</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>6.02</pickrate>
+        <banrate>4.93</banrate>
+        <winrate>51.57</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Tryndamere</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.88</pickrate>
+        <banrate>2.59</banrate>
+        <winrate>50.06</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Twisted Fate</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>5.53</pickrate>
+        <banrate>1.77</banrate>
+        <winrate>50.11</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Twitch</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>9.3</pickrate>
+        <banrate>11.62</banrate>
+        <winrate>50.98</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Udyr</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>3.26</pickrate>
+        <banrate>1.28</banrate>
+        <winrate>49</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Urgot</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>4.03</pickrate>
+        <banrate>2.18</banrate>
+        <winrate>52.22</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Varus</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>6.78</pickrate>
+        <banrate>1.11</banrate>
+        <winrate>47.91</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Vayne</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>10.76</pickrate>
+        <banrate>11.25</banrate>
+        <winrate>50.11</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Veigar</name>
+        <lore>The Enlightened One</lore>
+        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
+        <pickrate>9.25</pickrate>
+        <banrate>4.36</banrate>
+        <winrate>51.8</winrate>
+        <difficulty>2</difficulty>
+        <fun>4</fun>
+    </champion>
+
+
+    <champion>
+     <name>Vel'Koz</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>3.53</pickrate>
+        <banrate>0.64</banrate>
+        <winrate>50.84</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Vex</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>3.73</pickrate>
+        <banrate>3.25</banrate>
+        <winrate>50.68</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Vi</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>6.6</pickrate>
+        <banrate>1.75</banrate>
+        <winrate>50.82</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Viego</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>11.9</pickrate>
+        <banrate>5.58</banrate>
+        <winrate>50.69</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Viktor</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>2.62</pickrate>
+        <banrate>0.82</banrate>
+        <winrate>50.64</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Vladimir</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>3</pickrate>
+        <banrate>3.15</banrate>
+        <winrate>49.37</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Volibear</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>9.36</pickrate>
+        <banrate>8.17</banrate>
+        <winrate>50.46</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Warwick</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>7.42</pickrate>
+        <banrate>4.17</banrate>
+        <winrate>51.25</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Wukong</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>3.5</pickrate>
+        <banrate>0.46</banrate>
+        <winrate>50.78</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Xayah</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>3.78</pickrate>
+        <banrate>0.63</banrate>
+        <winrate>48.9</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Xerath</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>6.83</pickrate>
+        <banrate>7.55</banrate>
+        <winrate>50.3</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Xin Zhao</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>5.16</pickrate>
+        <banrate>0.96</banrate>
+        <winrate>50.62</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Yasuo</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>15.38</pickrate>
+        <banrate>25.78</banrate>
+        <winrate>48.89</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Yone</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>16.75</pickrate>
+        <banrate>18.83</banrate>
+        <winrate>48.72</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Yorick</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>4.51</pickrate>
+        <banrate>5.84</banrate>
+        <winrate>51.24</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Yuumi</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>5.18</pickrate>
+        <banrate>3.71</banrate>
+        <winrate>47.61</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Zac</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>6.53</pickrate>
+        <banrate>3.7</banrate>
+        <winrate>51.18</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Zed</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>8.54</pickrate>
+        <banrate>23.1</banrate>
+        <winrate>48.64</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Zeri</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>7.47</pickrate>
+        <banrate>3.82</banrate>
+        <winrate>49.36</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Ziggs</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>2.27</pickrate>
+        <banrate>0.33</banrate>
+        <winrate>49.51</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Zilean</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>2.47</pickrate>
+        <banrate>0.5</banrate>
+        <winrate>51.43</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Zoe</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>1.92</pickrate>
+        <banrate>0.81</banrate>
+        <winrate>47.74</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+    <champion>
+        <name>Zyra</name>
+        <lore>The Eye of the Void</lore>
+        <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
+        <pickrate>6.43</pickrate>
+        <banrate>7.78</banrate>
+        <winrate>51.93</winrate>
+        <difficulty>3</difficulty>
+        <fun>4</fun>
+    </champion>
+
+
+</champions>
