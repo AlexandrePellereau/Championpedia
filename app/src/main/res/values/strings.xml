@@ -16,6 +16,8 @@
     <string name="login_admin_successful">Login Admin Successful</string>
     <string name="login_successful">Login Successful</string>
     <string name="login_failed">Login Failed</string>
+    <string name="comment">Comment</string>
+    <string name="Password">password</string>
 
     <string-array name="comment_tests">
         <item>Test Comment 1</item>

@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    >
-    <!--android:background="#332F2F"-->
+    android:background="#332F2F">
 
 
     <EditText
@@ -18,10 +17,14 @@
         android:autofillHints="password"
         android:ems="10"
         android:inputType="textPassword"
+        android:hint="@string/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress"
+        android:textColor="#919191"
+        android:textColorHint="#919191"
+        android:backgroundTint="#E6E6E6"/>
 
     <EditText
         android:id="@+id/editTextEmailAddress"
@@ -31,10 +34,14 @@
         android:autofillHints="Email"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:hint="@string/login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Textview_Title" />
+        app:layout_constraintTop_toBottomOf="@+id/Textview_Title"
+        android:textColorHint="#919191"
+        android:textColor="#919191"
+        android:backgroundTint="#E6E6E6"/>
 
     <TextView
         android:id="@+id/Textview_Title"
@@ -47,7 +54,8 @@
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#919191"/>
 
     <Button
         android:id="@+id/button_submit"
@@ -60,6 +68,8 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:textColor="#919191"
+        android:backgroundTint="#E6E6E6"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
