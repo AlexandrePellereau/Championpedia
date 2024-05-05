@@ -1,12 +1,12 @@
-package com.alexpell.championpedia;
+package com.alexpell.championpedia.comment;
 
-public class MyRecyclerViewModel {
+public class CommentModel {
     private String name;
     private String date;
     private String content;
     private int image;
 
-    public MyRecyclerViewModel(String name, String date, String content, int image) {
+    public CommentModel(String name, String date, String content, int image) {
         this.name = name;
         this.date = date;
         this.content = content;

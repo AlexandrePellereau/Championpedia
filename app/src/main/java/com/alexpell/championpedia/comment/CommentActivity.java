@@ -1,4 +1,4 @@
-package com.alexpell.championpedia;
+package com.alexpell.championpedia.comment;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,30 +6,32 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import com.alexpell.championpedia.R;
+
 import java.util.ArrayList;
 
-public class RecyclerViewActivity extends AppCompatActivity {
+public class CommentActivity extends AppCompatActivity {
 
-    ArrayList<MyRecyclerViewModel> myRecyclerViewModels = new ArrayList<>();
+    ArrayList<CommentModel> mCommentModels = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recycler_view);
+        setContentView(R.layout.activity_comment);
 
         RecyclerView recyclerView = findViewById(R.id.myRecyclerView);
 
         SetUpMyRecyclerViewModels();
 
-        MyRecyclerViewAdapter myRecyclerViewAdapter = new MyRecyclerViewAdapter(this, myRecyclerViewModels);
-        recyclerView.setAdapter(myRecyclerViewAdapter);
+        CommentRVAdapter commentRVAdapter = new CommentRVAdapter(this, mCommentModels);
+        recyclerView.setAdapter(commentRVAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
     private void SetUpMyRecyclerViewModels() {
-        myRecyclerViewModels.add(new MyRecyclerViewModel("name1", "date1", "content1", R.drawable.aatrox));
-        myRecyclerViewModels.add(new MyRecyclerViewModel("name2", "date2", "content2", R.drawable.ahri));
-        myRecyclerViewModels.add(new MyRecyclerViewModel("name3", "date3", "content3", R.drawable.akali));
+        mCommentModels.add(new CommentModel("name1", "date1", "content1", R.drawable.aatrox));
+        mCommentModels.add(new CommentModel("name2", "date2", "content2", R.drawable.ahri));
+        mCommentModels.add(new CommentModel("name3", "date3", "content3", R.drawable.akali));
         /*
         String[] names = getResources().getStringArray(R.array.comment_tests);
 
