@@ -49,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         mAllDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
                 .allowMainThreadQueries()
                 .build()
-                .getUserDAO();
+                .getAllDAO();
 
         if (createAccount)
             binding.TextviewTitle.setText(R.string.create_account);

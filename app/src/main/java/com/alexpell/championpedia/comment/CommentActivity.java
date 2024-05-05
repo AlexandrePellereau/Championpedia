@@ -38,7 +38,7 @@ public class CommentActivity extends AppCompatActivity {
         allDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
                 .allowMainThreadQueries()
                 .build()
-                .getUserDAO();
+                .getAllDAO();
 
 
         SetUpMyRecyclerViewModels();
