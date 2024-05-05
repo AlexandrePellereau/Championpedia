@@ -16,5 +16,24 @@
     <string name="login_admin_successful">Login Admin Successful</string>
     <string name="login_successful">Login Successful</string>
     <string name="login_failed">Login Failed</string>
+    <string name="comment">Comment</string>
+    <string name="password">Password</string>
+    <string name="send">Send</string>
+    <string name="coms">Coms</string>
+    <string name="del">Del</string>
+    <string name="no_comments_yet">There is no comments yet.\n Be the first one to comment!</string>
+
+    <string-array name="comment_tests">
+        <item>Test Comment 1</item>
+        <item>Test Comment 2</item>
+        <item>Test Comment 3</item>
+        <item>Test Comment 4</item>
+        <item>Test Comment 5</item>
+        <item>Test Comment 6</item>
+        <item>Test Comment 7</item>
+        <item>Test Comment 8</item>
+        <item>Test Comment 9</item>
+        <item>Test Comment 10</item>
+    </string-array>
 
 </resources>

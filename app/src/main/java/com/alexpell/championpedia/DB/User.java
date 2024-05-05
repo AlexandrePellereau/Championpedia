@@ -3,75 +3,60 @@ package com.alexpell.championpedia.DB;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import com.alexpell.championpedia.DB.AppDataBase;
-
-@Entity(tableName = AppDataBase.LOGINLOG_TABLE)
+@Entity(tableName = AppDataBase.USER_TABLE)
 public class User {
 
     @PrimaryKey(autoGenerate = true)
-    private int mLogId;
+    private int id;
+    private String username;
+    private String password;
+    private boolean admin;
 
-    private String mUsername;
-    private String mEmail;
-    private String mPassword;
-    private boolean mIsAdmin;
-
-    public User(String username, String email, String password, Boolean isAdmin) {
-        mUsername = username;
-        mEmail = email;
-        mPassword = password;
-        mIsAdmin = isAdmin;
+    public User(String username, String password, Boolean admin) {
+        this.username = username;
+        this.password = password;
+        this.admin = admin;
     }
 
     @Override
-    public String
-    toString() {
-        return "LoginLog{" +
-                "mLogId=" + mLogId +
-                ", mUsername='" + mUsername + '\'' +
-                ", mEmail='" + mEmail + '\'' +
-                ", mPassword='" + mPassword + '\'' +
-                ", mIsAdmin=" + mIsAdmin +
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", admin=" + admin +
                 '}';
     }
 
-    public int getLogId() {
-        return mLogId;
+    public int getId() {
+        return id;
     }
 
-    public void setLogId(int logId) {
-        mLogId = logId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getUsername() {
-        return mUsername;
+        return username;
     }
 
     public void setUsername(String username) {
-        mUsername = username;
-    }
-
-    public String getEmail() {
-        return mEmail;
-    }
-
-    public void setEmail(String email) {
-        mEmail = email;
+        this.username = username;
     }
 
     public String getPassword() {
-        return mPassword;
+        return password;
     }
 
     public void setPassword(String password) {
-        mPassword = password;
+        this.password = password;
     }
 
-    public boolean getIsAdmin() {
-        return mIsAdmin;
+    public boolean getAdmin() {
+        return admin;
     }
 
-    public void setIsAdmin(Boolean admin) {
-        mIsAdmin = admin;
+    public void setAdmin(Boolean admin) {
+        this.admin = admin;
     }
 }

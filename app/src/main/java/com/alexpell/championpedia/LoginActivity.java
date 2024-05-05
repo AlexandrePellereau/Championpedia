@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -15,10 +17,8 @@ import android.widget.Toast;
 
 import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.DB.User;
-import com.alexpell.championpedia.DB.UserDAO;
+import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.databinding.ActivityLoginBinding;
-
-import java.util.List;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -26,10 +26,9 @@ public class LoginActivity extends AppCompatActivity {
 
     private ActivityLoginBinding binding;
 
-    private UserDAO mUserDAO;
-    private List<User> mUsers;
+    private AllDAO allDAO;
 
-    private EditText email;
+    private EditText username;
     private EditText password;
 
     @Override
@@ -45,13 +44,13 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         Toast.makeText(this, "Starting...", Toast.LENGTH_SHORT).show();
-        email = binding.editTextEmailAddress;
+        username = binding.editTextUsername;
         password = binding.editTextPassword;
         Button button = binding.buttonSubmit;
-        mUserDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
+        allDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
                 .allowMainThreadQueries()
                 .build()
-                .loginLogDAO();
+                .getAllDAO();
 
         if (createAccount)
             binding.TextviewTitle.setText(R.string.create_account);
@@ -80,57 +79,51 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login() {
-        String emailText = email.getText().toString();
+        String usernameText = username.getText().toString();
         String passwordText = password.getText().toString();
 
-        if (emailText.isEmpty() || passwordText.isEmpty()) {
-            Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show();
+        if (usernameText.isEmpty() || passwordText.isEmpty()) {
+            showToast("Please fill in all fields");
             return;
         }
 
         if (createAccount) {
-            mUserDAO.insert(new User(emailText, emailText, passwordText, false));
-            getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
-                    putBoolean("loggedIn", true).
-                    putString("username", emailText).
-                    putString("email", emailText).
-                    putString("password", passwordText).
-                    putBoolean("isAdmin", false).
-                    apply();
-            binding.TextviewTitle.setText(R.string.account_created);
-            startActivity(new Intent(getApplicationContext(), LandingPage.class));
+            createUserAndLogin(usernameText, passwordText, usernameText.contains("admin"));
             return;
-        } else {
-            if (emailText.equals("admin") && passwordText.equals("admin")) {
-                binding.TextviewTitle.setText(R.string.login_admin_successful);
-                getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
-                        putBoolean("loggedIn", true).
-                        putString("username", "admin").
-                        putString("email", "admin").
-                        putString("password", "admin").
-                        putBoolean("isAdmin", true).
-                        apply();
-                startActivity(new Intent(getApplicationContext(), LandingPage.class));
+        }
+
+        loginExistingUser(usernameText, passwordText);
+    }
+
+    private void createUserAndLogin(String username, String password, boolean admin) {
+        User newUser = new User(username, password, admin);
+        allDAO.insert(newUser);
+        User finalUser = allDAO.getUsers().get(allDAO.getUsers().size() - 1);
+        loginSuccess(finalUser.getId(), admin);
+    }
+
+    private void loginExistingUser(String username, String password) {
+        for (User user : allDAO.getUsers()) {
+            if (user.getUsername().equals(username) && user.getPassword().equals(password)) {
+                loginSuccess(user.getId(), user.getAdmin());
                 return;
             }
-
-            mUsers = mUserDAO.getLoginLogs();
-            for (User user : mUsers) {
-                if (user.getEmail().equals(emailText) && user.getPassword().equals(passwordText)) {
-                    binding.TextviewTitle.setText(R.string.login_successful);
-                    getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit().
-                            putBoolean("loggedIn", true).
-                            putString("username", user.getUsername()).
-                            putString("email", user.getEmail()).
-                            putString("password", user.getPassword()).
-                            putBoolean("isAdmin", user.getIsAdmin()).
-                            apply();
-                    startActivity(new Intent(getApplicationContext(), LandingPage.class));
-                    return;
-                }
-            }
-
-            Toast.makeText(this, R.string.login_failed, Toast.LENGTH_SHORT).show();
         }
+        showToast(getString(R.string.login_failed));
     }
+
+    private void loginSuccess(int userId, boolean isAdmin) {
+        SharedPreferences.Editor editor = getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit();
+        editor.putBoolean("loggedIn", true);
+        editor.putInt("userId", userId);
+        editor.putBoolean("isAdmin", isAdmin);
+        editor.apply();
+        Log.d("AlexTest", "loginUserId: " + userId);
+        startActivity(new Intent(getApplicationContext(), LandingPage.class));
+    }
+
+    private void showToast(String message) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+    }
+
 }

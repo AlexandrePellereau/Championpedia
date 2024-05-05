@@ -2,46 +2,84 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "f4b1bae93c605c3ee07c1a81b1b48bcf",
+    "identityHash": "e33a76690557d5b4e981ac9e7ea98578",
     "entities": [
       {
-        "tableName": "login_log",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`mLogId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `mUsername` TEXT, `mEmail` TEXT, `mPassword` TEXT, `mIsAdmin` INTEGER NOT NULL)",
+        "tableName": "user",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `username` TEXT, `password` TEXT, `admin` INTEGER NOT NULL)",
         "fields": [
           {
-            "fieldPath": "mLogId",
-            "columnName": "mLogId",
+            "fieldPath": "id",
+            "columnName": "id",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
-            "fieldPath": "mUsername",
-            "columnName": "mUsername",
+            "fieldPath": "username",
+            "columnName": "username",
             "affinity": "TEXT",
             "notNull": false
           },
           {
-            "fieldPath": "mEmail",
-            "columnName": "mEmail",
+            "fieldPath": "password",
+            "columnName": "password",
             "affinity": "TEXT",
             "notNull": false
           },
           {
-            "fieldPath": "mPassword",
-            "columnName": "mPassword",
-            "affinity": "TEXT",
-            "notNull": false
-          },
-          {
-            "fieldPath": "mIsAdmin",
-            "columnName": "mIsAdmin",
+            "fieldPath": "admin",
+            "columnName": "admin",
             "affinity": "INTEGER",
             "notNull": true
           }
         ],
         "primaryKey": {
           "columnNames": [
-            "mLogId"
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "comment",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `championId` INTEGER NOT NULL, `userId` INTEGER NOT NULL, `content` TEXT, `publicationDate` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "championId",
+            "columnName": "championId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userId",
+            "columnName": "userId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "content",
+            "columnName": "content",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "publicationDate",
+            "columnName": "publicationDate",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
           ],
           "autoGenerate": true
         },
@@ -52,7 +90,7 @@
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f4b1bae93c605c3ee07c1a81b1b48bcf')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'e33a76690557d5b4e981ac9e7ea98578')"
     ]
   }
 }
