@@ -20,5 +20,11 @@
     <string name="championimage">championImage</string>
     <string name="lore">Lore</string>
     <string name="see_more">See More</string>
+    <string name="_0">0</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="fun">Fun :</string>
+    <string name="difficulty">Difficulty :</string>
+    <string name="add_review">Add review</string>
 
 </resources>

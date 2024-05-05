@@ -57,5 +57,12 @@ public class ChampionActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),FullLoreActivity.class));
             }
         });
+
+        binding.addReview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),AddReview.class));
+            }
+        });
     }
 }

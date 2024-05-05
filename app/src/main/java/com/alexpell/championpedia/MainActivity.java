@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
         if (sharedPreferences.getBoolean("loggedIn", false))
             startActivity(new Intent(getApplicationContext(), LandingPage.class));
-
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);

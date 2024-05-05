@@ -35,9 +35,9 @@
             Now, Aatrox marches toward this merciless goal, bringing war and death wherever he goes. He clings to a blind hope: if he can drive all of creation into a final, apocalyptic battle—where everything, everything else is destroyed—then maybe he and the blade will also cease to exist.
 
         </full_lore>
-        <pickrate>0.15</pickrate>
-        <banrate>0.02</banrate>
-        <winrate>0.48</winrate>
+        <pickrate>8.59</pickrate>
+        <banrate>12.39</banrate>
+        <winrate>48.96</winrate>
         <difficulty>4</difficulty>
         <fun>4</fun>
     </champion>
@@ -75,9 +75,9 @@
             Inspired by their memories, Ahri has set off to travel the world in search of other remnants of the Vesani. She hopes to carry their legacy forward, bringing good into the world like they did. No longer burdened by the heavy weight of her regrets, she also hopes to finally leave her stolen memories behind and create new memories of her own making.
 
         </full_lore>
-        <pickrate>0.25</pickrate>
-        <banrate>0.05</banrate>
-        <winrate>0.50</winrate>
+        <pickrate>13.44</pickrate>
+        <banrate>12.39</banrate>
+        <winrate>51.11</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
 
@@ -112,9 +112,9 @@
             Shen let her go without a fight, knowing this was a path that Akali must walk alone. Perhaps that path would bring her back one day, but that would be for her to decide.
 
         </full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>10.3</pickrate>
+        <banrate>17.54</banrate>
+        <winrate>49.02</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -149,9 +149,9 @@
             While Akshan questioned the antiquated rules of his order, his mentor continued to press the warlords to turn over their stolen weapons. Tensions between the two parties built until one tragic day Akshan returned home to find Shadya murdered in the street, almost exactly where he had fallen all those years ago.
 
             Akshan knew what he had to do. He made some key alterations to the Absolver and set out into the scorching desert with the forbidden weapon, hungry for vengeance. Though he could not determine which of the warlords had killed his mentor, he knew one way to be certain: he would pick them off one by one until Shadya was returned to Runeterra.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>2.62</pickrate>
+        <banrate>3.9</banrate>
+        <winrate>50.88</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -195,9 +195,9 @@
             Alistar now travels alone, as quietly and anonymously as he can, encouraging resistance in Noxian-held territories and fighting on behalf of the downtrodden and the abused. Only when he has cleared the shame from his heart, repaying every cruelty and every kindness, will Alistar return to the mountains and leave his rage behind.
 
             And in every city he passes through, he asks after Ayelia.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.5</pickrate>
+        <banrate>1.25</banrate>
+        <winrate>49.83</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -230,9 +230,9 @@
             These stories, despite their differences, are woven with parallels. Whatever the circumstances, Amumu is doomed to exist in a broken state of emptiness, eternally alone and friendless. Fated to forever search for a companion, his presence is cursed and his touch is death. On long winter nights when the fire is never allowed to burn low, the sad mummy can sometimes be heard weeping in the desert, despairing that he’ll never know the solace of friendship.
 
             Whatever Amumu searches for – atonement, kinship, or a single act of kindness – one thing is as certain as the western wind at dawn: he has yet to find it.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>4.33</pickrate>
+        <banrate>1.1</banrate>
+        <winrate>50.76</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -267,9 +267,9 @@
             Recently, some claim Anivia has hatched from the egg once more, and that she has appeared before the new leader of the Avarosans—the Warmother Ashe. In her, perhaps Anivia sees one who may be able to finally reunite the Freljord.
 
             Yet if the Cryophoenix has indeed returned, as more and more shamans and spirit walkers proclaim, then it must be asked: what great threat has she come to face?</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>2.38</pickrate>
+        <banrate>1.5</banrate>
+        <winrate>51.45</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -297,9 +297,9 @@
             Believing most city adults to be like her stepmother, Annie has kept to the wilder parts of her frontier homeland. On occasion, she will use her disarmingly adorable exterior to be taken in by some pioneer family long enough to be offered new clothes and a hot meal. However, fire and death awaits anyone foolish enough to try parting Annie from the stuffed bear at her side.
 
             Kept safe by Tibbers, she wanders the dark forests of Noxus, oblivious to danger—and the dangers posed to others by her own unchecked power—hoping, one day, to find someone like her to play with.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>2.64</pickrate>
+        <banrate>0.79</banrate>
+        <winrate>50.86</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -351,9 +351,9 @@
             To protect the survivors of the attack who retreated back into the shadows of the mountain, Aphelios’ training as an assassin has been given reach by Alune’s magic—his blades now an arsenal of mystical weapons, perfected by Alune over the course of many missions together.
 
             Now that the power balance of Targon is shifting, and the Solari know the Lunari still endure, Aphelios and Alune are needed more than ever.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>4.33</pickrate>
+        <banrate>0.73</banrate>
+        <winrate>48.61</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -385,9 +385,9 @@
             Tryndamere accepted reluctantly. Though a political marriage, the attraction they felt for each other was palpable, and slowly a true affection blossomed.
 
             Now, Ashe stands at the head of the largest coalition of Freljordian tribes in many generations. Even so, the unity she would bring rests upon an uneasy peace threatened by internal intrigues, foreign powers, the growing violent horde of the Winter's Claw, and a supposed destiny that Ashe must at least pretend to believe…</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>14.99</pickrate>
+        <banrate>5.57</banrate>
+        <winrate>50</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -396,9 +396,9 @@
         <name>Aurelion Sol</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>7.49</pickrate>
+        <banrate>8.54</banrate>
+        <winrate>52</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -407,9 +407,9 @@
         <name>Azir</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.81</pickrate>
+        <banrate>0.9</banrate>
+        <winrate>46.27</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -418,9 +418,9 @@
         <name>Bard</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>1.95</pickrate>
+        <banrate>0.39</banrate>
+        <winrate>49.62</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -429,9 +429,9 @@
         <name>Bel'Veth</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.59</pickrate>
+        <banrate>6.17</banrate>
+        <winrate>50.97</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -440,9 +440,9 @@
         <name>Blitzcrank</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>7.81</pickrate>
+        <banrate>31.23</banrate>
+        <winrate>50.76</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -451,9 +451,9 @@
         <name>Brand</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>11.08</pickrate>
+        <banrate>9.59</banrate>
+        <winrate>52.36</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -462,9 +462,9 @@
         <name>Braum</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.65</pickrate>
+        <banrate>0.94</banrate>
+        <winrate>51.73</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -473,9 +473,9 @@
         <name>Briar</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>6.79</pickrate>
+        <banrate>18.94</banrate>
+        <winrate>52.7</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -484,9 +484,9 @@
         <name>Caitlyn</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>16.16</pickrate>
+        <banrate>11.98</banrate>
+        <winrate>49.25</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -495,9 +495,9 @@
         <name>Camille</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>6.05</pickrate>
+        <banrate>4.52</banrate>
+        <winrate>50.24</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -506,9 +506,9 @@
         <name>Cassiopeia</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>2.31</pickrate>
+        <banrate>1.66</banrate>
+        <winrate>51.24</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -517,9 +517,9 @@
         <name>Cho'Gath</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.12</pickrate>
+        <banrate>0.68</banrate>
+        <winrate>49.06</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -528,9 +528,9 @@
         <name>Corki</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>1.59</pickrate>
+        <banrate>0.18</banrate>
+        <winrate>46.1</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -539,9 +539,9 @@
         <name>Darius</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>9.88</pickrate>
+        <banrate>22.4</banrate>
+        <winrate>49.85</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -550,9 +550,9 @@
         <name>Diana</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>12.91</pickrate>
+        <banrate>5.48</banrate>
+        <winrate>51.27</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -561,9 +561,9 @@
         <name>Dr. Mundo</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>4.45</pickrate>
+        <banrate>3.18</banrate>
+        <winrate>52.14</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -572,9 +572,9 @@
         <name>Draven</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>5.36</pickrate>
+        <banrate>15.09</banrate>
+        <winrate>49</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -583,9 +583,9 @@
         <name>Ekko</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>6.52</pickrate>
+        <banrate>1.92</banrate>
+        <winrate>50.01</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -594,9 +594,9 @@
         <name>Elise</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>1.62</pickrate>
+        <banrate>0.75</banrate>
+        <winrate>50.1</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -605,9 +605,9 @@
         <name>Evelynn</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.92</pickrate>
+        <banrate>7.36</banrate>
+        <winrate>49.71</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -616,9 +616,9 @@
         <name>Ezreal</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>14.18</pickrate>
+        <banrate>5.06</banrate>
+        <winrate>47.53</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -627,9 +627,9 @@
         <name>Fiddlesticks</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.22</pickrate>
+        <banrate>1.1</banrate>
+        <winrate>50.52</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -638,9 +638,9 @@
         <name>Fiora</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.37</pickrate>
+        <banrate>5.94</banrate>
+        <winrate>49.51</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -649,9 +649,9 @@
         <name>Fizz</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>4.78</pickrate>
+        <banrate>10.9</banrate>
+        <winrate>50.11</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -660,9 +660,9 @@
         <name>Galio</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.25</pickrate>
+        <banrate>0.73</banrate>
+        <winrate>50.83</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -671,9 +671,9 @@
         <name>Gangplank</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.36</pickrate>
+        <banrate>1.56</banrate>
+        <winrate>48.62</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -682,9 +682,9 @@
         <name>Garen</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>9.26</pickrate>
+        <banrate>5.19</banrate>
+        <winrate>51.61</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -693,9 +693,9 @@
         <name>Gnar</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>2.34</pickrate>
+        <banrate>0.51</banrate>
+        <winrate>48.58</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -704,9 +704,9 @@
         <name>Gragas</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>6.02</pickrate>
+        <banrate>2.02</banrate>
+        <winrate>49.55</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -715,9 +715,9 @@
         <name>Graves</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>5.16</pickrate>
+        <banrate>2.57</banrate>
+        <winrate>48.17</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -726,9 +726,9 @@
         <name>Gwen</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.02</pickrate>
+        <banrate>1.62</banrate>
+        <winrate>49.54</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -737,9 +737,9 @@
         <name>Hecarim</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>2.75</pickrate>
+        <banrate>1.43</banrate>
+        <winrate>48.15</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -748,9 +748,9 @@
         <name>Heimerdinger</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>2.6</pickrate>
+        <banrate>1.47</banrate>
+        <winrate>49.73</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -759,9 +759,9 @@
         <name>Hwei</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>8.48</pickrate>
+        <banrate>10.76</banrate>
+        <winrate>48.49</winrate>
         <difficulty>3</difficulty>*
         <fun>4</fun>
     </champion>
@@ -770,9 +770,9 @@
         <name>Illaoi</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>4.45</pickrate>
+        <banrate>14.57</banrate>
+        <winrate>50.79</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
 
@@ -782,9 +782,9 @@
         <name>Irelia</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>6.76</pickrate>
+        <banrate>9.79</banrate>
+        <winrate>49.67</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -793,9 +793,9 @@
         <name>Ivern</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>1.27</pickrate>
+        <banrate>0.47</banrate>
+        <winrate>50.77</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -804,9 +804,9 @@
         <name>Janna</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>5.66</pickrate>
+        <banrate>3.73</banrate>
+        <winrate>52.02</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -815,9 +815,9 @@
         <name>Jarvan IV</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>4.16</pickrate>
+        <banrate>0.83</banrate>
+        <winrate>50.36</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -826,9 +826,9 @@
         <name>Jax</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>10.36</pickrate>
+        <banrate>10.87</banrate>
+        <winrate>49.95</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -837,9 +837,9 @@
         <name>Jayce</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>5.18</pickrate>
+        <banrate>2.34</banrate>
+        <winrate>48.82</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -848,9 +848,9 @@
         <name>Jhin</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>14.16</pickrate>
+        <banrate>3.16</banrate>
+        <winrate>50.89</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -859,9 +859,9 @@
         <name>Jinx</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>25.21</pickrate>
+        <banrate>18.88</banrate>
+        <winrate>51.55</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -870,9 +870,9 @@
         <name>K'Sante</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>2.9</pickrate>
+        <banrate>1.6</banrate>
+        <winrate>45.52</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -881,9 +881,9 @@
         <name>Kai'Sa</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>15.25</pickrate>
+        <banrate>2.36</banrate>
+        <winrate>47.87</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -892,9 +892,9 @@
         <name>Kalista</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>2.81</pickrate>
+        <banrate>1.09</banrate>
+        <winrate>47.51</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -903,9 +903,9 @@
         <name>Karma</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>7.36</pickrate>
+        <banrate>5.99</banrate>
+        <winrate>47.74</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -914,9 +914,9 @@
         <name>Karthus</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.04</pickrate>
+        <banrate>1.85</banrate>
+        <winrate>50.23</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -925,9 +925,9 @@
         <name>Kassadin</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>3.42</pickrate>
+        <banrate>5.32</banrate>
+        <winrate>51.04</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -936,9 +936,9 @@
         <name>Katarina</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>6.31</pickrate>
+        <banrate>7.96</banrate>
+        <winrate>49.37</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -947,9 +947,9 @@
         <name>Kayle</name>
         <lore>The Rogue Assassin</lore>
         <full_lore>Akali is a rogue assassin who uses stealth and precision to take down her targets.</full_lore>
-        <pickrate>0.20</pickrate>
-        <banrate>0.04</banrate>
-        <winrate>0.52</winrate>
+        <pickrate>4.56</pickrate>
+        <banrate>1.6</banrate>
+        <winrate>51.84</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -958,9 +958,9 @@
         <name>Kayn</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>7.73</pickrate>
+        <banrate>6.93</banrate>
+        <winrate>49.14</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -969,9 +969,9 @@
         <name>Kennen</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>1.6</pickrate>
+        <banrate>0.49</banrate>
+        <winrate>49.05</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -980,9 +980,9 @@
         <name>Kha'Zix</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>6.48</pickrate>
+        <banrate>3.3</banrate>
+        <winrate>49.42</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -991,9 +991,9 @@
         <name>Kindred</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.63</pickrate>
+        <banrate>1.66</banrate>
+        <winrate>49.09</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1002,9 +1002,9 @@
         <name>Kled</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>1.62</pickrate>
+        <banrate>0.82</banrate>
+        <winrate>51.44</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1013,9 +1013,9 @@
         <name>Kog'Maw</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>4.07</pickrate>
+        <banrate>2.09</banrate>
+        <winrate>53.29</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1024,9 +1024,9 @@
         <name>LeBlanc</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>4.29</pickrate>
+        <banrate>7.74</banrate>
+        <winrate>47.99</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1035,9 +1035,9 @@
         <name>Lee Sin</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>16.3</pickrate>
+        <banrate>14.02</banrate>
+        <winrate>48.4</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1046,9 +1046,9 @@
         <name>Leona</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>7.39</pickrate>
+        <banrate>5.99</banrate>
+        <winrate>51.44</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1057,9 +1057,9 @@
         <name>Lillia</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.27</pickrate>
+        <banrate>2.98</banrate>
+        <winrate>51.15</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1068,9 +1068,9 @@
         <name>Lissandra</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>2.6</pickrate>
+        <banrate>1.18</banrate>
+        <winrate>49.05</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1079,9 +1079,9 @@
         <name>Lucian</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>12.18</pickrate>
+        <banrate>4.4</banrate>
+        <winrate>49.58</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1090,9 +1090,9 @@
         <name>Lulu</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>8.84</pickrate>
+        <banrate>4.73</banrate>
+        <winrate>50.1</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1101,9 +1101,9 @@
         <name>Lux</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>18.77</pickrate>
+        <banrate>13.68</banrate>
+        <winrate>50.29</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1112,9 +1112,9 @@
         <name>Malphite</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>9.43</pickrate>
+        <banrate>8.68</banrate>
+        <winrate>49.92</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1123,9 +1123,9 @@
         <name>Malzahar</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>4.39</pickrate>
+        <banrate>6.15</banrate>
+        <winrate>50.13</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1134,9 +1134,9 @@
         <name>Maokai</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.46</pickrate>
+        <banrate>1.72</banrate>
+        <winrate>49.9</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1145,9 +1145,9 @@
         <name>Master Yi</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>9.8</pickrate>
+        <banrate>20.28</banrate>
+        <winrate>50.6</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1156,9 +1156,9 @@
         <name>Milio</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>4.68</pickrate>
+        <banrate>2.09</banrate>
+        <winrate>51.16</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1167,9 +1167,9 @@
         <name>Miss Fortune</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>10.99</pickrate>
+        <banrate>4.12</banrate>
+        <winrate>49.99</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1178,9 +1178,9 @@
         <name>Mordekaiser</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>9.74</pickrate>
+        <banrate>15.4</banrate>
+        <winrate>51.05</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1189,9 +1189,9 @@
         <name>Morgana</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>8.61</pickrate>
+        <banrate>23.95</banrate>
+        <winrate>50.23</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1200,9 +1200,9 @@
         <name>Naafiri</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>2.09</pickrate>
+        <banrate>1.6</banrate>
+        <winrate>50.56</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1211,9 +1211,9 @@
         <name>Nami</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>7.43</pickrate>
+        <banrate>0.58</banrate>
+        <winrate>51.58</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1222,9 +1222,9 @@
         <name>Nasus</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>5.75</pickrate>
+        <banrate>3.91</banrate>
+        <winrate>51.21</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1233,9 +1233,9 @@
         <name>Nautilus</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>10.16</pickrate>
+        <banrate>14.59</banrate>
+        <winrate>48.53</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1243,9 +1243,9 @@
         <name>Neeko</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>4.57</pickrate>
+        <banrate>2.31</banrate>
+        <winrate>49.03</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1254,9 +1254,9 @@
         <name>Nidalee</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.15</pickrate>
+        <banrate>1.82</banrate>
+        <winrate>48.86</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1264,9 +1264,9 @@
         <name>Nilah</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>2.87</pickrate>
+        <banrate>5.27</banrate>
+        <winrate>52.92</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1275,9 +1275,9 @@
         <name>Nocturne</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>6.38</pickrate>
+        <banrate>8.84</banrate>
+        <winrate>50.86</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1286,9 +1286,9 @@
         <name>Nunu and Willump</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>2.66</pickrate>
+        <banrate>0.43</banrate>
+        <winrate>48</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1297,9 +1297,9 @@
         <name>Olaf</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.05</pickrate>
+        <banrate>3.06</banrate>
+        <winrate>50.02</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1308,9 +1308,9 @@
         <name>Orianna</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.42</pickrate>
+        <banrate>0.77</banrate>
+        <winrate>48.18</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1319,9 +1319,9 @@
         <name>Ornn</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.04</pickrate>
+        <banrate>0.47</banrate>
+        <winrate>49.32</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1330,9 +1330,9 @@
         <name>Pantheon</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>6.46</pickrate>
+        <banrate>2.34</banrate>
+        <winrate>48.88</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1341,9 +1341,9 @@
         <name>Poppy</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.75</pickrate>
+        <banrate>1.86</banrate>
+        <winrate>50.34</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1352,9 +1352,9 @@
         <name>Pyke</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>7.36</pickrate>
+        <banrate>16.22</banrate>
+        <winrate>49.85</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1363,9 +1363,9 @@
         <name>Qiyana</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>2.3</pickrate>
+        <banrate>0.61</banrate>
+        <winrate>47.67</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1374,9 +1374,9 @@
         <name>Quinn</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>1.78</pickrate>
+        <banrate>1.08</banrate>
+        <winrate>50</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1385,9 +1385,9 @@
         <name>Rakan</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>4.58</pickrate>
+        <banrate>1.01</banrate>
+        <winrate>50.48</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1396,9 +1396,9 @@
         <name>Rammus</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.64</pickrate>
+        <banrate>8.48</banrate>
+        <winrate>51.59</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1407,9 +1407,9 @@
         <name>Rek'Sai</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.01</pickrate>
+        <banrate>3.81</banrate>
+        <winrate>50.68</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1418,9 +1418,9 @@
         <name>Rell</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>2.59</pickrate>
+        <banrate>0.92</banrate>
+        <winrate>50.05</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1429,9 +1429,9 @@
         <name>Renata Glasc</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>1.63</pickrate>
+        <banrate>0.34</banrate>
+        <winrate>51.04</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1440,9 +1440,9 @@
         <name>Renekton</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>6.19</pickrate>
+        <banrate>3.79</banrate>
+        <winrate>50.1</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1451,9 +1451,9 @@
         <name>Rengar</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>2.98</pickrate>
+        <banrate>3.24</banrate>
+        <winrate>47.91</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1462,9 +1462,9 @@
         <name>Riven</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.42</pickrate>
+        <banrate>0.94</banrate>
+        <winrate>48.54</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1473,9 +1473,9 @@
         <name>Rumble</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.97</pickrate>
+        <banrate>1.77</banrate>
+        <winrate>48.92</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1484,9 +1484,9 @@
         <name>Ryze</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>1.99</pickrate>
+        <banrate>0.23</banrate>
+        <winrate>49.27</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1495,9 +1495,9 @@
         <name>Samira</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>6.73</pickrate>
+        <banrate>16.44</banrate>
+        <winrate>49.76</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1506,9 +1506,9 @@
         <name>Sejuani</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>2.69</pickrate>
+        <banrate>0.27</banrate>
+        <winrate>48.42</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1517,9 +1517,9 @@
         <name>Senna</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>7.84</pickrate>
+        <banrate>5.73</banrate>
+        <winrate>49.53</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1528,9 +1528,9 @@
         <name>Seraphine</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>5.11</pickrate>
+        <banrate>1.11</banrate>
+        <winrate>49.85</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1539,9 +1539,9 @@
         <name>Sett</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>7.64</pickrate>
+        <banrate>2.51</banrate>
+        <winrate>51.84</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1550,9 +1550,9 @@
         <name>Shaco</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>9.16</pickrate>
+        <banrate>31.66</banrate>
+        <winrate>49.83</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1561,9 +1561,9 @@
         <name>Shen</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>4.01</pickrate>
+        <banrate>0.37</banrate>
+        <winrate>50.24</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1572,9 +1572,9 @@
         <name>Shyvana</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>2.46</pickrate>
+        <banrate>0.45</banrate>
+        <winrate>50.16</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1583,9 +1583,9 @@
         <name>Singed</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>1.65</pickrate>
+        <banrate>0.32</banrate>
+        <winrate>50.88</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1594,9 +1594,9 @@
         <name>Sion</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.46</pickrate>
+        <banrate>0.89</banrate>
+        <winrate>49.62</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1605,9 +1605,9 @@
         <name>Sivir</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.58</pickrate>
+        <banrate>0.61</banrate>
+        <winrate>50.47</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1616,9 +1616,9 @@
         <name>Skarner</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>11.91</pickrate>
+        <banrate>31.29</banrate>
+        <winrate>48.93</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1627,20 +1627,9 @@
         <name>Smolder</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
-        <difficulty>2</difficulty>
-        <fun>4</fun>
-    </champion>
-
-    <champion>
-        <name>Smolder</name>
-        <lore>The Enlightened One</lore>
-        <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>8.47</pickrate>
+        <banrate>9.37</banrate>
+        <winrate>48.41</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1649,9 +1638,9 @@
         <name>Sona</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.57</pickrate>
+        <banrate>0.24</banrate>
+        <winrate>52.46</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1660,9 +1649,9 @@
         <name>Soraka</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>4.39</pickrate>
+        <banrate>1.22</banrate>
+        <winrate>51.23</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1671,9 +1660,9 @@
         <name>Swain</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>4.92</pickrate>
+        <banrate>2.04</banrate>
+        <winrate>50.28</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1682,9 +1671,9 @@
         <name>Sylas</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>10.93</pickrate>
+        <banrate>10.1</banrate>
+        <winrate>49.83</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1693,9 +1682,9 @@
         <name>Syndra</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.71</pickrate>
+        <banrate>1.93</banrate>
+        <winrate>49.85</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1704,9 +1693,9 @@
         <name>Tahm Kench</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>4.99</pickrate>
+        <banrate>1.98</banrate>
+        <winrate>51.04</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1715,9 +1704,9 @@
         <name>Taliyah</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>5.75</pickrate>
+        <banrate>2.69</banrate>
+        <winrate>50.26</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1726,9 +1715,9 @@
         <name>Talon</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>2.8</pickrate>
+        <banrate>0.81</banrate>
+        <winrate>48.61</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1737,9 +1726,9 @@
         <name>Taric</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>1.47</pickrate>
+        <banrate>0.26</banrate>
+        <winrate>52.19</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1748,9 +1737,9 @@
         <name>Teemo</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>7.2</pickrate>
+        <banrate>10.19</banrate>
+        <winrate>50.2</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1759,9 +1748,9 @@
         <name>Thresh</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>11.1</pickrate>
+        <banrate>3.86</banrate>
+        <winrate>49.85</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1770,9 +1759,9 @@
         <name>Tristana</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>8.87</pickrate>
+        <banrate>2.79</banrate>
+        <winrate>49.47</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1781,9 +1770,9 @@
         <name>Trundle</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>6.02</pickrate>
+        <banrate>4.93</banrate>
+        <winrate>51.57</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1792,9 +1781,9 @@
         <name>Tryndamere</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.88</pickrate>
+        <banrate>2.59</banrate>
+        <winrate>50.06</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1803,9 +1792,9 @@
         <name>Twisted Fate</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>5.53</pickrate>
+        <banrate>1.77</banrate>
+        <winrate>50.11</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1814,9 +1803,9 @@
         <name>Twitch</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>9.3</pickrate>
+        <banrate>11.62</banrate>
+        <winrate>50.98</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1825,9 +1814,9 @@
         <name>Udyr</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>3.26</pickrate>
+        <banrate>1.28</banrate>
+        <winrate>49</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1836,9 +1825,9 @@
         <name>Urgot</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>4.03</pickrate>
+        <banrate>2.18</banrate>
+        <winrate>52.22</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1847,9 +1836,9 @@
         <name>Varus</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>6.78</pickrate>
+        <banrate>1.11</banrate>
+        <winrate>47.91</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1858,9 +1847,9 @@
         <name>Vayne</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>10.76</pickrate>
+        <banrate>11.25</banrate>
+        <winrate>50.11</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1869,9 +1858,9 @@
         <name>Veigar</name>
         <lore>The Enlightened One</lore>
         <full_lore>Karma is an Ionian leader who wields the power of her soul in battle.</full_lore>
-        <pickrate>0.18</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.49</winrate>
+        <pickrate>9.25</pickrate>
+        <banrate>4.36</banrate>
+        <winrate>51.8</winrate>
         <difficulty>2</difficulty>
         <fun>4</fun>
     </champion>
@@ -1881,9 +1870,9 @@
      <name>Vel'Koz</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>3.53</pickrate>
+        <banrate>0.64</banrate>
+        <winrate>50.84</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -1892,9 +1881,9 @@
         <name>Vex</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>3.73</pickrate>
+        <banrate>3.25</banrate>
+        <winrate>50.68</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -1903,9 +1892,9 @@
         <name>Vi</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>6.6</pickrate>
+        <banrate>1.75</banrate>
+        <winrate>50.82</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -1914,9 +1903,9 @@
         <name>Viego</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>11.9</pickrate>
+        <banrate>5.58</banrate>
+        <winrate>50.69</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -1925,9 +1914,9 @@
         <name>Viktor</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>2.62</pickrate>
+        <banrate>0.82</banrate>
+        <winrate>50.64</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -1936,9 +1925,9 @@
         <name>Vladimir</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>3</pickrate>
+        <banrate>3.15</banrate>
+        <winrate>49.37</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -1947,9 +1936,9 @@
         <name>Volibear</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>9.36</pickrate>
+        <banrate>8.17</banrate>
+        <winrate>50.46</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -1958,9 +1947,9 @@
         <name>Warwick</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>7.42</pickrate>
+        <banrate>4.17</banrate>
+        <winrate>51.25</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -1969,9 +1958,9 @@
         <name>Wukong</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>3.5</pickrate>
+        <banrate>0.46</banrate>
+        <winrate>50.78</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -1980,9 +1969,9 @@
         <name>Xayah</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>3.78</pickrate>
+        <banrate>0.63</banrate>
+        <winrate>48.9</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -1991,9 +1980,9 @@
         <name>Xerath</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>6.83</pickrate>
+        <banrate>7.55</banrate>
+        <winrate>50.3</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2002,9 +1991,9 @@
         <name>Xin Zhao</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>5.16</pickrate>
+        <banrate>0.96</banrate>
+        <winrate>50.62</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2013,9 +2002,9 @@
         <name>Yasuo</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>15.38</pickrate>
+        <banrate>25.78</banrate>
+        <winrate>48.89</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2024,9 +2013,9 @@
         <name>Yone</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>16.75</pickrate>
+        <banrate>18.83</banrate>
+        <winrate>48.72</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2035,9 +2024,9 @@
         <name>Yorick</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>4.51</pickrate>
+        <banrate>5.84</banrate>
+        <winrate>51.24</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2046,9 +2035,9 @@
         <name>Yuumi</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>5.18</pickrate>
+        <banrate>3.71</banrate>
+        <winrate>47.61</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2057,9 +2046,9 @@
         <name>Zac</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>6.53</pickrate>
+        <banrate>3.7</banrate>
+        <winrate>51.18</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2068,9 +2057,9 @@
         <name>Zed</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>8.54</pickrate>
+        <banrate>23.1</banrate>
+        <winrate>48.64</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2079,9 +2068,9 @@
         <name>Zeri</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>7.47</pickrate>
+        <banrate>3.82</banrate>
+        <winrate>49.36</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2090,9 +2079,9 @@
         <name>Ziggs</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>2.27</pickrate>
+        <banrate>0.33</banrate>
+        <winrate>49.51</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2101,9 +2090,9 @@
         <name>Zilean</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>2.47</pickrate>
+        <banrate>0.5</banrate>
+        <winrate>51.43</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2112,9 +2101,9 @@
         <name>Zoe</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>1.92</pickrate>
+        <banrate>0.81</banrate>
+        <winrate>47.74</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
@@ -2123,9 +2112,9 @@
         <name>Zyra</name>
         <lore>The Eye of the Void</lore>
         <full_lore>Vel'Koz is an alien being from the Void who seeks to understand the universe through destruction.</full_lore>
-        <pickrate>0.22</pickrate>
-        <banrate>0.03</banrate>
-        <winrate>0.51</winrate>
+        <pickrate>6.43</pickrate>
+        <banrate>7.78</banrate>
+        <winrate>51.93</winrate>
         <difficulty>3</difficulty>
         <fun>4</fun>
     </champion>
