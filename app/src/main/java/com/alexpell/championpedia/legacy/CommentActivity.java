@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.alexpell.championpedia.MyRecyclerViewModel;
 import com.alexpell.championpedia.R;
 import com.alexpell.championpedia.databinding.ActivityCommentBinding;
 
@@ -18,21 +19,26 @@ public class CommentActivity extends AppCompatActivity {
 
     ActivityCommentBinding binding;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityCommentBinding.inflate(getLayoutInflater());
-        View view = binding.getRoot();
+        setContentView(R.layout.activity_comment);
 
-        List<CommentModel> commentList = new ArrayList<>();
-        commentList.add(new CommentModel("Alex Pell", "2021-07-01", "This is a comment", R.drawable.aatrox));
-        commentList.add(new CommentModel("Predatoria <3 Dralexgon", "2289-07-01", "This is a weird comment", R.drawable.ahri));
+        Toast.makeText(this, "This is test 1", Toast.LENGTH_SHORT).show();
+
+        ArrayList<CommentModel> comments = new ArrayList<>();
+        comments.add(new CommentModel("Alex",  "22/04","This is a comment", 1));
+        comments.add(new CommentModel("tets2",  "22/04","This is a commeeeeent", 1));
 
         RecyclerView recyclerView = findViewById(R.id.commentRecyclerView);
-        CommentRecyclerViewAdapter adapter = new CommentRecyclerViewAdapter(this, commentList);
-        recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        CommentRecyclerViewAdapter commentAdapter = new CommentRecyclerViewAdapter(this, comments);
+        recyclerView.setAdapter(commentAdapter);
+        //recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        Toast.makeText(this, "This is a test", Toast.LENGTH_SHORT).show();
+
+        Toast.makeText(this, "This is test 2", Toast.LENGTH_SHORT).show();
     }
+
+
 }

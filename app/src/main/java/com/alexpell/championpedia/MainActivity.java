@@ -1,6 +1,8 @@
 package com.alexpell.championpedia;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,7 +11,14 @@ import android.os.Bundle;
 import android.view.View;
 
 
+import com.alexpell.championpedia.DB.Comment;
 import com.alexpell.championpedia.databinding.ActivityMainBinding;
+import com.alexpell.championpedia.legacy.CommentActivity;
+import com.alexpell.championpedia.legacy.CommentModel;
+import com.alexpell.championpedia.legacy.CommentRecyclerViewAdapter;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,12 +26,16 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
 
+        setContentView(R.layout.activity_main);
+        startActivity(new Intent(getApplicationContext(), RecyclerViewActivity.class));
 
+        /*
         if (getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE).getBoolean("loggedIn", false))
             startActivity(new Intent(getApplicationContext(), LandingPage.class));
 
@@ -47,5 +60,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+         */
     }
 }

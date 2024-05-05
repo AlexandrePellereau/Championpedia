@@ -10,23 +10,27 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.alexpell.championpedia.R;
+import com.alexpell.championpedia.databinding.ActivityRecyclerViewBinding;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class CommentRecyclerViewAdapter extends RecyclerView.Adapter<CommentRecyclerViewAdapter.MyViewHolder> {
 
     private Context context;
-    private List<CommentModel> commentList;
+    private ArrayList<CommentModel> commentList;
 
-    public CommentRecyclerViewAdapter(Context context, List<CommentModel> commentList) {
+    public CommentRecyclerViewAdapter(Context context, ArrayList<CommentModel> commentList) {
         this.commentList = commentList;
     }
 
     @NonNull
     @Override
     public CommentRecyclerViewAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        LayoutInflater inflater = LayoutInflater.from(context);
-        View view = inflater.inflate(R.layout.recycler_view_row, parent, false);
+        ActivityRecyclerViewBinding binding = ActivityRecyclerViewBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false);
+        View view = binding.getRoot();
+
+        //LayoutInflater inflater = LayoutInflater.from(context);
+        //View view = inflater.inflate(R.layout.comment_row_legacy, parent, false);
         return new CommentRecyclerViewAdapter.MyViewHolder(view);
     }
 
