@@ -69,7 +69,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
         app:layout_constraintVertical_bias="0.0"
-        android:textColor="#919191"
-        android:backgroundTint="#E6E6E6"/>
+        android:textColor="#252525"
+        android:textSize="20sp"
+        android:backgroundTint="#63396A"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
