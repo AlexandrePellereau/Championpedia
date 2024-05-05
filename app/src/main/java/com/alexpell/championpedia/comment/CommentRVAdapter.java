@@ -17,11 +17,11 @@ import java.util.ArrayList;
 public class CommentRVAdapter extends RecyclerView.Adapter<CommentRVAdapter.MyViewHolder>{
 
     Context context;
-    ArrayList<CommentModel> mCommentModels;
+    ArrayList<CommentModel> commentModels;
 
     public CommentRVAdapter(Context context, ArrayList<CommentModel> commentModels) {
         this.context = context;
-        this.mCommentModels = commentModels;
+        this.commentModels = commentModels;
     }
 
     @NonNull
@@ -34,15 +34,15 @@ public class CommentRVAdapter extends RecyclerView.Adapter<CommentRVAdapter.MyVi
 
     @Override
     public void onBindViewHolder(@NonNull CommentRVAdapter.MyViewHolder holder, int position) {
-        holder.name.setText(mCommentModels.get(position).getName());
-        holder.date.setText(mCommentModels.get(position).getDate());
-        holder.content.setText(mCommentModels.get(position).getContent());
-        holder.image.setImageResource(mCommentModels.get(position).getImage());
+        holder.name.setText(commentModels.get(position).getName());
+        holder.date.setText(commentModels.get(position).getDate());
+        holder.content.setText(commentModels.get(position).getContent());
+        holder.image.setImageResource(commentModels.get(position).getImage());
     }
 
     @Override
     public int getItemCount() {
-        return mCommentModels.size();
+        return commentModels.size();
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {

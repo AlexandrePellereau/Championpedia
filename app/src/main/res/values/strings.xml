@@ -19,6 +19,8 @@
     <string name="comment">Comment</string>
     <string name="password">Password</string>
     <string name="send">Send</string>
+    <string name="coms">Coms</string>
+    <string name="del">Del</string>
 
     <string-array name="comment_tests">
         <item>Test Comment 1</item>

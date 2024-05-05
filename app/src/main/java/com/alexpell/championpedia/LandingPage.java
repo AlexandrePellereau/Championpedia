@@ -8,6 +8,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.alexpell.championpedia.admin.AdminActivity;
 import com.alexpell.championpedia.comment.CommentActivity;
 import com.alexpell.championpedia.databinding.ActivityLandingPageBinding;
 
@@ -46,7 +47,7 @@ public class LandingPage extends AppCompatActivity {
         binding.adminButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), CommentActivity.class));
+                startActivity(new Intent(getApplicationContext(), AdminActivity.class));
             }
         });
     }

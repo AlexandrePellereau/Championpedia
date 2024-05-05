@@ -26,6 +26,9 @@ public interface AllDAO {
     @Query("SELECT * FROM " + AppDataBase.USER_TABLE + " WHERE id = :userId")
     User getUser(int userId);
 
+    @Query("DELETE FROM " + AppDataBase.USER_TABLE + " WHERE id = :userId")
+    void deleteUser(int userId);
+
     @Insert
     void insert(Comment... comment);
 

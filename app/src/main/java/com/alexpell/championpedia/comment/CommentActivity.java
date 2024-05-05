@@ -42,7 +42,7 @@ public class CommentActivity extends AppCompatActivity {
                 .getAllDAO();
 
 
-        SetUpMyRecyclerViewModels();
+        setUpCommentModels();
         RecyclerView recyclerView = binding.commentRecyclerView;
         CommentRVAdapter commentRVAdapter = new CommentRVAdapter(this, commentModels);
         recyclerView.setAdapter(commentRVAdapter);
@@ -70,7 +70,8 @@ public class CommentActivity extends AppCompatActivity {
         allDAO.insert(new Comment(1, userId, content, date));
     }
 
-    private void SetUpMyRecyclerViewModels() {
+    private void setUpCommentModels() {
+        //TODO : remove example comments and add a textView "No comments yet" if there are no comments
         commentModels.add(new CommentModel("name1", "date1", "content1", getImages("name1")));
         commentModels.add(new CommentModel("name2", "date2", "content2", getImages("name2")));
         for (Comment comment : allDAO.getComments(1)) {
