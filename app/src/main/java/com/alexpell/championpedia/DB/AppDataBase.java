@@ -1,6 +1,7 @@
 package com.alexpell.championpedia.DB;
 
 import android.content.Context;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.room.Database;
@@ -42,8 +43,10 @@ public abstract class AppDataBase extends RoomDatabase {
         @Override
         public void onCreate(@NonNull SupportSQLiteDatabase db) {
             super.onCreate(db);
+            Log.d("AppDataBase", "onCreate: ");
             try {
                 Initialise.initialiseDB(ContextProvider.getContext());
+                Log.d("AppDataBase", "onCreate: DB initialised");
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }

@@ -8,12 +8,15 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.alexpell.championpedia.DB.AllDAO;
+import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.admin.AdminActivity;
 import com.alexpell.championpedia.champion.ChampionActivity;
 import com.alexpell.championpedia.databinding.ActivityLandingPageBinding;
 
 public class LandingPage extends AppCompatActivity {
 
+    AllDAO allDAO;
     SharedPreferences sharedPreferences;
     ActivityLandingPageBinding binding;
     SharedPreferences.Editor editor;
@@ -31,6 +34,8 @@ public class LandingPage extends AppCompatActivity {
         }
         View view = binding.getRoot();
         setContentView(view);
+        allDAO = AppDataBase.getInstance(getApplicationContext()).getAllDAO();
+        binding.loginText.setText(String.format("%s%s", getString(R.string.logged_in_as), allDAO.getUser(sharedPreferences.getInt("userId", 0)).getUsername()));
 
         binding.logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,7 +54,6 @@ public class LandingPage extends AppCompatActivity {
             }
         });
         setChampions();
-
     }
 
     private void setChampions(){

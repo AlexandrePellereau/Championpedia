@@ -38,9 +38,7 @@ public class ChampionActivity extends AppCompatActivity {
 
         String championName = sharedPreferences.getString("champion","velkoz");
 
-        Log.d("ChampionActivity", "onCreate: "+championName);
         champion = allDAO.getChampionByName(championName);
-
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

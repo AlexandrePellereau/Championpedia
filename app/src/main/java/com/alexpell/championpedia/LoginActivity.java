@@ -43,7 +43,6 @@ public class LoginActivity extends AppCompatActivity {
             createAccount = extras.getBoolean("createAccount");
         }
 
-        Toast.makeText(this, "Starting...", Toast.LENGTH_SHORT).show();
         username = binding.editTextUsername;
         password = binding.editTextPassword;
         Button button = binding.buttonSubmit;
@@ -63,19 +62,12 @@ public class LoginActivity extends AppCompatActivity {
                 login();
             }
         });
-        password.setOnEditorActionListener(new TextView.OnEditorActionListener() {//when the user presses the enter key
+        binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                boolean handled = false;
-                if (actionId == EditorInfo.IME_ACTION_SEND) {
-                    Toast.makeText(LoginActivity.this, "test2", Toast.LENGTH_SHORT).show();
-                    login();
-                    handled = true;
-                }
-                return handled;
+            public void onClick(View v) {
+                finish();
             }
         });
-
     }
 
     public void login() {
