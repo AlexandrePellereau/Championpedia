@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Championpedia"
         tools:targetApi="31">
         <activity
+            android:name=".FullLoreActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChampionActivity"
             android:exported="false" />
         <activity

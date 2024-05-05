@@ -38,10 +38,11 @@ public class ChampionActivity extends AppCompatActivity {
 
         String championName = sharedPreferences.getString("champion","velkoz");
 
-       // champion = championDAO.getChampionByName(championName);
+       /* Crash : champion = championDAO.getChampionByName("Aatrox");*/
 
         int resourceId = getResources().getIdentifier(championName, "drawable", getPackageName());
-        binding.championImage.setImageResource(resourceId);
+       //  Crash : binding.championImage.setImageResource(resourceId);
+
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,7 +51,11 @@ public class ChampionActivity extends AppCompatActivity {
             }
         });
 
-      //  binding.championWr.setText(champion.getLore());
+        binding.fullLoreButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),FullLoreActivity.class));
+            }
+        });
     }
-
 }

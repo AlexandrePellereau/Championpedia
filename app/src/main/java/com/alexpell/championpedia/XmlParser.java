@@ -1,5 +1,9 @@
 package com.alexpell.championpedia;
 
+import android.content.Context;
+import android.content.res.Resources;
+import android.content.res.XmlResourceParser;
+
 import com.alexpell.championpedia.Champion;
 
 import org.xmlpull.v1.XmlPullParser;
@@ -12,65 +16,50 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class XmlParser {
-    public static List<Champion> parseChampions(InputStream inputStream) throws XmlPullParserException, IOException {
-        List<Champion> champions = new ArrayList<>();
 
-        XmlPullParserFactory xmlPullParserFactory = XmlPullParserFactory.newInstance();
-        XmlPullParser parser = xmlPullParserFactory.newPullParser();
-        parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
-        parser.setInput(inputStream, null);
+    public static List<String> parseChampions(Context context, int xmlFile){
+        List<String> champions = new ArrayList<>();
+        Resources resources = context.getResources();
+        XmlResourceParser parser = resources.getXml(xmlFile);
+       try {
+           while (parser.next() != XmlPullParser.END_DOCUMENT) {
+               if (parser.getEventType() == XmlPullParser.START_TAG &&  !parser.getName().equals("champion") && !parser.getName().equals("champions")) {
+                   champions.add(parser.nextText());
+                  /* Champion champion = new Champion();
+                   for(int i = 0; i<7;i++){
+                       switch (i){
+                           case 0:
+                               champion.setName(parser.nextText());
+                               break;
+                           case 1:
+                               champion.setLore(parser.nextText());
+                               break;
+                           case 2:
+                               champion.setFull_lore(parser.nextText());
+                               break;
+                           case 3:
+                               champion.setPickrate(Double.parseDouble(parser.nextText()));
+                               break;
+                           case 4:
+                               champion.setBanrate(Double.parseDouble(parser.nextText()));
+                               break;
+                           case 5:
+                               champion.setWinrate(Double.parseDouble(parser.nextText()));
+                               break;
+                           case 6:
+                               champion.setDifficulty(Integer.parseInt(parser.nextText()));
+                               break;
+                       }
 
-        int eventType = parser.getEventType();
-        Champion champion = null;
+                   }
+                   champions.add(champion);*/
+               }
+           }
+           return champions;
 
-        while (eventType != XmlPullParser.END_DOCUMENT) {
-            String tagName = parser.getName();
-            switch (eventType) {
-                case XmlPullParser.START_TAG:
-                    if ("champion".equals(tagName)) {
-                        champion = new Champion();
-                    }
-                    break;
-
-                case XmlPullParser.TEXT:
-                    String text = parser.getText();
-                    if (champion != null) {
-                        switch (tagName) {
-                            case "name":
-                                champion.setName(text);
-                                break;
-                            case "lore":
-                                champion.setLore(text);
-                                break;
-                            case "full_lore":
-                                champion.setFull_lore(text);
-                                break;
-                            case "pickrate":
-                                champion.setPickrate(Double.parseDouble(text));
-                                break;
-                            case "banrate":
-                                champion.setBanrate(Double.parseDouble(text));
-                                break;
-                            case "winrate":
-                                champion.setWinrate(Double.parseDouble(text));
-                                break;
-                            case "difficulty":
-                                champion.setDifficulty(Integer.parseInt(text));
-                                break;
-                        }
-                    }
-                    break;
-
-                case XmlPullParser.END_TAG:
-                    if ("champion".equals(tagName)) {
-                        champions.add(champion);
-                        champion = null;
-                    }
-                    break;
-            }
-            eventType = parser.next();
-        }
-
-        return champions;
+       }
+       catch (Exception e){
+           return champions;
+       }
     }
 }

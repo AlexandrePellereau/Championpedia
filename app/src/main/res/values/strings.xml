@@ -17,5 +17,8 @@
     <string name="login_successful">Login Successful</string>
     <string name="login_failed">Login Failed</string>
     <string name="back">Back</string>
+    <string name="championimage">championImage</string>
+    <string name="lore">Lore</string>
+    <string name="see_more">See More</string>
 
 </resources>

@@ -20,8 +20,12 @@ public interface ChampionDAO {
     @Delete
     void delete(Champion entity);
 
+    @Query("SELECT * FROM " + AppDataBase.CHAMPIONS_TABLE + " WHERE id = :id")
+    Champion getChampionById(Integer id);
+
     @Query("SELECT * FROM " + AppDataBase.CHAMPIONS_TABLE + " WHERE champion_name = :name")
     Champion getChampionByName(String name);
 
-
+    @Query("DELETE FROM " + AppDataBase.CHAMPIONS_TABLE)
+    void boom();
 }

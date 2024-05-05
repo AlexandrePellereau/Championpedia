@@ -30,6 +30,9 @@ public class Champion {
     @ColumnInfo(name = "champîon_difficulty")
     private int difficulty;
 
+    @ColumnInfo(name = "champion_fun")
+    private int fun;
+
     public int getId() {
         return id;
     }
@@ -93,5 +96,13 @@ public class Champion {
 
     public void setDifficulty(int difficulty) {
         this.difficulty = difficulty;
+    }
+
+    public int getFun() {
+        return fun;
+    }
+
+    public void setFun(int fun) {
+        this.fun = fun;
     }
 }

@@ -51,7 +51,7 @@ public class LandingPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 editor = sharedPreferences.edit();
-                editor.putString("champion","aatrox");
+                editor.putString("champion","Aatrox");
                 editor.apply();
                 startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
             }
@@ -61,7 +61,7 @@ public class LandingPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 editor = sharedPreferences.edit();
-                editor.putString("champion","ahri");
+                editor.putString("champion","Ahri");
                 editor.apply();
                 startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
             }
@@ -71,7 +71,7 @@ public class LandingPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 editor = sharedPreferences.edit();
-                editor.putString("champion","akali");
+                editor.putString("champion","Akali");
                 editor.apply();
                 startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
             }
@@ -81,7 +81,7 @@ public class LandingPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 editor = sharedPreferences.edit();
-                editor.putString("champion","karma");
+                editor.putString("champion","Karma");
                 editor.apply();
                 startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
             }
@@ -91,7 +91,7 @@ public class LandingPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 editor = sharedPreferences.edit();
-                editor.putString("champion","velkoz");
+                editor.putString("champion","Vel'koz");
                 editor.apply();
                 startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
             }

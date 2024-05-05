@@ -5,10 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 
+import com.alexpell.championpedia.DB.AppDataBase;
+import com.alexpell.championpedia.DB.ChampionDAO;
 import com.alexpell.championpedia.databinding.ActivityMainBinding;
 
 import org.xmlpull.v1.XmlPullParserException;
@@ -26,19 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         sharedPreferences = getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE);
-        editor = sharedPreferences.edit();
-
-       /* if (!sharedPreferences.getBoolean("DbInstantiated",false)){
-
-            try {
-                Initialise.initialiseDB(getApplicationContext());
-            } catch (XmlPullParserException e) {
-                throw new RuntimeException(e);
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-            editor.putBoolean("DbInstantiated",true);
-        }*/
+        ContextProvider.initialize(getApplicationContext());
 
         if (sharedPreferences.getBoolean("loggedIn", false))
             startActivity(new Intent(getApplicationContext(), LandingPage.class));
@@ -46,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
-
         binding.login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
 
     }
 }
