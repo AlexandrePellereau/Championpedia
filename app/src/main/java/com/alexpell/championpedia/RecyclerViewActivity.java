@@ -27,10 +27,15 @@ public class RecyclerViewActivity extends AppCompatActivity {
     }
 
     private void SetUpMyRecyclerViewModels() {
+        myRecyclerViewModels.add(new MyRecyclerViewModel("name1", "date1", "content1", R.drawable.aatrox));
+        myRecyclerViewModels.add(new MyRecyclerViewModel("name2", "date2", "content2", R.drawable.ahri));
+        myRecyclerViewModels.add(new MyRecyclerViewModel("name3", "date3", "content3", R.drawable.akali));
+        /*
         String[] names = getResources().getStringArray(R.array.comment_tests);
 
         for (String name : names) {
             myRecyclerViewModels.add(new MyRecyclerViewModel(name));
         }
+         */
     }
 }
