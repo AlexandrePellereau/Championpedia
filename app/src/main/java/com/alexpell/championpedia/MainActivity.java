@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences.Editor editor;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

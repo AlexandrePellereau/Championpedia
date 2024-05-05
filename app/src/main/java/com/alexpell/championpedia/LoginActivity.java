@@ -19,16 +19,13 @@ import com.alexpell.championpedia.DB.User;
 import com.alexpell.championpedia.DB.UserDAO;
 import com.alexpell.championpedia.databinding.ActivityLoginBinding;
 
-import java.util.List;
-
 public class LoginActivity extends AppCompatActivity {
 
     public static boolean createAccount = false;
 
     private ActivityLoginBinding binding;
 
-    private UserDAO mUserDAO;
-    private List<User> mUsers;
+    private UserDAO userDAO;
 
     private EditText email;
     private EditText password;
@@ -49,10 +46,10 @@ public class LoginActivity extends AppCompatActivity {
         email = binding.editTextEmailAddress;
         password = binding.editTextPassword;
         Button button = binding.buttonSubmit;
-        mUserDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
+        userDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
                 .allowMainThreadQueries()
                 .build()
-                .loginLogDAO();
+                .getUserDAO();
 
         if (createAccount)
             binding.TextviewTitle.setText(R.string.create_account);
@@ -104,7 +101,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void createUserAndLogin(String email, String password, boolean admin) {
         User newUser = new User(email, email, password, admin);
-        mUserDAO.insert(newUser);
+        userDAO.insert(newUser);
         loginSuccess(newUser.getUsername(), email, password, admin);
     }
 
@@ -113,8 +110,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void loginExistingUser(String email, String password) {
-        mUsers = mUserDAO.getLogins();
-        for (User user : mUsers) {
+        for (User user : userDAO.getLogins()) {
             if (user.getEmail().equals(email) && user.getPassword().equals(password)) {
                 loginSuccess(user.getUsername(), email, password, user.getAdmin());
                 return;

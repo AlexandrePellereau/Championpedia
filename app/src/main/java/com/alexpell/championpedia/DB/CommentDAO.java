@@ -12,13 +12,13 @@ import java.util.List;
 public interface CommentDAO {
 
     @Insert
-    void insert(User... user);
+    void insert(Comment... comment);
 
     @Update
-    void update(User... user);
+    void update(Comment... comment);
 
     @Delete
-    void delete(User user);
+    void delete(Comment comment);
 
     @Query("SELECT * FROM " + AppDataBase.COMMENT_TABLE + " WHERE championId = :championId")
     List<Comment> getComments(int championId);
