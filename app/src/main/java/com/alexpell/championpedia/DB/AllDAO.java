@@ -24,7 +24,7 @@ public interface AllDAO {
     List<User> getUsers();
 
     @Query("SELECT * FROM " + AppDataBase.USER_TABLE + " WHERE id = :userId")
-    List<User> getUser(int userId);
+    User getUser(int userId);
 
     @Insert
     void insert(Comment... comment);

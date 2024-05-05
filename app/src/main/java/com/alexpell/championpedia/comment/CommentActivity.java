@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.room.Room;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 
@@ -24,7 +25,7 @@ import java.util.Locale;
 public class CommentActivity extends AppCompatActivity {
 
     ActivityCommentBinding binding;
-    ArrayList<CommentModel> mCommentModels = new ArrayList<>();
+    ArrayList<CommentModel> commentModels = new ArrayList<>();
 
     AllDAO allDAO;
 
@@ -43,31 +44,39 @@ public class CommentActivity extends AppCompatActivity {
 
         SetUpMyRecyclerViewModels();
         RecyclerView recyclerView = binding.commentRecyclerView;
-        CommentRVAdapter commentRVAdapter = new CommentRVAdapter(this, mCommentModels);
+        CommentRVAdapter commentRVAdapter = new CommentRVAdapter(this, commentModels);
         recyclerView.setAdapter(commentRVAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         binding.commentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String username = getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).getString("username", "username");
+                String username = allDAO.getUser(getUserId()).getUsername();
                 String date = getDateTime();
                 String content = binding.commentEditText.getText().toString();
-                mCommentModels.add(new CommentModel(username, date, content, R.drawable.aatrox));
+                commentModels.add(new CommentModel(username, date, content, getImages(username)));
                 //commentRVAdapter.notifyDataSetChanged();
-                commentRVAdapter.notifyItemInserted(mCommentModels.size() - 1);
+                commentRVAdapter.notifyItemInserted(commentModels.size() - 1);
+                AddCommentToDB(getUserId(), date, content);
             }
         });
     }
 
-    private void AddCommentToDB(String username, String date, String content) {
-        allDAO.insert(new Comment(1, 1, content, date));
+    private int getUserId() {
+        return getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE).getInt("userId", 42);
+    }
+
+    private void AddCommentToDB(int userId, String date, String content) {
+        allDAO.insert(new Comment(1, userId, content, date));
     }
 
     private void SetUpMyRecyclerViewModels() {
-        mCommentModels.add(new CommentModel("name1", "date1", "content1", getImages("name1")));
-        mCommentModels.add(new CommentModel("name2", "date2", "content2", getImages("name2")));
-        mCommentModels.add(new CommentModel("name3", "date3", "content3", getImages("name3")));
+        commentModels.add(new CommentModel("name1", "date1", "content1", getImages("name1")));
+        commentModels.add(new CommentModel("name2", "date2", "content2", getImages("name2")));
+        for (Comment comment : allDAO.getComments(1)) {
+            String username = allDAO.getUser(comment.getUserId()).getUsername();
+            commentModels.add(new CommentModel(username, comment.getPublicationDate(), comment.getContent(), getImages(username)));
+        }
     }
 
     private String getDateTime() {

@@ -6,6 +6,7 @@ import androidx.room.Room;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -27,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private AllDAO allDAO;
 
-    private EditText email;
+    private EditText username;
     private EditText password;
 
     @Override
@@ -43,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         Toast.makeText(this, "Starting...", Toast.LENGTH_SHORT).show();
-        email = binding.editTextEmailAddress;
+        username = binding.editTextUsername;
         password = binding.editTextPassword;
         Button button = binding.buttonSubmit;
         allDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
@@ -78,7 +79,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login() {
-        String usernameText = email.getText().toString();
+        String usernameText = username.getText().toString();
         String passwordText = password.getText().toString();
 
         if (usernameText.isEmpty() || passwordText.isEmpty()) {
@@ -91,22 +92,14 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        if (usernameText.equals("admin") && passwordText.equals("admin")) {
-            loginAdmin();
-            return;
-        }
-
         loginExistingUser(usernameText, passwordText);
     }
 
     private void createUserAndLogin(String username, String password, boolean admin) {
         User newUser = new User(username, password, admin);
         allDAO.insert(newUser);
-        loginSuccess(newUser.getId(), admin);
-    }
-
-    private void loginAdmin() {
-        loginSuccess(0, true);
+        User finalUser = allDAO.getUsers().get(allDAO.getUsers().size() - 1);
+        loginSuccess(finalUser.getId(), admin);
     }
 
     private void loginExistingUser(String username, String password) {
@@ -125,6 +118,7 @@ public class LoginActivity extends AppCompatActivity {
         editor.putInt("userId", userId);
         editor.putBoolean("isAdmin", isAdmin);
         editor.apply();
+        Log.d("AlexTest", "loginUserId: " + userId);
         startActivity(new Intent(getApplicationContext(), LandingPage.class));
     }
 
