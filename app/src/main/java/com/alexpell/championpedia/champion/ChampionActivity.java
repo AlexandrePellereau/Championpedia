@@ -42,8 +42,8 @@ public class ChampionActivity extends AppCompatActivity {
         Log.d("ChampionActivity", "onCreate: "+championName);
         champion = allDAO.getChampionByName(championName);
         Log.d("ChampionActivity", "onCreate: "+champion);
-        Log.d("ChampionActivity", "onCreate: "+champion.getName());
-        Toast.makeText(this, champion.getName(), Toast.LENGTH_SHORT).show();
+        //Log.d("ChampionActivity", "onCreate: "+champion.getName());
+        //Toast.makeText(this, champion.getName(), Toast.LENGTH_SHORT).show();
 
 
         int resourceId = getResources().getIdentifier(championName, "drawable", getPackageName());
