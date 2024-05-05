@@ -19,13 +19,13 @@
             android:name=".comment.CommentActivity"
             android:exported="false" />
         <activity
-            android:name=".AddReview"
+            android:name=".champion.AddReview"
             android:exported="false" />
         <activity
-            android:name=".FullLoreActivity"
+            android:name=".champion.FullLoreActivity"
             android:exported="false" />
         <activity
-            android:name=".ChampionActivity"
+            android:name=".champion.ChampionActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"

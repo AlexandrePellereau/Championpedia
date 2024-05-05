@@ -6,7 +6,7 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.alexpell.championpedia.Champion;
+import com.alexpell.championpedia.champion.Champion;
 
 @Dao
 public interface ChampionDAO {

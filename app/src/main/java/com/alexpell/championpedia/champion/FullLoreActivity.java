@@ -1,16 +1,12 @@
-package com.alexpell.championpedia;
+package com.alexpell.championpedia.champion;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 
-import com.alexpell.championpedia.DB.AppDataBase;
-import com.alexpell.championpedia.DB.ChampionDAO;
-import com.alexpell.championpedia.databinding.ActivityChampionBinding;
 import com.alexpell.championpedia.databinding.ActivityFullLoreBinding;
 
 public class FullLoreActivity extends AppCompatActivity {

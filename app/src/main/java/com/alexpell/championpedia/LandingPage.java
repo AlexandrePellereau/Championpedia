@@ -9,7 +9,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.alexpell.championpedia.admin.AdminActivity;
-import com.alexpell.championpedia.comment.CommentActivity;
+import com.alexpell.championpedia.champion.ChampionActivity;
 import com.alexpell.championpedia.databinding.ActivityLandingPageBinding;
 
 public class LandingPage extends AppCompatActivity {
@@ -59,7 +59,7 @@ public class LandingPage extends AppCompatActivity {
                 editor = sharedPreferences.edit();
                 editor.putString("champion","Aatrox");
                 editor.apply();
-                startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
+                startActivity(new Intent(getApplicationContext(), ChampionActivity.class));
             }
         });
 

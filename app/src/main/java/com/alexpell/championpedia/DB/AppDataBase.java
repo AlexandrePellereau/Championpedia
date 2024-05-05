@@ -8,8 +8,8 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import com.alexpell.championpedia.ContextProvider;
-import com.alexpell.championpedia.Initialise;
+import com.alexpell.championpedia.champion.ContextProvider;
+import com.alexpell.championpedia.champion.Initialise;
 
 @Database(entities = {User.class, Comment.class}, version = 1)
 public abstract class AppDataBase extends RoomDatabase {

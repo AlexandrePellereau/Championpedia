@@ -1,4 +1,4 @@
-package com.alexpell.championpedia;
+package com.alexpell.championpedia.champion;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

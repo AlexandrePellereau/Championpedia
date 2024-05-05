@@ -1,8 +1,7 @@
-package com.alexpell.championpedia;
+package com.alexpell.championpedia.champion;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,6 +10,7 @@ import android.view.View;
 
 import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.DB.ChampionDAO;
+import com.alexpell.championpedia.LandingPage;
 import com.alexpell.championpedia.databinding.ActivityChampionBinding;
 
 public class ChampionActivity extends AppCompatActivity {

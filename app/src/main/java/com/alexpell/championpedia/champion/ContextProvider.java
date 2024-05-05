@@ -1,4 +1,4 @@
-package com.alexpell.championpedia;
+package com.alexpell.championpedia.champion;
 
 import android.content.Context;
 

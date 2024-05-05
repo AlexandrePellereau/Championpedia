@@ -1,16 +1,15 @@
-package com.alexpell.championpedia;
+package com.alexpell.championpedia.champion;
 
 import android.content.Context;
 import android.widget.Toast;
 
 import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.DB.ChampionDAO;
+import com.alexpell.championpedia.R;
 
-import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -23,7 +22,7 @@ public class Initialise {
     static final ExecutorService databaseWriteExecutor = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
 
     public static void initialiseDB(Context context) throws XmlPullParserException, IOException {
-        List<String> parse = XmlParser.parseChampions(context,R.xml.champion_data);
+        List<String> parse = XmlParser.parseChampions(context, R.xml.champion_data);
         List<Champion> champions = new ArrayList<>();
         Champion champion= new Champion();
         for(int i = 0; i< parse.size();i++){
