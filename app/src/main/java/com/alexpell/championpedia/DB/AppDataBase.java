@@ -6,7 +6,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-@Database(entities = {User.class}, version = 1)
+@Database(entities = {User.class, Comment.class}, version = 1)
 public abstract class AppDataBase extends RoomDatabase {
 
     public static final String USER_TABLE = "user";
@@ -15,7 +15,7 @@ public abstract class AppDataBase extends RoomDatabase {
     private static volatile AppDataBase instance;
     private static final Object LOCK = new Object();
 
-    public abstract UserDAO getUserDAO();
+    public abstract AllDAO getUserDAO();
 
     public static AppDataBase getInstance(Context context) {
         if (instance == null) {

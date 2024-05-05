@@ -8,11 +8,11 @@ import androidx.room.Room;
 import android.os.Bundle;
 import android.view.View;
 
+import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.DB.AppDataBase;
-import com.alexpell.championpedia.DB.CommentDAO;
+import com.alexpell.championpedia.DB.Comment;
 import com.alexpell.championpedia.R;
 import com.alexpell.championpedia.databinding.ActivityCommentBinding;
-import com.alexpell.championpedia.databinding.ActivityMainBinding;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -26,6 +26,8 @@ public class CommentActivity extends AppCompatActivity {
     ActivityCommentBinding binding;
     ArrayList<CommentModel> mCommentModels = new ArrayList<>();
 
+    AllDAO allDAO;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,13 +35,11 @@ public class CommentActivity extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
 
-        /*
-        CommentDAO commentDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
+        allDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
                 .allowMainThreadQueries()
                 .build()
-                .getCommentDAO();
+                .getUserDAO();
 
-         */
 
         SetUpMyRecyclerViewModels();
         RecyclerView recyclerView = binding.commentRecyclerView;
@@ -58,6 +58,10 @@ public class CommentActivity extends AppCompatActivity {
                 commentRVAdapter.notifyItemInserted(mCommentModels.size() - 1);
             }
         });
+    }
+
+    private void AddCommentToDB(String username, String date, String content) {
+        allDAO.insert(new Comment(1, 1, content, date));
     }
 
     private void SetUpMyRecyclerViewModels() {

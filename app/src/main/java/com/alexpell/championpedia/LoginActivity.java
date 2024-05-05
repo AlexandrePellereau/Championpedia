@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.DB.User;
-import com.alexpell.championpedia.DB.UserDAO;
+import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {
@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private ActivityLoginBinding binding;
 
-    private UserDAO userDAO;
+    private AllDAO mAllDAO;
 
     private EditText email;
     private EditText password;
@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
         email = binding.editTextEmailAddress;
         password = binding.editTextPassword;
         Button button = binding.buttonSubmit;
-        userDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
+        mAllDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
                 .allowMainThreadQueries()
                 .build()
                 .getUserDAO();
@@ -101,7 +101,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void createUserAndLogin(String email, String password, boolean admin) {
         User newUser = new User(email, email, password, admin);
-        userDAO.insert(newUser);
+        mAllDAO.insert(newUser);
         loginSuccess(newUser.getUsername(), email, password, admin);
     }
 
@@ -110,7 +110,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void loginExistingUser(String email, String password) {
-        for (User user : userDAO.getLogins()) {
+        for (User user : mAllDAO.getLogins()) {
             if (user.getEmail().equals(email) && user.getPassword().equals(password)) {
                 loginSuccess(user.getUsername(), email, password, user.getAdmin());
                 return;
