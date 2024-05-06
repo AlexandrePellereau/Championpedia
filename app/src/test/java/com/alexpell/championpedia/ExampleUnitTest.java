@@ -24,4 +24,9 @@ public class ExampleUnitTest {
         assertEquals("velkoz", MainActivity.parseString("Vel'Koz"));
         assertEquals("aatrox", MainActivity.parseString("Aatrox"));
     }
+
+    @Test
+    public void testGetImageFromUsername() {
+        assertNotEquals(0, MainActivity.getImageFromUsername("admin"));
+    }
 }

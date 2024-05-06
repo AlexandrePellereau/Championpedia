@@ -29,6 +29,9 @@ public interface AllDAO {
     @Query("SELECT * FROM " + AppDataBase.USER_TABLE + " WHERE id = :userId")
     User getUser(int userId);
 
+    @Query("SELECT * FROM " + AppDataBase.USER_TABLE + " WHERE username = :username")
+    User getUserByUsername(String username);
+
     @Query("DELETE FROM " + AppDataBase.USER_TABLE + " WHERE id = :userId")
     void deleteUser(int userId);
 
@@ -74,7 +77,7 @@ public interface AllDAO {
     @Query("DELETE FROM " + AppDataBase.CHAMPIONS_TABLE)
     void boom();
 
-    @Query("SELECT * FROM " + AppDataBase.CHAMPIONS_TABLE)
+    @Query("SELECT * FROM " + AppDataBase.CHAMPIONS_TABLE)// + " ORDER BY champion_name")
     List<Champion> getAllChampions();
 
     @Insert

@@ -86,6 +86,11 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void createUserAndLogin(String username, String password, boolean admin) {
+        User user = allDAO.getUserByUsername(username);
+        if (user != null) {
+            showToast("Username already exists");
+            return;
+        }
         User newUser = new User(username, password, admin);
         allDAO.insert(newUser);
         User finalUser = allDAO.getUsers().get(allDAO.getUsers().size() - 1);

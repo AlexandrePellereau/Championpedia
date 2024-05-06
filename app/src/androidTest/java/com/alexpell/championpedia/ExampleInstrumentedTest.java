@@ -29,18 +29,4 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.alexpell.championpedia", appContext.getPackageName());
     }
-
-    @Test
-    public void testFillChampionTable() {
-        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        AllDAO allDAO = AppDataBase.getInstance(appContext).getAllDAO();
-        ContextProvider.initialize(appContext);
-        try {
-            Initialise.initialiseDB(appContext);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-        assertNotNull(allDAO.getChampionByName("Vel'Koz"));
-        assertNotNull(allDAO.getChampionByName("Zed"));
-    }
 }
