@@ -41,6 +41,7 @@
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp"
+                android:fontFamily="@font/lol_medium"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ScrollView
@@ -53,7 +54,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/lore"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/lol_medium"/>
             </ScrollView>
 
             <Button
@@ -61,6 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/lol_medium"
                 android:text="@string/see_more" />
 
             <LinearLayout
@@ -75,7 +78,8 @@
                     android:layout_weight="1"
                     android:text="@string/pickrate"
                     android:textAlignment="textEnd"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/lol_medium"/>
 
                 <TextView
                     android:id="@+id/pickrate"
@@ -83,6 +87,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="TextView"
+                    android:fontFamily="@font/lol_medium"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF" />
             </LinearLayout>
@@ -99,7 +104,8 @@
                     android:layout_weight="1"
                     android:text="@string/winrate"
                     android:textAlignment="textEnd"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/lol_medium"/>
 
                 <TextView
                     android:id="@+id/winrate"
@@ -108,7 +114,8 @@
                     android:layout_weight="1"
                     android:text="TextView"
                     android:textAlignment="center"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/lol_medium"/>
             </LinearLayout>
 
             <LinearLayout
@@ -123,7 +130,8 @@
                     android:layout_weight="1"
                     android:text="@string/banrate"
                     android:textAlignment="textEnd"
-                    android:textColor="#FFFFFF"/>
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/lol_medium"/>
 
                 <TextView
                     android:id="@+id/banrate"
@@ -132,7 +140,8 @@
                     android:layout_weight="1"
                     android:text="TextView"
                     android:textAlignment="center"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/lol_medium"/>
             </LinearLayout>
 
             <LinearLayout
@@ -147,7 +156,8 @@
                     android:layout_weight="1"
                     android:text="@string/difficulty2"
                     android:textAlignment="textEnd"
-                    android:textColor="#FFFFFF"/>
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/lol_medium"/>
 
                 <TextView
                     android:id="@+id/difficulty"
@@ -156,7 +166,8 @@
                     android:layout_weight="1"
                     android:text="TextView"
                     android:textAlignment="center"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/lol_medium"/>
             </LinearLayout>
 
             <LinearLayout
@@ -180,20 +191,23 @@
                     android:layout_weight="1"
                     android:text="TextwVie"
                     android:textAlignment="center"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/lol_medium"/>
             </LinearLayout>
 
             <Button
                 android:id="@+id/add_review"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/add_review" />
+                android:text="@string/add_review"
+                android:fontFamily="@font/lol_medium"/>
 
             <Button
                 android:id="@+id/comment_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/go_to_comment_section" />
+                android:text="@string/go_to_comment_section"
+                android:fontFamily="@font/lol_medium"/>
 
         </LinearLayout>
     </ScrollView>
@@ -205,6 +219,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/back"
+        android:fontFamily="@font/lol_medium"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
