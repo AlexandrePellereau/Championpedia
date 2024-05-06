@@ -12,6 +12,7 @@ import android.widget.Toast;
 import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.DB.Review;
+import com.alexpell.championpedia.MainActivity;
 import com.alexpell.championpedia.databinding.ActivityAddReviewBinding;
 
 public class AddReview extends AppCompatActivity {
@@ -50,7 +51,7 @@ public class AddReview extends AppCompatActivity {
             }
         });
 
-        int resourceId = getResources().getIdentifier(ChampionActivity.ParseString(champion.getName()), "drawable", getPackageName());
+        int resourceId = getResources().getIdentifier(MainActivity.parseString(champion.getName()), "drawable", getPackageName());
 
         binding.championImage.setImageResource(resourceId);
         binding.championName.setText(championName);
