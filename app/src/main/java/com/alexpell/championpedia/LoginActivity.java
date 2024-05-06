@@ -7,18 +7,16 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.DB.User;
 import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.databinding.ActivityLoginBinding;
+import com.alexpell.championpedia.landing_page.LandingPageActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -111,7 +109,7 @@ public class LoginActivity extends AppCompatActivity {
         editor.putBoolean("isAdmin", isAdmin);
         editor.apply();
         Log.d("AlexTest", "loginUserId: " + userId);
-        startActivity(new Intent(getApplicationContext(), LandingPage.class));
+        startActivity(new Intent(getApplicationContext(), LandingPageActivity.class));
     }
 
     private void showToast(String message) {

@@ -73,4 +73,7 @@ public interface AllDAO {
 
     @Query("DELETE FROM " + AppDataBase.CHAMPIONS_TABLE)
     void boom();
+
+    @Query("SELECT * FROM " + AppDataBase.CHAMPIONS_TABLE)
+    List<Champion> getAllChampions();
 }

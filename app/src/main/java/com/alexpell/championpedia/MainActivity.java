@@ -12,10 +12,7 @@ import android.widget.Toast;
 import com.alexpell.championpedia.champion.ContextProvider;
 import com.alexpell.championpedia.champion.Initialise;
 import com.alexpell.championpedia.databinding.ActivityMainBinding;
-
-import org.xmlpull.v1.XmlPullParserException;
-
-import java.io.IOException;
+import com.alexpell.championpedia.landing_page.LandingPageActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -43,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (sharedPreferences.getBoolean("loggedIn", false))
-            startActivity(new Intent(getApplicationContext(), LandingPage.class));
+            startActivity(new Intent(getApplicationContext(), LandingPageActivity.class));
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
