@@ -8,6 +8,7 @@ import androidx.room.Room;
 
 import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.DB.AppDataBase;
+import com.alexpell.championpedia.DB.User;
 import com.alexpell.championpedia.R;
 
 import org.xmlpull.v1.XmlPullParserException;
@@ -72,6 +73,14 @@ public class Initialise {
             for (Champion champion : champions) {
                 allDAO.insert(champion);
             }
+        });
+    }
+
+    public static void createDefaultUsers(Context context){
+        AllDAO allDAO = Room.databaseBuilder(context, AppDataBase.class, AppDataBase.DATABASE_NAME).build().getAllDAO();
+        databaseWriteExecutor.execute(() -> {
+            allDAO.insert(new User("testuser1","testuser1",false));
+            allDAO.insert(new User("admin2","admin2",true));
         });
     }
 

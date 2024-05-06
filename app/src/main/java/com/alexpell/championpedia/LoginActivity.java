@@ -3,6 +3,7 @@ package com.alexpell.championpedia;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -114,11 +115,18 @@ public class LoginActivity extends AppCompatActivity {
         editor.putBoolean("isAdmin", isAdmin);
         editor.apply();
         Log.d("AlexTest", "loginUserId: " + userId);
-        startActivity(new Intent(getApplicationContext(), LandingPageActivity.class));
+        Intent intent = LandingPageActivity.LandingPageIntentFactory(getApplicationContext());
+        startActivity(intent);
     }
 
     private void showToast(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+    }
+
+    public static Intent LoginActivityIntentFactory(Context context, boolean receivedValue){
+        Intent intent = new Intent(context, LoginActivity.class);
+        intent.putExtra("createAccount", receivedValue);
+        return intent;
     }
 
 }

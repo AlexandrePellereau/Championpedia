@@ -42,4 +42,8 @@ public class FullLoreActivity extends AppCompatActivity {
         binding.championName.setText(championName);
         binding.championLore.setText(champion.getFull_lore());
     }
+
+    public static Intent FullLoreIntentFactory(Context context){
+        return new Intent(context, FullLoreActivity.class);
+    }
 }
