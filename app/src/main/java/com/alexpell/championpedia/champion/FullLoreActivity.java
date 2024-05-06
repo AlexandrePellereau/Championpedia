@@ -31,7 +31,7 @@ public class FullLoreActivity extends AppCompatActivity {
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
+                startActivity(ChampionActivity.ChampionActivityIntentFactory(getApplicationContext()));
             }
         });
         String championName = sharedPreferences.getString("champion","velkoz");
@@ -40,5 +40,9 @@ public class FullLoreActivity extends AppCompatActivity {
         binding.championImage.setImageResource(resourceId);
         binding.championName.setText(championName);
         binding.championLore.setText(champion.getFull_lore());
+    }
+
+    public static Intent FullLoreIntentFactory(Context context){
+        return new Intent(context, FullLoreActivity.class);
     }
 }

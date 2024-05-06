@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -40,15 +41,14 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (sharedPreferences.getBoolean("loggedIn", false))
-            startActivity(new Intent(getApplicationContext(), LandingPageActivity.class));
+            startActivity(LandingPageActivity.LandingPageIntentFactory(getApplicationContext()));
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
         binding.loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-                intent.putExtra("createAccount", false);
+                Intent intent = LoginActivity.LoginActivityIntentFactory(getApplicationContext(),false);
                 startActivity(intent);
             }
         });
@@ -56,13 +56,16 @@ public class MainActivity extends AppCompatActivity {
         binding.createAccountButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-                intent.putExtra("createAccount", true);
+                Intent intent = LoginActivity.LoginActivityIntentFactory(getApplicationContext(),true);
                 startActivity(intent);
             }
         });
 
 
 
+    }
+
+    public static Intent MainActivityIntentFactory(Context context){
+        return new Intent(context,MainActivity.class);
     }
 }

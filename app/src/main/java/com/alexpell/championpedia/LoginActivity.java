@@ -3,6 +3,7 @@ package com.alexpell.championpedia;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -116,4 +117,9 @@ public class LoginActivity extends AppCompatActivity {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 
+    public static Intent LoginActivityIntentFactory(Context context, boolean receivedValue){
+        Intent intent = new Intent(context, LoginActivity.class);
+        intent.putExtra("createAccount", receivedValue);
+        return intent;
+    }
 }

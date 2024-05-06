@@ -41,14 +41,14 @@ public class ChampionActivity extends AppCompatActivity {
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), LandingPageActivity.class));
+                startActivity(LandingPageActivity.LandingPageIntentFactory(getApplicationContext()));
             }
         });
 
         binding.fullLoreButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),FullLoreActivity.class));
+                startActivity(FullLoreActivity.FullLoreIntentFactory(getApplicationContext()));
             }
         });
 
@@ -57,7 +57,7 @@ public class ChampionActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String username = allDAO.getUser(sharedPreferences.getInt("userId",0)).getUsername() ;
                 if (allDAO.getReview(username,championName) == null)
-                    startActivity(new Intent(getApplicationContext(),AddReview.class));
+                    startActivity(AddReviewActivity.AddReviewIntentFactory(getApplicationContext()));
                 else {
                     Toast.makeText(getApplicationContext(),"You already added a review for this character.", Toast.LENGTH_SHORT).show();
                 }
@@ -67,7 +67,7 @@ public class ChampionActivity extends AppCompatActivity {
         binding.commentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), CommentActivity.class));
+                startActivity(CommentActivity.CommentIntentFactory(getApplicationContext()));
             }
         });
 
@@ -123,5 +123,9 @@ public class ChampionActivity extends AppCompatActivity {
             binding.fun.setText("No reviews");
         }
         
+    }
+
+    public static Intent ChampionActivityIntentFactory(Context context){
+        return new Intent(context,ChampionActivity.class);
     }
 }

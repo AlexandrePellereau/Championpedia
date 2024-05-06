@@ -14,7 +14,7 @@ import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.DB.Review;
 import com.alexpell.championpedia.databinding.ActivityAddReviewBinding;
 
-public class AddReview extends AppCompatActivity {
+public class AddReviewActivity extends AppCompatActivity {
 
     int difficulty = 0;
     int fun = 0;
@@ -45,7 +45,7 @@ public class AddReview extends AppCompatActivity {
                     binding.difficulty.setText(String.valueOf(difficulty));
                 }
                 else
-                    Toast.makeText(AddReview.this, "Cannot go below1", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddReviewActivity.this, "Cannot go below1", Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -64,7 +64,7 @@ public class AddReview extends AppCompatActivity {
                     binding.difficulty.setText(String.valueOf(difficulty));
                 }
                 else
-                    Toast.makeText(AddReview.this,"Cannot go further than 5",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddReviewActivity.this,"Cannot go further than 5",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -76,7 +76,7 @@ public class AddReview extends AppCompatActivity {
                     binding.fun.setText(String.valueOf(fun));
                 }
                 else
-                    Toast.makeText(AddReview.this, "Cannot go below1", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddReviewActivity.this, "Cannot go below1", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -88,7 +88,7 @@ public class AddReview extends AppCompatActivity {
                     binding.fun.setText(String.valueOf(fun));
                 }
                 else
-                    Toast.makeText(AddReview.this,"Cannot go further than 5",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddReviewActivity.this,"Cannot go further than 5",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -96,15 +96,20 @@ public class AddReview extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 if (fun == 0 || difficulty == 0)
-                    Toast.makeText(AddReview.this,"Review values cannot be 0",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddReviewActivity.this,"Review values cannot be 0",Toast.LENGTH_SHORT).show();
                 else {
 
-                    Toast.makeText(AddReview.this, "Review added succesfully", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddReviewActivity.this, "Review added succesfully", Toast.LENGTH_SHORT).show();
                     String username = allDAO.getUser(sharedPreferences.getInt("userId",0)).getUsername() ;
                     allDAO.insert(new Review(username,champion.getName(),difficulty,fun));
-                    startActivity(new Intent(AddReview.this,ChampionActivity.class));
+                    startActivity(ChampionActivity.ChampionActivityIntentFactory(getApplicationContext()));
                 }
             }
         });
     }
+
+    public static Intent AddReviewIntentFactory(Context context) {
+        return new Intent(context, AddReviewActivity.class);
+    }
+
 }

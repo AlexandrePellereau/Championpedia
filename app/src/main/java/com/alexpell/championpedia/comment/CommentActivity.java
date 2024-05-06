@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.room.Room;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -107,5 +108,9 @@ public class CommentActivity extends AppCompatActivity {
         }
         int index = sum % images.size();
         return images.get(index);
+    }
+
+    public static Intent CommentIntentFactory(Context context){
+        return new Intent(context, CommentActivity.class);
     }
 }

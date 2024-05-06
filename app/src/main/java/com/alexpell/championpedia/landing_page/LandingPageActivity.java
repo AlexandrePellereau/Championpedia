@@ -65,13 +65,13 @@ public class LandingPageActivity extends AppCompatActivity {
                 editor.putBoolean("loggedIn",false);
                 editor.putBoolean("isAdmin",false);
                 editor.apply();
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                startActivity(MainActivity.MainActivityIntentFactory(getApplicationContext()));
             }
         });
         binding.adminButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), AdminActivity.class));
+                startActivity(AdminActivity.AdminIntentFactory(getApplicationContext()));
             }
         });
     }
@@ -87,5 +87,9 @@ public class LandingPageActivity extends AppCompatActivity {
             championModels.add(new ChampionModel(champion.getName(), image));
         }
 
+    }
+
+    public static Intent LandingPageIntentFactory(Context context){
+        return new Intent(context, LandingPageActivity.class);
     }
 }

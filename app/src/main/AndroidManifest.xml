@@ -19,7 +19,7 @@
             android:name=".comment.CommentActivity"
             android:exported="false" />
         <activity
-            android:name=".champion.AddReview"
+            android:name=".champion.AddReviewActivity"
             android:exported="false" />
         <activity
             android:name=".champion.FullLoreActivity"
