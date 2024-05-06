@@ -10,6 +10,7 @@ import android.view.View;
 
 import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.DB.AppDataBase;
+import com.alexpell.championpedia.MainActivity;
 import com.alexpell.championpedia.databinding.ActivityFullLoreBinding;
 
 public class FullLoreActivity extends AppCompatActivity {
@@ -35,7 +36,7 @@ public class FullLoreActivity extends AppCompatActivity {
             }
         });
         String championName = sharedPreferences.getString("champion","velkoz");
-        int resourceId = getResources().getIdentifier(ChampionActivity.ParseString(championName), "drawable", getPackageName());
+        int resourceId = getResources().getIdentifier(MainActivity.parseString(championName), "drawable", getPackageName());
         champion = allDAO.getChampionByName(championName);
         binding.championImage.setImageResource(resourceId);
         binding.championName.setText(championName);

@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.DB.AppDataBase;
+import com.alexpell.championpedia.MainActivity;
 import com.alexpell.championpedia.comment.CommentActivity;
 import com.alexpell.championpedia.databinding.ActivityChampionBinding;
 import com.alexpell.championpedia.landing_page.LandingPageActivity;
@@ -74,12 +75,10 @@ public class ChampionActivity extends AppCompatActivity {
         setTexts(champion);
     }
 
-    public static String ParseString(String s) {
-        return s.toLowerCase().replace("'","");
-    }
+
 
     private void setTexts(Champion champion) {
-        int resourceId = getResources().getIdentifier(ParseString(champion.getName()), "drawable", getPackageName());
+        int resourceId = getResources().getIdentifier(MainActivity.parseString(champion.getName()), "drawable", getPackageName());
 
         binding.championName.setText(champion.getName());
 

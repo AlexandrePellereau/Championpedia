@@ -65,7 +65,7 @@ public class Initialise {
     }
 
     public static void addChampions(Context context, List<Champion> champions){
-        AllDAO allDAO = Room.databaseBuilder(context, AppDataBase.class, AppDataBase.DATABASE_NAME).build().getAllDAO();
+        AllDAO allDAO = AppDataBase.getInstance(context).getAllDAO();
         databaseWriteExecutor.execute(() -> {
             for (Champion champion : champions) {
                 allDAO.insert(champion);
@@ -74,7 +74,7 @@ public class Initialise {
     }
 
     public static void boomTable(Context context){
-        AllDAO allDAO = Room.databaseBuilder(context, AppDataBase.class, AppDataBase.DATABASE_NAME).build().getAllDAO();
+        AllDAO allDAO = AppDataBase.getInstance(context).getAllDAO();
         allDAO.boom();
     }
 

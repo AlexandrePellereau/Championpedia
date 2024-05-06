@@ -61,8 +61,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
 
-
-
+    public static String parseString(String string) {
+        return string.toLowerCase().replace("'","");
     }
 }

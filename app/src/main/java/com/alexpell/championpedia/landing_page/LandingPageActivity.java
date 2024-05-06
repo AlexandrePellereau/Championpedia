@@ -18,7 +18,6 @@ import com.alexpell.championpedia.MainActivity;
 import com.alexpell.championpedia.R;
 import com.alexpell.championpedia.admin.AdminActivity;
 import com.alexpell.championpedia.champion.Champion;
-import com.alexpell.championpedia.databinding.ActivityLandingPageBinding;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -76,14 +75,10 @@ public class LandingPageActivity extends AppCompatActivity {
         });
     }
 
-    public static String ParseString(String s) {
-        return s.toLowerCase().replace("'","");
-    }
-
     private void setUpChampionModels() {
         List<Champion> champions = allDAO.getAllChampions();
         for (Champion champion : champions) {
-            int image = getResources().getIdentifier(ParseString(champion.getName()), "drawable", getPackageName());
+            int image = getResources().getIdentifier(MainActivity.parseString(champion.getName()), "drawable", getPackageName());
             championModels.add(new ChampionModel(champion.getName(), image));
         }
 
