@@ -1,21 +1,18 @@
 package com.alexpell.championpedia.champion;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.room.Room;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
 import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.DB.AppDataBase;
-import com.alexpell.championpedia.LandingPage;
 import com.alexpell.championpedia.comment.CommentActivity;
 import com.alexpell.championpedia.databinding.ActivityChampionBinding;
+import com.alexpell.championpedia.landing_page.LandingPageActivity;
 
 import java.util.List;
 
@@ -43,8 +40,7 @@ public class ChampionActivity extends AppCompatActivity {
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), LandingPage.class));
-
+                startActivity(new Intent(getApplicationContext(), LandingPageActivity.class));
             }
         });
 

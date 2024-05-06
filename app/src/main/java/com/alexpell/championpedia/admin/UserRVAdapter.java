@@ -1,10 +1,6 @@
 package com.alexpell.championpedia.admin;
 
-import static android.content.Context.MODE_PRIVATE;
-
 import android.content.Context;
-import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,10 +14,7 @@ import androidx.room.Room;
 
 import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.DB.AppDataBase;
-import com.alexpell.championpedia.LandingPage;
-import com.alexpell.championpedia.MainActivity;
 import com.alexpell.championpedia.R;
-import com.alexpell.championpedia.comment.CommentModel;
 
 import java.util.ArrayList;
 
