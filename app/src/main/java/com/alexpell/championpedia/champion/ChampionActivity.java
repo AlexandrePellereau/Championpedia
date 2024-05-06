@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.DB.AppDataBase;
@@ -58,7 +59,7 @@ public class ChampionActivity extends AppCompatActivity {
                 if (allDAO.getReview(username,championName) == null)
                     startActivity(new Intent(getApplicationContext(),AddReview.class));
                 else {
-                    Toast.makeText(getApplicationContext(),"You already added a review for this character.",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"You already added a review for this character.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -74,7 +75,7 @@ public class ChampionActivity extends AppCompatActivity {
     }
 
     public static String ParseString(String s) {
-        return s.toLowerCase().replace("'","");
+        return s.toLowerCase().replace("'","").replace(" ","").replace(".","");
     }
 
     private void setTexts(Champion champion) {
@@ -86,7 +87,13 @@ public class ChampionActivity extends AppCompatActivity {
 
         binding.championLore.setText(champion.getLore());
 
-        binding.banrate.setText(String.valueOf(champion.getBanrate()));
+        binding.banrate.setText(champion.getBanrate() + " %");
+
+        binding.pickrate.setText(champion.getPickrate() + " %");
+
+        binding.winrate.setText(champion.getWinrate() + " %");
+
+
 
         List<Integer> difficulties = allDAO.getChampionsReviewDifficulty(champion.getName());
 
@@ -97,9 +104,9 @@ public class ChampionActivity extends AppCompatActivity {
         }
 
         if (sum != 0)
-            binding.pickrate.setText(String.valueOf(sum/difficulties.size()));
+            binding.difficulty.setText(String.valueOf(sum/difficulties.size()));
         else {
-            binding.pickrate.setText("No reviews");
+            binding.difficulty.setText("No reviews");
         }
 
         List<Integer> fun = allDAO.getChampionsReviewFun(champion.getName());
@@ -111,11 +118,10 @@ public class ChampionActivity extends AppCompatActivity {
         }
 
         if (sum != 0)
-            binding.pickrate.setText(String.valueOf(sum/fun.size()));
+            binding.fun.setText(String.valueOf(sum/fun.size()));
         else {
-            binding.pickrate.setText("No reviews");
+            binding.fun.setText("No reviews");
         }
-
-
+        
     }
 }

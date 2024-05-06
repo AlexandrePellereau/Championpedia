@@ -77,7 +77,7 @@ public class LandingPageActivity extends AppCompatActivity {
     }
 
     public static String ParseString(String s) {
-        return s.toLowerCase().replace("'","");
+        return s.toLowerCase().replace("'","").replace(" ","").replace(".","");
     }
 
     private void setUpChampionModels() {

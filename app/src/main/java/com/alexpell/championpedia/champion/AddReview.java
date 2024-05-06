@@ -50,6 +50,12 @@ public class AddReview extends AppCompatActivity {
             }
         });
 
+        int resourceId = getResources().getIdentifier(ChampionActivity.ParseString(champion.getName()), "drawable", getPackageName());
+
+        binding.championImage.setImageResource(resourceId);
+        binding.championName.setText(championName);
+
+
         binding.addDifficultyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
