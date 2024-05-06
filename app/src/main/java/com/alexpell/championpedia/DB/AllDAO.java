@@ -73,4 +73,22 @@ public interface AllDAO {
 
     @Query("DELETE FROM " + AppDataBase.CHAMPIONS_TABLE)
     void boom();
+
+    @Insert
+    void insert(Review entity);
+
+    @Update
+    void update(Review entity);
+
+    @Delete
+    void delete(Review review);
+
+    @Query("SELECT difficulty FROM " + AppDataBase.REVIEWS_TABLE + " WHERE champion = :name")
+    List<Integer> getChampionsReviewDifficulty(String name);
+
+    @Query("SELECT fun FROM " + AppDataBase.REVIEWS_TABLE + " WHERE champion = :name")
+    List<Integer> getChampionsReviewFun(String name);
+
+    @Query("SELECT * FROM " + AppDataBase.REVIEWS_TABLE + " WHERE champion = :name AND username = :username")
+    Review getReview(String username, String name);
 }

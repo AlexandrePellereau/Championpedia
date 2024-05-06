@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "ef23613cbe1a7ca73bffa3865fa8dcd7",
+    "identityHash": "f444ae909b3c0af5fc892675781272d6",
     "entities": [
       {
         "tableName": "user",
@@ -88,7 +88,7 @@
       },
       {
         "tableName": "champion_table",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `champion_name` TEXT, `champion_lore` TEXT, `full_lore` TEXT, `champion_pickrate` REAL NOT NULL, `champion_banrate` REAL NOT NULL, `champion_winrate` REAL NOT NULL, `champîon_difficulty` INTEGER NOT NULL, `champion_fun` INTEGER NOT NULL)",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `champion_name` TEXT, `champion_lore` TEXT, `full_lore` TEXT, `champion_pickrate` REAL NOT NULL, `champion_banrate` REAL NOT NULL, `champion_winrate` REAL NOT NULL, `champion_difficulty` INTEGER NOT NULL, `champion_fun` INTEGER NOT NULL)",
         "fields": [
           {
             "fieldPath": "id",
@@ -134,7 +134,7 @@
           },
           {
             "fieldPath": "difficulty",
-            "columnName": "champîon_difficulty",
+            "columnName": "champion_difficulty",
             "affinity": "INTEGER",
             "notNull": true
           },
@@ -153,12 +153,56 @@
         },
         "indices": [],
         "foreignKeys": []
+      },
+      {
+        "tableName": "review_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `username` TEXT, `champion` TEXT, `difficulty` INTEGER NOT NULL, `fun` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "username",
+            "columnName": "username",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "champion_name",
+            "columnName": "champion",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "difficulty",
+            "columnName": "difficulty",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fun",
+            "columnName": "fun",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
       }
     ],
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'ef23613cbe1a7ca73bffa3865fa8dcd7')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f444ae909b3c0af5fc892675781272d6')"
     ]
   }
 }

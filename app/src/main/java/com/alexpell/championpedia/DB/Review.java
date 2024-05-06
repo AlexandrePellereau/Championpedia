@@ -6,6 +6,10 @@ import androidx.room.PrimaryKey;
 
 @Entity(tableName = "review_table")
 public class Review {
+
+    @PrimaryKey(autoGenerate = true)
+    private int id;
+
     @ColumnInfo(name = "username")
     private String username;
 
@@ -17,6 +21,13 @@ public class Review {
 
     @ColumnInfo(name = "fun")
     private int fun;
+
+    public Review(String username, String champion_name, int difficulty, int fun) {
+        this.username = username;
+        this.champion_name = champion_name;
+        this.difficulty = difficulty;
+        this.fun = fun;
+    }
 
     public String getUsername() {
         return username;
@@ -48,5 +59,13 @@ public class Review {
 
     public void setFun(int fun) {
         this.fun = fun;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

@@ -17,13 +17,13 @@ import com.alexpell.championpedia.LandingPage;
 import com.alexpell.championpedia.comment.CommentActivity;
 import com.alexpell.championpedia.databinding.ActivityChampionBinding;
 
+import java.util.List;
+
 public class ChampionActivity extends AppCompatActivity {
 
     ActivityChampionBinding binding;
     SharedPreferences sharedPreferences;
-    SharedPreferences.Editor editor;
     AllDAO allDAO;
-    AppDataBase database;
     Champion champion;
 
 
@@ -58,7 +58,12 @@ public class ChampionActivity extends AppCompatActivity {
         binding.addReview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),AddReview.class));
+                String username = allDAO.getUser(sharedPreferences.getInt("userId",0)).getUsername() ;
+                if (allDAO.getReview(username,championName) == null)
+                    startActivity(new Intent(getApplicationContext(),AddReview.class));
+                else {
+                    Toast.makeText(getApplicationContext(),"You already added a review for this character.",Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -87,9 +92,34 @@ public class ChampionActivity extends AppCompatActivity {
 
         binding.banrate.setText(String.valueOf(champion.getBanrate()));
 
-        binding.pickrate.setText(String.valueOf(champion.getPickrate()));
+        List<Integer> difficulties = allDAO.getChampionsReviewDifficulty(champion.getName());
 
-        binding.winrate.setText(String.valueOf(champion.getWinrate()));
+        int sum = 0;
+
+        for (Integer i : difficulties){
+            sum += i;
+        }
+
+        if (sum != 0)
+            binding.pickrate.setText(String.valueOf(sum/difficulties.size()));
+        else {
+            binding.pickrate.setText("No reviews");
+        }
+
+        List<Integer> fun = allDAO.getChampionsReviewFun(champion.getName());
+
+        sum = 0;
+
+        for (Integer i : fun){
+            sum += i;
+        }
+
+        if (sum != 0)
+            binding.pickrate.setText(String.valueOf(sum/fun.size()));
+        else {
+            binding.pickrate.setText("No reviews");
+        }
+
 
     }
 }

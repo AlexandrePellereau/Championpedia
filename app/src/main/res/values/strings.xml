@@ -33,4 +33,9 @@
     <string name="add_review">Add review</string>
     <string name="go_to_comment_section">Go to comment section</string>
     <string name="logged_in_as">"Logged in as: "</string>
+    <string name="pickrate">Pickrate :</string>
+    <string name="fun2">Fun :</string>
+    <string name="difficulty2">Difficulty :</string>
+    <string name="banrate">Banrate :</string>
+    <string name="winrate">Winrate :</string>
 </resources>

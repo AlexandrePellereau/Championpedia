@@ -2368,8 +2368,10 @@
 
     <champion>
         <name>Kha'Zix</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>The Void grows, and the Void adapts—in none of its myriad spawn are these truths more apparent than Kha’Zix. Evolution drives the core of this mutating horror, born to survive and to slay the strong. Where it struggles to do so, it grows new, more effective ways to counter and kill its prey. Initially a mindless beast, Kha’Zix’s intelligence has developed as much as its form. Now, the creature plans out its hunts, and even utilizes the visceral terror it engenders in its victims.</lore>
+        <full_lore>A vicious Void predator, Kha'Zix infiltrated Valoran to devour the land's most promising creatures. With each kill he absorbs his prey's strength, evolving to grow more powerful. Kha'Zix hungers most to conquer and consume Rengar, the one beast he considers his equal.
+
+            When Kha'Zix crossed over into this world, he was fragile and ravenous. The animals he first encountered were too small to fuel the rapid evolution he craved. Kha'Zix focused his hunger on the most dangerous creatures he could find, risking his life to satisfy his need. With each kill he feasted and changed, becoming a stronger, faster predator. Kha'Zix soon chased his prey with unrestrained aggression, believing he was unstoppable. One day, while savoring a fresh kill, the predator became the prey. From cover a creature pounced in a blur of fangs and steel, tackling him to the ground. It roared in his face slashing and clawing, and Kha'Zix felt his blood spill for the first time. Screeching in fury, he sliced at the brute's eye driving it back. They fought from sunset to sunrise. Finally, near death, they reluctantly separated. As his wounds closed, Kha'Zix burned with anticipation at the idea of devouring one who could match the Void's strength. He resumed his search for powerful prey with renewed vigor. Someday, Kha'Zix will feast on Rengar.</full_lore>
         <pickrate>6.48</pickrate>
         <banrate>3.3</banrate>
         <winrate>49.42</winrate>
@@ -2379,8 +2381,16 @@
 
     <champion>
         <name>Kindred</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>Separate, but never parted, Kindred represents the twin essences of death. Lamb’s bow offers a swift release from the mortal realm for those who accept their fate. Wolf hunts down those who run from their end, delivering violent finality within his crushing jaws. Though interpretations of Kindred’s nature vary across Runeterra, every mortal must choose the true face of their death.</lore>
+        <full_lore>Separate, but never parted, Kindred represents the twin essences of death. Lamb’s bow offers a swift release from the mortal realm for those who accept their fate. Wolf hunts down those who run from their end, delivering violent finality within his crushing jaws. Though interpretations of Kindred’s nature vary across Runeterra, every mortal must choose the true face of their death.
+
+            Kindred is the white embrace of nothingness and the gnashing of teeth in the dark. Shepherd and the butcher, poet and the primitive, they are one and both. When caught on the edge of life, louder than any trumpeting horn, it is the hammering pulse at one’s throat that calls Kindred to their hunt. Stand and greet Lamb’s silvered bow and her arrows will lay you down swiftly. If you refuse her, Wolf will join you for his merry hunt, where every chase runs to its brutal end.
+
+            For as long as its people have known death, Kindred has stalked Valoran. When the final moment comes, it is said a true Demacian will turn to Lamb, taking the arrow, while through the shadowed streets of Noxus, Wolf leads the hunt. In the snows of the Freljord, before going off to fight, some warbands “kiss the Wolf,” vowing to honor his chase with the blood of their enemies. After each Harrowing, the town of Bilgewater gathers to celebrate its survivors and honor those granted a true death by Lamb and Wolf.
+
+            Denying Kindred is to deny the natural order of things. There are but a wretched few who have eluded these hunters. This perverse escape is no sanctuary, for it only holds a waking nightmare. Kindred waits for those locked in the undeath of the Shadow Isles, for they know all will eventually fall to Lamb’s bow or Wolf’s teeth.
+
+            The earliest dated appearance of the eternal hunters is from a pair of ancient masks, carved by unknown hands into the gravesites of people long-forgotten. But to this day, Lamb and Wolf remain together, and they are always Kindred.</full_lore>
         <pickrate>3.63</pickrate>
         <banrate>1.66</banrate>
         <winrate>49.09</winrate>
@@ -2390,8 +2400,32 @@
 
     <champion>
         <name>Kled</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>A warrior as fearless as he is ornery, the yordle Kled embodies the furious bravado of Noxus. Many claim Kled has fought in every campaign the warhosts have waged, acquired every military title, and never once backed down from a fight. Though the truth of the matter is often questionable, one part of his legend is always the same: charging into battle on his un-trusty steed, Skaarl, Kled fights to protect what’s his… and takes whatever else he can get.</lore>
+        <full_lore>Legends of the popular folk hero Kled can be traced back to the founding of Noxus, and perhaps even further still. He is an icon revered by the common soldiery, which is increasingly a cause of concern to their commanders—for there are some among the warhosts who claim to have literally served beside him.
+
+            Tall tales such as “The Great Hussar’s Victory”, “The Return of the High General Marshal-Sergeant”, and “The Mountain Admiral” abound, which strongly imply Kled has fought in every campaign ever waged, acquired every military title, and never once backed down from a fight. Though the details are often outlandish and contradictory, the essence of the tale remains: charging into battle on his un-trusty steed, Skaarl, Kled fights to protect what’s his… and takes whatever else he can get.
+
+            In truth, the Cantankerous Cavalier hails from another land entirely—Bandle City. As a yordle, he made his home among the proud Noxii tribes in the wake of the Rune Wars, and has never looked back.
+
+            The earliest mention of Kled in historical records was at the First Battle of Drugne. In the dusty hills of those badlands, the warhost of General Zaavan was on the run from barbarian foes. Having lost the previous two engagements, morale was low. The supply train had been abandoned in the rout, and they were a week’s march from the nearest outpost. Zaavan, in his spotless armor, seemed more concerned with how this would appear back home than the welfare of his soldiers, and ordered a defensive circle formation to buy himself time to think.
+
+            Then, as the morning sun rose, the lone figure of Kled appeared on the hilltop, mounted upon a desert drakalops. This warrior’s weapon was rusted, his armor worn, his clothes tattered—but contempt and anger burned in his one good eye.
+
+            He bellowed an ultimatum to the barbarian horde, demanding that they leave his lands or be destroyed. However, he did not wait for any response, spurring his steed and screaming the charge. Desperate, starving, and furious with their general, the Noxian warhost’s anger ignited at the sight of this act of bravado. They rushed after Kled as he tore into the enemy.
+
+            What followed was one of the bloodiest melees ever fought on the northern steppes. The initial momentum of the counterattack was crushed beneath a hail of barbarian arrows from higher ground, but Kled fought on even after he was thrown from his saddle and his drakalops fled. He always seemed to be at the heart of the battle, chopping down foes, kicking out teeth, and biting faces. The bodies piled up around him, and his clothes were soaked with blood. He screamed louder challenges and cruder insults. Clearly, this great warrior was willing to die before ever backing down.
+
+            Cowardice can be infectious, but so too can courage. Where the Noxians might have given up and fled for their lives, instead they were inspired to make one last stand.
+
+            Even Kled’s drakalops returned, and crashed into the barbarians’ rearguard, snarling and clawing as it dived in to free its master. With his mount again beneath him, Kled became a veritable whirlwind of death, and it was the barbarians who broke and ran.
+
+            Though too few of the Noxian soldiers survived that day for it to be considered a victory, Drugne was contested long enough that word reached the Immortal Bastion, and reinforcements were sent. The war ground on for at least another decade, until the barbarian leaders sued for peace—their strength was added to Noxus, and Drugne became a foothold for continued campaigns across Dalamor and the north for many centuries to come.
+
+            The body of General Zaavan—and his fine armor—was never found.
+
+            In time, countless other warhosts of the empire acquired similar stories of Kled. It has long been said that he rides wherever Noxians march, claiming the spoils of war for himself. Indeed, in their wake, good-humored signs can often be found proclaiming each new territory “Property of Kled”.
+
+        </full_lore>
         <pickrate>1.62</pickrate>
         <banrate>0.82</banrate>
         <winrate>51.44</winrate>
@@ -2401,8 +2435,10 @@
 
     <champion>
         <name>Kog'Maw</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>Belched forth from a rotting Void incursion deep in the wastelands of Icathia, Kog’Maw is an inquisitive yet putrid creature with a caustic, gaping mouth. This particular Void-spawn needs to gnaw and drool on anything within reach to truly understand it. Though not inherently evil, Kog’Maw’s beguiling naiveté is dangerous, as it often precedes a feeding frenzy—not for sustenance, but to satisfy its unending curiosity.</lore>
+        <full_lore>When the prophet Malzahar was reborn in Icathia, he was led there by an ominous voice which thereafter anchored itself to his psyche. From within, this voice bestowed upon him terrible purpose, and though Malzahar was no longer tormented by its call, the voice did not cease its unrelenting summons. This baleful beacon's gentle flicker - now fastened to Runeterra - drew forth a putrid beast that ambled across a threshold it did not understand, widening a fissure between the spaces which were never meant to meet. There amongst the haunting ruins of Icathia, Kog'Maw manifested in Valoran with unsettling curiosity. The spark which led him to Runeterra teased him still, urging him gently towards Malzahar. It also encouraged him to familiarize himself with his new environment, to the stark horror of everything he encountered on his journey.
+
+            The enchanting colors and aromas of Runeterra intoxicated Kog'Maw, and he explored the fruits of the strange world the only way he knew how: by devouring them. At first he sampled only the wild flora and fauna he happened across. As he traversed the parched Tempest Flats, however, he came upon a tribe of nomads. Seemingly unhampered by conventional rules of physics, Kog'Maw consumed every nomad and any obstacles they put in his way, amounting to many times his own mass and volume. The most composed of his victims may have had time to wonder if this was due to the caustic enzymes which stung the ground as they dripped from his gaping mouth, although such musings were abruptly concluded. Even this feeding frenzy did nothing to satiate Kog'Maw's appetite. His swathe of destruction continues still as he is inexorably drawn towards Malzahar. What happens when he finds him is anyone's guess.</full_lore>
         <pickrate>4.07</pickrate>
         <banrate>2.09</banrate>
         <winrate>53.29</winrate>
@@ -2412,8 +2448,26 @@
 
     <champion>
         <name>LeBlanc</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>Mysterious even to other members of the Black Rose cabal, LeBlanc is but one of many names for a pale woman who has manipulated people and events since the earliest days of Noxus. Using her magic to mirror herself, the sorceress can appear to anyone, anywhere, and even be in many places at once. Always plotting just out of sight, LeBlanc’s true motives are as inscrutable as her shifting identity.</lore>
+        <full_lore>Matron of the Black Rose, LeBlanc’s identity is as intangible as the whispers that describe her, as ephemeral as the illusions that give her shape. Perhaps it is unknown even to herself, after so many centuries of mimicry and deception…
+
+            Remnants of an order that has existed far longer than Noxus itself, initiates of the Black Rose have schemed from the shadows for centuries, drawing the rich and powerful to their ranks. Though they do not often learn the origins of their matron, many have uncovered legends of a pale sorceress who aided the broken barbarian tribes, in their struggle against the infamous Iron Revenant subjugating lands already ravaged by the darkin. Even today, his name is whispered in fear: Mordekaiser.
+
+            Uniquely skilled among the revenant’s inner circle before she betrayed him, the sorceress pledged to neutralize the source of his power, the Immortal Bastion, cutting him off from the well of death that fueled his nightmarish empire. Yet, even as the barbarians built an empire of their own in the bastion’s shadow, they failed to realize that the arcane secrets it held had not completely been locked away. The pale sorceress had always been gifted at illusion, and her greatest trick was to make Noxus forget the dark power roiling in its own heart, before she was burned from the pages of history around the time of the Rune Wars.
+
+            The Black Rose exists now to further the clandestine interests of those who can wield such magic—with its rank-and-file composed of mundane nobles, drawn to rumors of miracles, kept in thrall and ruthlessly exploited. Even the most powerful military commander could only ever serve the cult’s true masters, as they fight one another for influence in games of intrigue and conquest, both in the Noxian capital and beyond its borders.
+
+            For centuries, LeBlanc has served in secret as an advisor to foreign dignitaries, appearing in many nations at once, her illusions driving order into chaos. Rumors of a new matron rising with each generation only raise further questions—which is the “true” version of herself? When she speaks, is it with her own voice? And what will the price be, for the favor she offers?
+
+            Boram Darkwill was but the latest to learn this last answer for himself. Though the Black Rose had aided his bid for the throne, he refused the counsel of their hand-picked advisors, requiring LeBlanc to take drastic measures. Manipulating a young nobleman named Jericho Swain into revealing the cult’s involvement, LeBlanc allowed herself to be executed along with the most prominent conspirators… or at least, so it appeared. In time, she reached out to Darkwill herself, and found an increasingly paranoid ruler, fearful of his own mortality.
+
+            After promising him the secrets to extend his life, LeBlanc slowly poisoned Darkwill’s mind, even as she empowered him. Under his rule, the Noxian reverence of strength became something far more sinister, and together they ensured Swain’s legend would end in disgrace on the battlefields of Ionia.
+
+            But Swain, emboldened by forbidden lore from within the Immortal Bastion, did something wholly unexpected, managing to drag Darkwill from the throne and seize Noxus for himself. This new Grand General was not interested in his own legacy, but the glory of the empire—and such a man could not so easily be corrupted. After countless centuries, LeBlanc wondered, had she finally found a worthy nemesis?
+
+            Her actions have pushed Runeterra to the brink of all-out war many times. In the wake of desperate campaigns across the Freljord, on Targon’s peaks, and deep in Shurima’s deserts, the darkest magic has begun to spread once more, circling closer and closer to Noxus. Whether LeBlanc is still the same pale sorceress who betrayed the Iron Revenant, or merely one of countless hollow reflections, her influence clearly stems from ancient roots.
+
+            The Black Rose has yet to truly bloom.</full_lore>
         <pickrate>4.29</pickrate>
         <banrate>7.74</banrate>
         <winrate>47.99</winrate>
@@ -2423,8 +2477,32 @@
 
     <champion>
         <name>Lee Sin</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>A master of Ionia’s ancient martial arts, Lee Sin is a principled fighter who channels the essence of the dragon spirit to face any challenge. Though he lost his sight many years ago, the warrior-monk has devoted his life to protecting his homeland against any who would dare upset its sacred balance. Enemies who underestimate his meditative demeanor will endure his fabled burning fists and blazing roundhouse kicks.</lore>
+        <full_lore>Among the many spirits Ionians revere, none are as storied as that of the dragon. While some believe it embodies ruin, others view it as a symbol of rebirth. Few can say for certain, and fewer still have ever been able to channel the dragon’s spirit, and none so completely as Lee Sin.
+
+            He arrived at the Shojin monastery as a boy, claiming the dragon had chosen him to wield its power. The elder monks saw flashes of its fire in the talented child, but also sensed his reckless pride, and the disaster it could bring. Warily, they nonetheless took him as a pupil—though, as others advanced, the elders kept him cleaning dishes and scrubbing floors.
+
+            Lee Sin grew impatient. He longed to fulfill his destiny, not waste time on chores.
+
+            Sneaking into the hidden archives, he found ancient texts describing how to call upon the spirit realm, and chose to flaunt his skill during a combat lesson. Brashly, he unleashed the dragon’s rage in a wild kick, paralyzing his learned instructor. Consumed with shame and banished for his arrogance, the young man set out to atone.
+
+            Years passed. Lee Sin wandered far, to distant places, benevolently aiding those in need. Eventually he reached the Freljord, where he met Udyr, a wildman who channeled the primal beasts of his homeland. The so-called Spirit Walker struggled to control the powers that warred within him, and Lee Sin began to wonder if controlling the dragon was even possible. Sharing a need for spiritual guidance, the two men forged a bond, and he invited Udyr on his journey back home.
+
+            The two were dismayed to hear that the empire of Noxus had invaded and occupied Ionia. Monks from every province had fallen back to defend the holy monastery at Hirana, high up in the mountains.
+
+            Lee Sin and Udyr found it besieged. Noxian soldiers had broken through to Hirana’s great hall. As Udyr leapt to join the fray, Lee Sin hesitated, seeing his former peers and elders fall to the enemy’s blades. The wisdom of Hirana, Shojin, so much of Ionia’s ancient culture—all would be lost.
+
+            With no other choice left, he invoked the dragon spirit.
+
+            A tempest of flames engulfed him, searing his skin and burning the sight from his eyes. Imbued with wild power, he crippled the invaders with a flurry of breakneck punches and rapid kicks, the untamable spirit flaring brighter and hotter with each blow.
+
+            The monks were victorious, but Lee Sin’s desperate actions left the monastery in ruins, and his vision would never return. At last, in the blind darkness, he understood that no mortal could ever bend the might of the dragon spirit to their will completely. Devastated, agonized, he bound a cloth over his sightless eyes and tried to stagger away down the mountain paths.
+
+            But the surviving elders stopped him. In forsaking all desire for power, their disgraced pupil was finally ready to begin anew. Although they would not forget his previous arrogance, the monks offered absolution: the dragon’s wrath was deadly and unpredictable, true enough, but the humblest and worthiest mortal souls could counter its fiery nature, and direct it from time to time.
+
+            Gratefully, Lee Sin stayed with the monks to rebuild their monastery, and after the work was done and the Spirit Walker returned to the Freljord, Lee Sin devoted himself fully toward the pursuit of enlightenment.
+
+            In the years since the war with Noxus ended, he has continued to meditate on his role in Ionia. Knowing his homeland has not faced the last of its trials, Lee Sin must master himself, and the dragon spirit within, to face whatever foe is yet to come.</full_lore>
         <pickrate>16.3</pickrate>
         <banrate>14.02</banrate>
         <winrate>48.4</winrate>
@@ -2434,8 +2512,44 @@
 
     <champion>
         <name>Leona</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>
+            Imbued with the fire of the sun, Leona is a holy warrior of the Solari who defends Mount Targon with her Zenith Blade and the Shield of Daybreak. Her skin shimmers with starfire while her eyes burn with the power of the celestial Aspect within her. Armored in gold and bearing a terrible burden of ancient knowledge, Leona brings enlightenment to some, death to others.
+        </lore>
+        <full_lore>Among the Rakkor tribes that dwell upon Mount Targon, the sun is sacred, and none venerate it more than the Solari. Children are raised from birth to honor it, and even to shed blood for it, until its Aspect returns, heralding a grave threat they all must face.
+
+            Leona was one such child. She took to the Solari faith as naturally as breathing, finding solace and warmth within its rigid structure. This manifested through her rapid achievement of excellence, her peers envious of her capability, willpower, and devotion. None doubted she would one day become one of the Ra’Horak, the holy warriors of the Solari.
+
+            Though Leona flourished, she could not help but see her masters struggle with their most exasperating student, an orphan named Diana. Her curiosity was welcomed at first, but soon the teachers began to perceive Diana’s questions as challenging the Solari ways. Leona watched Diana suffer punishment and isolation—but where others saw insolence, she saw a lost soul devoted to a search for meaning.
+
+            Leona found her purpose in the Solari teachings, and resolved to share it with Diana as even the most dutiful teachers forsook her. The two would debate late into the night, with Leona hoping to persuade Diana that everything she could ever want was there in the faith, waiting for her to accept it. Though she failed to win Diana over, Leona did find a friend.
+
+            One night, Diana confided a secret to Leona. She spoke of discovering a hidden alcove in the mountain, an ancient place where the walls were etched with depictions of strange symbols and forgotten societies. When Diana mentioned climbing the summit of Mount Targon to learn more, Leona urged her to stop. Seeking to protect her from the ire of the other Solari, Leona made Diana promise to abandon this search. Reluctantly, Diana agreed.
+
+            Time passed, and the two never spoke of Diana’s discovery again. Leona believed her friend had finally come to her senses.
+
+            Her belief was shattered late one night, when she glimpsed Diana slipping out of the temple. While her first instinct was to tell the elders, Leona thought instead of protecting her friend, wresting her back from the edge. Resolved, Leona set off after Diana…
+
+            To the summit of Mount Targon.
+
+            The ascent was a trial unlike any Leona had ever endured, straining every fiber of her being to its limit, and beyond. Her training, willpower, and concern for Diana was all that drove her on. The unblinking eyes of bodies frozen into the mountain's slopes watched her climb, their own journeys forever incomplete, but not even they could deter her.
+
+            After what seemed an eternity—and much to her own amazement—Leona reached the peak.
+
+            Exhausted, she beheld an uncanny landscape, and found Diana engulfed in a coruscating column of silver light. Leona saw her friend’s silhouette writhing in agony, the air rippling with her screams. Horrified, Leona rushed to her aid, when a golden radiance slashed down from the heavens to envelop her.
+
+            The sensation was indescribable, but rather than incinerating Leona, the illumination coursed into her, suffusing her with incredible power. She clung to her consciousness, fighting the current seeking to sear away her very being.
+
+            Ultimately, her indomitable will triumphed—and with that control came understanding.
+
+            With control came understanding. Leona was forever changed, imbued by the Aspect of the Sun. Destiny had selected her, and it was her duty to protect the Solari in the times to come.
+
+            It was then that Leona saw Diana, clad in gleaming silver war-plate, a strange reflection of the golden armor she discovered herself now wearing. Diana begged Leona to join her, to seek out answers the Solari could not offer. Leona demanded they return home, and present themselves for the priests’ judgment. Neither conceded, and they finally felt the weight of the weapons in their hands.
+
+            Their combat was swift, a blistering clash between sun and moon, ending with Diana’s crescent blade at Leona’s throat. But, rather than delivering the killing blow, Diana fled. Devastated, Leona descended Targon and hurried to her elders.
+
+            When she arrived, she found slaughter. Many Solari priests and their Ra’Horak guardians were dead, seemingly slain by Diana’s hand. The survivors were awed by the presence of two Aspects now in their midst, and Leona was committed to helping them navigate this new reality—the guiding light to her people, just as the sun had always been.
+
+            She has sworn to find Diana, to preserve the dominance of the Solari... but also to help her old friend control the Moon Aspect’s power before it destroys her.</full_lore>
         <pickrate>7.39</pickrate>
         <banrate>5.99</banrate>
         <winrate>51.44</winrate>
@@ -2445,8 +2559,42 @@
 
     <champion>
         <name>Lillia</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>Intensely shy, the fae fawn Lillia skittishly wanders Ionia’s forests. Hiding just out of sight of mortals—whose mysterious natures have long captivated, but intimidated, her—Lillia hopes to discover why their dreams no longer reach the ancient Dreaming Tree. She now travels Ionia with a magical branch in hand, in an effort to find people’s unrealized dreams. Only then can Lillia herself bloom and help others untangle their fears to find the sparkle within. Eep!</lore>
+        <full_lore>In Ionia, magic is woven into the land. Forests spread vibrantly, and trees often boast nearly as many colors as leaves, touched by the wonders of the spirit realm.
+
+            But there is one forest, hidden away, that draws on a different kind of magic—a garden with a tree at its heart that gathers humanity’s dreams in its blooms.
+
+            The Dreaming Tree grew from a seed of the God-Willow, which towered over the ancient grove of Omikayalan. Cast loose when the God-Willow was tragically felled, the seed took root in what came to be known as the Garden of Forgetting. Nurtured by the Green Father, Ivern—as many of the descendants of Omikayalan were—the Dreaming Tree spiraled up, spreading the magic of humanity’s desires each time the dream-laden buds bloomed.
+
+            Lillia was born when one of the tree’s own dreams was captured in a bud that fell to the ground before it could bloom—something that had never happened before. Sprouting into an awkward fawn creature with the flower bud still on her head, Lillia’s only company was her mother tree, and the dreams that drifted to the garden each night.
+
+            Lillia helped tend the buds, and learned about humanity through them. Enchanted by the people and places she glimpsed, she spent every waking moment experiencing a swirl of emotions and desires that mortals could only see when they closed their eyes.
+
+            In caring for the dreams, Lillia also cared for the dreamers. She came to consider each of them a new friend, wanting nothing more than to one day greet the people who imagined such wonders. Lillia wanted it so badly that her own desires eventually gathered in a bud on the tree.
+
+            But when Lillia finally did meet humans, it wasn’t like remembering a familiar dream. It was more like waking up.
+
+            Something was happening in the world outside Lillia’s forest. War blazed like a fire through the land, and in time, fewer dreams began to reach the garden. The tree itself grew sick, and became infected with burls—writhing tangles in its trunk, which oozed darkness.
+
+            Lillia did her best to nurture her mother tree and the dreams that remained in its buds, but it was not long before the garden became so weak that the violence of the world spilled in. One night, warriors entered the forest and chased a lone figure all the way to the Dreaming Tree. With a single errant blade’s slash, the branch containing Lillia’s unrealized dream came thudding to the ground.
+
+            Lillia panicked and forced them all to sleep, shocked at the difference between the mortals she thought she knew, and the ones she had found.
+
+            They were so afraid—more tangle than sparkle. They were like the burls…
+
+            But as the warriors slept and Lillia wept, a dream emerged from the lone figure the others had been chasing. Weakly, it floated toward the broken branch on the ground and moved into the bough’s bud.
+
+            Lillia picked it up. She could feel the dream. As she whispered to it and soothed it, it glowed ever brighter—and so did she. The bud upon her head unfurled, and magic swirled around like sparkling pollen. In that moment, swept up in possibility and wonder, Lillia herself bloomed… until, with a sneeze, she sent the magic curling into the surrounding forest.
+
+            The humans awoke one by one, unable to remember what had brought them to the forest, or what they had done. None noticed the timid fawn behind the tree. With relief, Lillia watched the humans go, still seeing only confusing tangles—but knowing now that there was still a sparkle beneath it all.
+
+            And if their dreams wouldn’t come to the tree, she would have to bring the tree to them.
+
+            Taking up her branch, Lillia left the garden and entered the world of humans—a world she had always wanted to know, but one that frightened her now more than anything. It was so unlike what she understood.
+
+            Hiding just out of sight, Lillia now helps people’s dreams be born, drawn forward by glimpses of who they could be, and by what may be trapped beneath their tangles. By helping humans realize their deepest wishes, Lillia realizes her own, the bud on her head blooming as she is filled with joy.
+
+            Though darkness may be encroaching on Ionia once more, it is but a mask, and beneath it lies the familiar sparkle of hope. Only by braving the world, and braving herself, can Lillia hope to untangle its burls.</full_lore>
         <pickrate>3.27</pickrate>
         <banrate>2.98</banrate>
         <winrate>51.15</winrate>
@@ -2456,8 +2604,34 @@
 
     <champion>
         <name>Lissandra</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>As the reclusive leader of the Frostguard, many believe Lissandra is a living saint whose followers bring healing and wisdom to the tribes of the Freljord. The truth is perhaps more sinister, as she uses her elemental magic to twist the power of True Ice into something dark and terrible, entombing or impaling any who would reveal her deepest secrets. Indeed, the legacy of her past may yet be the beginning of the end for Runeterra.</lore>
+        <full_lore>In a time long forgotten, before the sands birthed and then swallowed Shurima, beings of old magic freely walked Runeterra. The borders between the mortal realm and what lay beyond it were hotly contested.
+
+            Into this dangerous and volatile age, Lissandra and her sisters, Serylda and Avarosa, were born. Each sought to harness the powers at war, and each paid a terrible price. Attempting to command the heavens above them, Serylda lost her voice to the first twilight. Avarosa faced the twisting dark beneath the world, and was deafened by its emptiness, waiting to consume all creation.
+
+            It was Lissandra who stood against the wild magic of the mortal world itself. For this defiance, the savage claws of a primal god raked across her eyes, blinding her.
+
+            Though each sister had lost a part of themselves, it was on the frozen fields of Lissandra’s many battles that they were able to unite and prevail. Together, they were unstoppable… but even a bond of blood could only weather so much.
+
+            With her sight taken, Lissandra chose instead to walk in dreams. As she navigated the fitful visions of those around her, she realized only she could see the darkness below for what it was: the lingering abyss promised not only an ending, but infinity. It was death, both dangerous and full of potential. Unknown to her sisters, Lissandra struck a deal on their behalf with the god-like entities she had communed with—the Watchers would grant them near-immortality in exchange for preparing Runeterra for the coming of the Void.
+
+            The three sisters and their most powerful followers were named Iceborn. Those with this ability to withstand the worst of the numbing frost would be spared until the very end.
+
+            However, Lissandra’s sisters grew displeased. Avarosa argued that the only thing worse than death was servitude. Even Serylda bristled against what would become of the world they had fought so hard for. Caught in the middle, Lissandra tried to soothe her sisters’ concerns while appealing to the Watchers for more time, but the unknowable nothingness cared not for such platitudes.
+
+            The Void erupted into the mortal world in the far north, and with it, Lissandra’s hidden allegiance to the Watchers became undeniable. In that moment, her only choices were to let all the world be consumed, or to give up what she cared for most—Lissandra sacrificed her sisters and the allies they had gathered, entombing the Watchers beneath a glacial barrier of magical ice that could never be melted.
+
+            Lissandra soon discovered that even this elemental power was not enough. The monstrous beings she had frozen were merely slumbering, slowly tainting the True Ice around them into something darker. Now, they wandered through Lissandra’s dreams as easily as she had theirs, and always she would wake, terrified, professing her loyalty to the chilling eternity they promised.
+
+            Ever the survivor, she gathered her remaining followers to venerate her and her departed sisters. If True Ice would delay the inevitable end of all things, then they had to gather as much of it as they could find, and scour the frozen lands for any of Iceborn descent to join their cause.
+
+            Lissandra and the first among her Frostguard did everything in their power to rewrite history, seizing all records of what had truly happened… and yet, rumors and prophecies persisted in myth and song. It was whispered that Avarosa and Serylda would one day return to unite the disparate tribes, and so Lissandra had any who were hailed as their reincarnations quietly killed. Even she retreated into the shadows, periodically renewing herself with the powers she had been gifted.
+
+            Like the threat that lies trapped beneath the ice, Lissandra has never been able to completely control her sisters’ legends. Whether from guilt or arrogance, her failure to eradicate their legacy has manifested once more in two powerful Iceborn—one an idealist, the other a conqueror—and now, between them, they lead many tribes within the Freljord.
+
+            Lissandra watches them carefully, seeking any opportunity to pit them against one another, all the while redoubling her own efforts to lock away the terrible secrets she has buried deep under her citadel.
+
+            And she must hurry, for the ice is beginning to melt.</full_lore>
         <pickrate>2.6</pickrate>
         <banrate>1.18</banrate>
         <winrate>49.05</winrate>
@@ -2467,8 +2641,44 @@
 
     <champion>
         <name>Lucian</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>Lucian, a Sentinel of Light, is a grim hunter of undying spirits, pursuing them relentlessly and annihilating them with his twin relic pistols. After the wraith Thresh slew his wife, Lucian embarked on the path of vengeance—but even with her return to life, his rage is undiminished. Merciless and single-minded, Lucian will stop at nothing to protect the living from the long-dead horrors of the Black Mist.
+
+        </lore>
+        <full_lore>From an early age, Lucian wanted nothing more than to be like his father, Urias, who was a member of the ancient order of the Sentinels of Light. While Lucian remained home in Demacia, Urias ranged far and wide, protecting the living from the wraiths of the Black Mist.
+
+            Urias would regale Lucian with tales of his adventures, where courage and ingenuity carried the day. Lucian hung on every word, picturing himself saving the people of Runeterra at his father’s side. But Urias did not want his son to follow in his footsteps, hoping to keep his family safe from the dangerous life he had chosen.
+
+            Lucian waited for the day he would become Urias’ apprentice, but it never came.
+
+            Instead, Lucian stayed in Demacia, where he found himself increasingly at odds with the kingdom’s culture. It especially rankled him that Demacia would exile peaceful mages to the hinterlands. Lucian found fulfillment in safeguarding the banished on their perilous journey. Where his countrymen saw only outlaws, reducing the world to good or evil, Lucian looked closer, and saw people in need of help.
+
+            After returning home from one such journey, Lucian found a stranger waiting at his door. She introduced herself as Senna, a Sentinel of Light. Cradling Urias’ relic pistol in her hands, Senna explained that Lucian’s father had died, falling in battle against the the long-dead wraiths of the Black Mist.
+
+            Senna had been Urias’ apprentice, fighting at his side for years.
+
+            Lucian reeled in shock—not only was his father dead, but before him stood a woman who had lived the life he had wanted for so long. As Senna made to take her leave, Lucian stopped her at the door, insisting he join her. He knew what came next—the vigil for lost Sentinels. Senna reluctantly allowed Lucian to accompany her.
+
+            Along the way, the two traded stories of their time with Urias, Senna comforting Lucian with her plainspoken wisdom, and Lucian easing her pain with fond remembrances. They arrived at Urias’ birthplace, far away from Demacian lands. There, they held the vigil for lost Sentinels.
+
+            As they prepared to depart, dark clouds rolled in over the coast, and wraiths manifested from the foulness, attacking them. Where Lucian was horrified, Senna drew her weapons with a grim familiarity—this was her curse. Since she was a child, tendrils of the Black Mist had stalked her wherever she went, unleashing its horror should she tarry anywhere for too long.
+
+            As Senna fought one of the creatures, it clawed Urias’ pistol from her grip. Lucian retrieved it, sensing his fate opening up before him. The blazing sorrow in his heart manifested in a bolt of light that blasted from the pistol, distracting the wraith so Senna could banish it. Senna fought off the remaining spirits before the pair left, the Mist ever on her trail.
+
+            Never before had one of the uninitiated fired a Sentinel’s relic weapon. For the first time, Lucian had shown Senna his potential to join the order.
+
+            Eventually, Senna entrusted Lucian with his father’s pistol, and instructed him in the tactics and doctrines of the Sentinels. He proved himself worthy of the lessons. A bond slowly formed between them, Lucian’s warmth and charm the perfect balance to Senna’s discipline and unbreakable resolve.
+
+            Lucian and Senna battled the myriad evils that ushered forth from the Black Mist, and their reliance upon each other blossomed into love. The closer Lucian grew to Senna, the more he witnessed the curse she bore. Each conflict hardened him, splitting the world apart into light and shadow, good and evil. Lucian’s urge to heal Senna became a crusade he pursued with reckless zeal.
+
+            Scouring a forgotten vault for a cure, the two Sentinels were attacked by the monstrous wraith Thresh. The ghoulish Chain Warden was a dangerous foe, and when Senna called to withdraw and regroup, Lucian refused to turn back. Throwing himself blindly into the attack, Lucian realized his mistake as Thresh gained the upper hand. Senna stepped into Thresh’s path, imploring Lucian to run.
+
+            As the dust settled, Senna lay dead before him, her soul claimed by Thresh’s eldritch lantern.
+
+            Senna’s sacrifice was nearly Lucian’s undoing. For years, he stalked Runeterra, a husk of the man he once was, his former warmth replaced with anger and bitterness. Wielding both his pistol and Senna’s, Lucian hunted Thresh in the hope of destroying the lantern and granting oblivion to his captive love. On the day that battle finally came, Lucian shattered the lantern—but instead of finding her eternal rest, Senna reemerged.
+
+            Lucian and Senna’s love is a bond even death could not sever. As Lucian struggles to grasp Senna’s altered form, he is forced to confront his own. Lucian now fights to return to his former self, while grappling with the reality that the dark forces he hates are all that keep Senna with him.
+
+            While Senna has returned with knowledge of a new mission, Lucian remains obsessed with exacting vengeance from Thresh, as he is certain the Chain Warden’s machinations have only begun.</full_lore>
         <pickrate>12.18</pickrate>
         <banrate>4.4</banrate>
         <winrate>49.58</winrate>
@@ -2478,8 +2688,42 @@
 
     <champion>
         <name>Lulu</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>The yordle mage Lulu is known for conjuring dreamlike illusions and fanciful creatures as she roams Runeterra with her fairy companion Pix. Lulu shapes reality on a whim, warping the fabric of the world, and what she views as the constraints of this mundane, physical realm. While others might consider her magic at best unnatural, and at worst dangerous, she believes everyone could use a touch of enchantment.</lore>
+        <full_lore>Lulu was always a caring and deeply empathetic yordle, who lived as much in her whimsical daydreams as in reality. One day, while wandering the material realm, she came upon what appeared to be a bird with a broken wing. She ran to help, at which point the bird turned into a tiny, mischievous fae spirit. Before she could react, the faerie grabbed her walking stick and took off. Giggling, Lulu gave chase.
+
+            The spirit led her far into the forest. They went over boulders, under logs, and around ancient, overgrown stone circles. The faerie darted into a cave hidden behind a waterfall, and Lulu went after it. It flittered ahead, always just out of reach.
+
+            Down and down and down they went. Lulu tumbled and scrambled around twisted roots and glowing mushrooms, and at some point they crossed over into the spirit realm without her realizing it. Their surroundings became progressively stranger and more disorienting; up became down, forward became backward, big became small.
+
+            Finally, after what seemed forever, Lulu caught up with the faerie, whose name, she discovered, was Pix.
+
+            With a click of his tiny fingers, Pix turned her humble walking stick into a spiraling staff, and tossed it back to her. It sprouted leaves and flowers, making Lulu gasp in delight. So began their forever-friendship, built of mischief, fun, and love of nature.
+
+            Pix had led her to the Glade.
+
+            Bandle City, Lulu’s home, was a bizarre and magical place that defied logic, where time was meaningless and the natural laws of the material realm did not wholly apply. And yet the Glade was a place stranger still—it existed long before yordles came into the world, and it was perhaps from the Glade that Bandle City itself sprung. A place of raw primordial magic, it was hidden away so deeply that no yordle had ever found it… until now.
+
+            Here, Lulu’s own magic became wildly magnified. Laughing joyfully, she discovered she could reshape her surroundings at will, as well as alter her form to whatever she wanted. Everything and anything from her overactive imagination came to life.
+
+            Lulu didn’t know if Pix had brought her here because he saw in her a kindred soul and simply wanted someone to play with, or if the Glade needed her for some other purpose—but she fell in love with it instantly. Her life became one of endless creation and play, and she soon forgot anything else existed.
+
+            When finally she remembered, it was like waking from a dream.
+
+            She found herself back in the material realm, not knowing if a single day had passed, or a thousand years. To her surprise and joy, she found that some of her newfound power had come with her, allowing her to make small things large, change colors to those more pleasing to her, and cause creatures to fall spontaneously asleep. To Pix’s endless amusement, she turned the mightiest beasts into tiny, bewildered frogs or squirrels with a flick of her staff.
+
+            Nevertheless, she began to miss the Glade. She decided to go back, but realized she didn’t remember the way. Pix was no help, claiming to have forgotten as well, though it was possible he just didn’t want to return quite yet.
+
+            Unperturbed, Lulu set out anyway. She was certain the route back to the Glade was always shifting, making one way as good as another. She simply picked whatever direction took her fancy at any particular moment, and even threw herself into seemingly terrible danger whenever it looked fun. Her travels took her far and wide, and magic, mayhem, and mishap tended to follow wherever she went.
+
+            In Demacia, she freed a group of children from their boring history lessons, and led them off into a nearby meadow. Her game resulted in them being turned into toadstools for a full turn of the moon, while their desperate parents and the local militia searched for them in vain. It wasn’t quite what Lulu had intended, but fun nonetheless. When the children finally returned home and told everyone what had happened, no one believed them.
+
+            In the borderlands of the Freljord, Lulu thought it would be hilarious to change the weapons of two rival tribes into flowers just as they clashed, which resulted in absolute chaos and confusion. More recently, she has found herself happily lost in Ionia, playing in the glowing everblooms of Qaelin, and playing pranks on bewildered acolytes of the Order of Shadow, who she thinks are far too serious for their own good.
+
+            While Lulu seeks to return to the Glade, and misses it, she is happy, for every day brings more opportunity for adventure and fun.
+
+            And besides, she has come to realize that she carries a part of the Glade in her heart, wherever she goes.
+
+        </full_lore>
         <pickrate>8.84</pickrate>
         <banrate>4.73</banrate>
         <winrate>50.1</winrate>
@@ -2489,8 +2733,28 @@
 
     <champion>
         <name>Lux</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>Luxanna Crownguard hails from Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret in order to preserve her family’s noble status. Nonetheless, Lux’s optimism and resilience have led her to embrace her unique talents, and she now seeks to bring greater tolerance and understanding to her homeland.</lore>
+        <full_lore>Luxanna—or Lux, as she prefers to be called—grew up in the Demacian city of High Silvermere, along with her older brother Garen. They were born to the prestigious Crownguard family, which had served for generations as protectors of the kings of Demacia. Their grandfather saved the king’s life at the Battle of Storm’s Fang, and their aunt Tianna was named commander of the elite Dauntless Vanguard regiment before Lux was born.
+
+            Garen took to his family’s role with fervor, joining the military when he was still little more than a boy. Lux, in his absence, was expected to help run the family’s many estates—a task she resented, even as a young child. She wanted to explore the world, to see what lay beyond the walls and borders of Demacia. She idolized Garen, but railed against his insistence that she put her own ambitions aside.
+
+            To the endless frustration of Lux’s tutors, who sought to prepare her for a life of dutiful service to the Crownguard family, she would question their every teaching, examine differing perspectives, and seek out knowledge far beyond what they were prepared for. Even so, few could find it in themselves to stay angry at Lux, with her zest for life and intoxicating optimism.
+
+            Little did any of them know a time of change was approaching. Magic had once brought Runeterra to the brink of annihilation, and Demacia had been founded as a place where such powers were forbidden. Many of the kingdom’s folktales told of pure hearts turned dark by the lure of magic. Indeed, Lux and Garen’s uncle had been slain by a rogue mage some years earlier.
+
+            And there were fearful whispers, rumors from beyond the great mountains, that magic was rising once more in the world…
+
+            Riding home one fateful night, Lux and her horse were attacked by a ravenous sabrewulf pack. In a moment of fear and desperation, the young girl let loose a torrent of magical light from deep within her, routing the beasts but leaving her shivering in fear. Magic, the terror of Demacian myths, was as much a part of Lux as her Crownguard lineage.
+
+            Fear and doubt gnawed at her. Would she become evil? Was she an abomination, to be imprisoned or exiled? At the very least, if her powers were discovered, it would see the Crownguard name disgraced forever.
+
+            With Garen spending more time away from High Silvermere, Lux found herself alone in the halls of their family home. Still, over time, she became more familiar with her magic, and her sleepless nights—fists clenched, willing her inner light to fade—became fewer and fewer. She began experimenting in secret, playing with sunbeams in the courtyards, bending them into solid form, and even creating tiny, glowing figures in her palm. She resolved to keep it a secret, as much as she could.
+
+            When she was sixteen, Lux traveled with her parents Pieter and Augatha to their formal residence in the Great City of Demacia, to witness Garen’s investiture into the honored ranks of the Dauntless Vanguard.
+
+            The city dazzled Lux. It was a monument to the noble ideals of the kingdom, with every citizen protected and cared for; and it was there that Lux learned of the Illuminators, a charitable religious order working to help the sick and the poor. Between her family’s courtly engagements, she became close with a knight of the order named Kahina, who also taught Lux more martial skills, sparring and training with her in the gardens of the Crownguard manor.
+
+            Spending more time in the capital, Lux has finally begun to learn about the wider world—its diversity, and its history. She now understands that the Demacian way of life is not the only way, and with clear eyes she can see her love for her homeland standing alongside her desire to see it made more just… and perhaps a little more accepting of mages like her.</full_lore>
         <pickrate>18.77</pickrate>
         <banrate>13.68</banrate>
         <winrate>50.29</winrate>

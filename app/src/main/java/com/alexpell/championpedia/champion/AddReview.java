@@ -2,11 +2,16 @@ package com.alexpell.championpedia.champion;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.alexpell.championpedia.DB.AllDAO;
+import com.alexpell.championpedia.DB.AppDataBase;
+import com.alexpell.championpedia.DB.Review;
 import com.alexpell.championpedia.databinding.ActivityAddReviewBinding;
 
 public class AddReview extends AppCompatActivity {
@@ -14,13 +19,23 @@ public class AddReview extends AppCompatActivity {
     int difficulty = 0;
     int fun = 0;
 
+    SharedPreferences sharedPreferences;
+
     ActivityAddReviewBinding binding;
+    AllDAO allDAO;
+    Champion champion;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityAddReviewBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        allDAO = AppDataBase.getInstance(getApplicationContext()).getAllDAO();
+        sharedPreferences = getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE);
+        String championName = sharedPreferences.getString("champion","velkoz");
+        champion = allDAO.getChampionByName(championName);
+
 
         binding.removeDifficultyButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,7 +92,10 @@ public class AddReview extends AppCompatActivity {
                 if (fun == 0 || difficulty == 0)
                     Toast.makeText(AddReview.this,"Review values cannot be 0",Toast.LENGTH_SHORT).show();
                 else {
+
                     Toast.makeText(AddReview.this, "Review added succesfully", Toast.LENGTH_SHORT).show();
+                    String username = allDAO.getUser(sharedPreferences.getInt("userId",0)).getUsername() ;
+                    allDAO.insert(new Review(username,champion.getName(),difficulty,fun));
                     startActivity(new Intent(AddReview.this,ChampionActivity.class));
                 }
             }
