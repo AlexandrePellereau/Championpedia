@@ -7,7 +7,12 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#332F2F"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -17,7 +22,9 @@
                 android:id="@+id/userId"
                 android:layout_width="40dp"
                 android:layout_height="27dp"
+                android:fontFamily="@font/lol_medium"
                 android:text="Id"
+                android:textColor="#D5D5D5"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +37,9 @@
                 android:id="@+id/username"
                 android:layout_width="140dp"
                 android:layout_height="29dp"
+                android:fontFamily="@font/lol_medium"
                 android:text="Name"
+                android:textColor="#D5D5D5"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -55,8 +64,8 @@
                 android:id="@+id/deleteButton"
                 android:layout_width="79dp"
                 android:layout_height="39dp"
-                android:text="@string/del"
                 android:backgroundTint="#910B0B"
+                android:text="@string/del"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.951"

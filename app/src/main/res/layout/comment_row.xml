@@ -11,11 +11,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#332F2F">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#332F2F">
 
             <ImageView
                 android:id="@+id/avatar"
@@ -34,6 +36,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Name"
+                android:textColor="#D5D5D5"
+                android:fontFamily="@font/lol_medium"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.047"
@@ -48,6 +52,8 @@
                 android:layout_marginEnd="16dp"
                 android:gravity="center_vertical|end"
                 android:text="04/05/2024"
+                android:textColor="#D5D5D5"
+                android:fontFamily="@font/lol_medium"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
@@ -60,6 +66,8 @@
                 android:layout_width="284dp"
                 android:layout_height="45dp"
                 android:text="*Shy*vana is the best !!!\nNocture is good too."
+                android:textColor="#D5D5D5"
+                android:fontFamily="@font/lol_medium"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.448"
