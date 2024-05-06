@@ -2764,8 +2764,8 @@
 
     <champion>
         <name>Malphite</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>9.43</pickrate>
         <banrate>8.68</banrate>
         <winrate>49.92</winrate>
@@ -2775,8 +2775,8 @@
 
     <champion>
         <name>Malzahar</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>4.39</pickrate>
         <banrate>6.15</banrate>
         <winrate>50.13</winrate>
@@ -2786,8 +2786,8 @@
 
     <champion>
         <name>Maokai</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.46</pickrate>
         <banrate>1.72</banrate>
         <winrate>49.9</winrate>
@@ -2797,8 +2797,8 @@
 
     <champion>
         <name>Master Yi</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>9.8</pickrate>
         <banrate>20.28</banrate>
         <winrate>50.6</winrate>
@@ -2808,8 +2808,8 @@
 
     <champion>
         <name>Milio</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>4.68</pickrate>
         <banrate>2.09</banrate>
         <winrate>51.16</winrate>
@@ -2819,8 +2819,8 @@
 
     <champion>
         <name>Miss Fortune</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>10.99</pickrate>
         <banrate>4.12</banrate>
         <winrate>49.99</winrate>
@@ -2830,8 +2830,8 @@
 
     <champion>
         <name>Mordekaiser</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>9.74</pickrate>
         <banrate>15.4</banrate>
         <winrate>51.05</winrate>
@@ -2841,8 +2841,8 @@
 
     <champion>
         <name>Morgana</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>8.61</pickrate>
         <banrate>23.95</banrate>
         <winrate>50.23</winrate>
@@ -2852,8 +2852,8 @@
 
     <champion>
         <name>Naafiri</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>2.09</pickrate>
         <banrate>1.6</banrate>
         <winrate>50.56</winrate>
@@ -2863,8 +2863,8 @@
 
     <champion>
         <name>Nami</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>7.43</pickrate>
         <banrate>0.58</banrate>
         <winrate>51.58</winrate>
@@ -2874,8 +2874,8 @@
 
     <champion>
         <name>Nasus</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>5.75</pickrate>
         <banrate>3.91</banrate>
         <winrate>51.21</winrate>
@@ -2885,8 +2885,8 @@
 
     <champion>
         <name>Nautilus</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>10.16</pickrate>
         <banrate>14.59</banrate>
         <winrate>48.53</winrate>
@@ -2895,8 +2895,8 @@
     </champion>
     <champion>
         <name>Neeko</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>4.57</pickrate>
         <banrate>2.31</banrate>
         <winrate>49.03</winrate>
@@ -2906,8 +2906,8 @@
 
     <champion>
         <name>Nidalee</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.15</pickrate>
         <banrate>1.82</banrate>
         <winrate>48.86</winrate>
@@ -2916,8 +2916,8 @@
     </champion>
     <champion>
         <name>Nilah</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>2.87</pickrate>
         <banrate>5.27</banrate>
         <winrate>52.92</winrate>
@@ -2927,8 +2927,8 @@
 
     <champion>
         <name>Nocturne</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>6.38</pickrate>
         <banrate>8.84</banrate>
         <winrate>50.86</winrate>
@@ -2938,8 +2938,8 @@
 
     <champion>
         <name>Nunu and Willump</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>2.66</pickrate>
         <banrate>0.43</banrate>
         <winrate>48</winrate>
@@ -2949,8 +2949,8 @@
 
     <champion>
         <name>Olaf</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.05</pickrate>
         <banrate>3.06</banrate>
         <winrate>50.02</winrate>
@@ -2960,8 +2960,8 @@
 
     <champion>
         <name>Orianna</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.42</pickrate>
         <banrate>0.77</banrate>
         <winrate>48.18</winrate>
@@ -2971,8 +2971,8 @@
 
     <champion>
         <name>Ornn</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.04</pickrate>
         <banrate>0.47</banrate>
         <winrate>49.32</winrate>
@@ -2982,8 +2982,8 @@
 
     <champion>
         <name>Pantheon</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>6.46</pickrate>
         <banrate>2.34</banrate>
         <winrate>48.88</winrate>
@@ -2993,8 +2993,8 @@
 
     <champion>
         <name>Poppy</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.75</pickrate>
         <banrate>1.86</banrate>
         <winrate>50.34</winrate>
@@ -3004,8 +3004,8 @@
 
     <champion>
         <name>Pyke</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>7.36</pickrate>
         <banrate>16.22</banrate>
         <winrate>49.85</winrate>
@@ -3015,8 +3015,8 @@
 
     <champion>
         <name>Qiyana</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>2.3</pickrate>
         <banrate>0.61</banrate>
         <winrate>47.67</winrate>
@@ -3026,8 +3026,8 @@
 
     <champion>
         <name>Quinn</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>1.78</pickrate>
         <banrate>1.08</banrate>
         <winrate>50</winrate>
@@ -3037,8 +3037,8 @@
 
     <champion>
         <name>Rakan</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>4.58</pickrate>
         <banrate>1.01</banrate>
         <winrate>50.48</winrate>
@@ -3048,8 +3048,8 @@
 
     <champion>
         <name>Rammus</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.64</pickrate>
         <banrate>8.48</banrate>
         <winrate>51.59</winrate>
@@ -3059,8 +3059,8 @@
 
     <champion>
         <name>Rek'Sai</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.01</pickrate>
         <banrate>3.81</banrate>
         <winrate>50.68</winrate>
@@ -3070,8 +3070,8 @@
 
     <champion>
         <name>Rell</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>2.59</pickrate>
         <banrate>0.92</banrate>
         <winrate>50.05</winrate>
@@ -3081,8 +3081,8 @@
 
     <champion>
         <name>Renata Glasc</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>1.63</pickrate>
         <banrate>0.34</banrate>
         <winrate>51.04</winrate>
@@ -3092,8 +3092,8 @@
 
     <champion>
         <name>Renekton</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>6.19</pickrate>
         <banrate>3.79</banrate>
         <winrate>50.1</winrate>
@@ -3103,8 +3103,8 @@
 
     <champion>
         <name>Rengar</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>2.98</pickrate>
         <banrate>3.24</banrate>
         <winrate>47.91</winrate>
@@ -3114,8 +3114,8 @@
 
     <champion>
         <name>Riven</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.42</pickrate>
         <banrate>0.94</banrate>
         <winrate>48.54</winrate>
@@ -3125,8 +3125,8 @@
 
     <champion>
         <name>Rumble</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.97</pickrate>
         <banrate>1.77</banrate>
         <winrate>48.92</winrate>
@@ -3136,8 +3136,8 @@
 
     <champion>
         <name>Ryze</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>1.99</pickrate>
         <banrate>0.23</banrate>
         <winrate>49.27</winrate>
@@ -3147,8 +3147,8 @@
 
     <champion>
         <name>Samira</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>6.73</pickrate>
         <banrate>16.44</banrate>
         <winrate>49.76</winrate>
@@ -3158,8 +3158,8 @@
 
     <champion>
         <name>Sejuani</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>2.69</pickrate>
         <banrate>0.27</banrate>
         <winrate>48.42</winrate>
@@ -3169,8 +3169,8 @@
 
     <champion>
         <name>Senna</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>7.84</pickrate>
         <banrate>5.73</banrate>
         <winrate>49.53</winrate>
@@ -3180,8 +3180,8 @@
 
     <champion>
         <name>Seraphine</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>5.11</pickrate>
         <banrate>1.11</banrate>
         <winrate>49.85</winrate>
@@ -3191,8 +3191,8 @@
 
     <champion>
         <name>Sett</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>7.64</pickrate>
         <banrate>2.51</banrate>
         <winrate>51.84</winrate>
@@ -3202,8 +3202,8 @@
 
     <champion>
         <name>Shaco</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>9.16</pickrate>
         <banrate>31.66</banrate>
         <winrate>49.83</winrate>
@@ -3213,8 +3213,8 @@
 
     <champion>
         <name>Shen</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>4.01</pickrate>
         <banrate>0.37</banrate>
         <winrate>50.24</winrate>
@@ -3224,8 +3224,8 @@
 
     <champion>
         <name>Shyvana</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>2.46</pickrate>
         <banrate>0.45</banrate>
         <winrate>50.16</winrate>
@@ -3235,8 +3235,8 @@
 
     <champion>
         <name>Singed</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>1.65</pickrate>
         <banrate>0.32</banrate>
         <winrate>50.88</winrate>
@@ -3246,8 +3246,8 @@
 
     <champion>
         <name>Sion</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.46</pickrate>
         <banrate>0.89</banrate>
         <winrate>49.62</winrate>
@@ -3257,8 +3257,8 @@
 
     <champion>
         <name>Sivir</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.58</pickrate>
         <banrate>0.61</banrate>
         <winrate>50.47</winrate>
@@ -3268,8 +3268,8 @@
 
     <champion>
         <name>Skarner</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>11.91</pickrate>
         <banrate>31.29</banrate>
         <winrate>48.93</winrate>
@@ -3279,8 +3279,8 @@
 
     <champion>
         <name>Smolder</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>8.47</pickrate>
         <banrate>9.37</banrate>
         <winrate>48.41</winrate>
@@ -3290,8 +3290,8 @@
 
     <champion>
         <name>Sona</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.57</pickrate>
         <banrate>0.24</banrate>
         <winrate>52.46</winrate>
@@ -3301,8 +3301,8 @@
 
     <champion>
         <name>Soraka</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>4.39</pickrate>
         <banrate>1.22</banrate>
         <winrate>51.23</winrate>
@@ -3312,8 +3312,8 @@
 
     <champion>
         <name>Swain</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>4.92</pickrate>
         <banrate>2.04</banrate>
         <winrate>50.28</winrate>
@@ -3323,8 +3323,8 @@
 
     <champion>
         <name>Sylas</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>10.93</pickrate>
         <banrate>10.1</banrate>
         <winrate>49.83</winrate>
@@ -3334,8 +3334,8 @@
 
     <champion>
         <name>Syndra</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.71</pickrate>
         <banrate>1.93</banrate>
         <winrate>49.85</winrate>
@@ -3345,8 +3345,8 @@
 
     <champion>
         <name>Tahm Kench</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>4.99</pickrate>
         <banrate>1.98</banrate>
         <winrate>51.04</winrate>
@@ -3356,8 +3356,8 @@
 
     <champion>
         <name>Taliyah</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>5.75</pickrate>
         <banrate>2.69</banrate>
         <winrate>50.26</winrate>
@@ -3367,8 +3367,8 @@
 
     <champion>
         <name>Talon</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>2.8</pickrate>
         <banrate>0.81</banrate>
         <winrate>48.61</winrate>
@@ -3378,8 +3378,8 @@
 
     <champion>
         <name>Taric</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>1.47</pickrate>
         <banrate>0.26</banrate>
         <winrate>52.19</winrate>
@@ -3389,8 +3389,8 @@
 
     <champion>
         <name>Teemo</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>7.2</pickrate>
         <banrate>10.19</banrate>
         <winrate>50.2</winrate>
@@ -3400,8 +3400,8 @@
 
     <champion>
         <name>Thresh</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>11.1</pickrate>
         <banrate>3.86</banrate>
         <winrate>49.85</winrate>
@@ -3411,8 +3411,8 @@
 
     <champion>
         <name>Tristana</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>8.87</pickrate>
         <banrate>2.79</banrate>
         <winrate>49.47</winrate>
@@ -3422,8 +3422,8 @@
 
     <champion>
         <name>Trundle</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>6.02</pickrate>
         <banrate>4.93</banrate>
         <winrate>51.57</winrate>
@@ -3433,8 +3433,8 @@
 
     <champion>
         <name>Tryndamere</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.88</pickrate>
         <banrate>2.59</banrate>
         <winrate>50.06</winrate>
@@ -3444,8 +3444,8 @@
 
     <champion>
         <name>Twisted Fate</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>5.53</pickrate>
         <banrate>1.77</banrate>
         <winrate>50.11</winrate>
@@ -3455,8 +3455,8 @@
 
     <champion>
         <name>Twitch</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>9.3</pickrate>
         <banrate>11.62</banrate>
         <winrate>50.98</winrate>
@@ -3466,8 +3466,8 @@
 
     <champion>
         <name>Udyr</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>3.26</pickrate>
         <banrate>1.28</banrate>
         <winrate>49</winrate>
@@ -3477,8 +3477,8 @@
 
     <champion>
         <name>Urgot</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>4.03</pickrate>
         <banrate>2.18</banrate>
         <winrate>52.22</winrate>
@@ -3488,8 +3488,8 @@
 
     <champion>
         <name>Varus</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>6.78</pickrate>
         <banrate>1.11</banrate>
         <winrate>47.91</winrate>
@@ -3499,8 +3499,8 @@
 
     <champion>
         <name>Vayne</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>10.76</pickrate>
         <banrate>11.25</banrate>
         <winrate>50.11</winrate>
@@ -3510,8 +3510,8 @@
 
     <champion>
         <name>Veigar</name>
-        <lore></lore>
-        <full_lore></full_lore>
+        <lore>a</lore>
+        <full_lore>a</full_lore>
         <pickrate>9.25</pickrate>
         <banrate>4.36</banrate>
         <winrate>51.8</winrate>
