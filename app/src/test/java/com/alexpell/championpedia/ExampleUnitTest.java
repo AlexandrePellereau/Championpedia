@@ -4,6 +4,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+import android.content.Intent;
+
+import com.alexpell.championpedia.champion.Champion;
+import com.alexpell.championpedia.champion.ChampionActivity;
 import com.alexpell.championpedia.champion.ContextProvider;
 
 /**
@@ -30,4 +34,5 @@ public class ExampleUnitTest {
         MainActivity.initImages();
         assertEquals(R.drawable.quinn, MainActivity.getImageFromUsername("admin"));
     }
+
 }

@@ -33,6 +33,23 @@ public class Champion {
     @ColumnInfo(name = "champion_fun")
     private int fun;
 
+    public Champion() {
+        difficulty = 0;
+        fun = 0;
+    }
+
+    public Champion(int id, String name, String lore, String full_lore, double pickrate, double banrate, double winrate, int difficulty, int fun) {
+        this.id = id;
+        this.name = name;
+        this.lore = lore;
+        this.full_lore = full_lore;
+        this.pickrate = pickrate;
+        this.banrate = banrate;
+        this.winrate = winrate;
+        this.difficulty = difficulty;
+        this.fun = fun;
+    }
+
     public int getId() {
         return id;
     }
