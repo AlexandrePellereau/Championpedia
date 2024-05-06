@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static String parseString(String string) {
-        return string.toLowerCase().replace("'","");
+        return string.toLowerCase().replace("'","").replace(".","").replace(" ","");
     }
 
     public static int getImageFromUsername(String username) {
