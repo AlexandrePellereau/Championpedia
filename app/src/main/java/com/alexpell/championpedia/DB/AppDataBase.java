@@ -33,7 +33,6 @@ public abstract class AppDataBase extends RoomDatabase {
                 if (instance == null) {
                     instance = Room.databaseBuilder(context.getApplicationContext(), AppDataBase.class, DATABASE_NAME)
                             .allowMainThreadQueries().
-                            addCallback(addDefaultValues).
                             fallbackToDestructiveMigration().build();
                 }
             }
@@ -41,6 +40,7 @@ public abstract class AppDataBase extends RoomDatabase {
         return instance;
     }
 
+    /*
     private static final RoomDatabase.Callback addDefaultValues = new RoomDatabase.Callback() {
         @Override
         public void onCreate(@NonNull SupportSQLiteDatabase db) {
@@ -55,4 +55,5 @@ public abstract class AppDataBase extends RoomDatabase {
             }
         }
     };
+    */
 }

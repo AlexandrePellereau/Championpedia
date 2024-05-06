@@ -1,6 +1,7 @@
 package com.alexpell.championpedia.champion;
 
 import android.content.Context;
+import android.util.Log;
 import android.widget.Toast;
 
 import androidx.room.Room;
@@ -24,6 +25,7 @@ public class Initialise {
     static final ExecutorService databaseWriteExecutor = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
 
     public static void initialiseDB(Context context) throws XmlPullParserException, IOException {
+        Log.d("Initialise", "initialiseDB: " + context.getFilesDir().getAbsolutePath());
         databaseWriteExecutor.execute(() -> {
             List<String> parse = XmlParser.parseChampions(context, R.xml.champion_data);
             List<Champion> champions = new ArrayList<>();

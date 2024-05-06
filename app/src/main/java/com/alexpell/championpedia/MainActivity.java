@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.alexpell.championpedia.DB.AllDAO;
+import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.champion.ContextProvider;
 import com.alexpell.championpedia.champion.Initialise;
 import com.alexpell.championpedia.databinding.ActivityMainBinding;
@@ -23,6 +25,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private static ArrayList<Integer> images;
+    AllDAO allDAO;
     ActivityMainBinding binding;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
@@ -32,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         sharedPreferences = getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE);
+
         ContextProvider.initialize(getApplicationContext());
         if (!sharedPreferences.getBoolean("db",false)){
             try {
@@ -76,16 +80,20 @@ public class MainActivity extends AppCompatActivity {
     public static int getImageFromUsername(String username) {
         //make the sum of all letters (translated to ASCII) in the username
         //then use a modulo to get an image from the list
+        /*
         int sum = 0;
         for (int i = 0; i < username.length(); i++) {
             sum += (int) username.charAt(i);
         }
         int index = sum % images.size();
         return images.get(index);
+         */
+        return 0;
     }
 
     public static void initImages() {
         images = new ArrayList<>();
+        /*
         images.add(R.drawable.annie);
         images.add(R.drawable.ashe);
         images.add(R.drawable.aurelionsol);
@@ -232,7 +240,7 @@ public class MainActivity extends AppCompatActivity {
         images.add(R.drawable.zilean);
         images.add(R.drawable.zoe);
         images.add(R.drawable.zyra);
+        */
     }
-
 
 }
