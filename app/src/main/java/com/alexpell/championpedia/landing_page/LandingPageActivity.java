@@ -83,4 +83,8 @@ public class LandingPageActivity extends AppCompatActivity {
         }
 
     }
+
+    public static Intent LandingPageIntentFactory(Context context){
+        return new Intent(context, LandingPageActivity.class);
+    }
 }

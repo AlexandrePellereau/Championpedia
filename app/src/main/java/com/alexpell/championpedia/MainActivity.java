@@ -39,22 +39,22 @@ public class MainActivity extends AppCompatActivity {
                 editor = sharedPreferences.edit();
                 editor.putBoolean("db",true);
                 editor.apply();
-                Toast.makeText(this, "db ++", Toast.LENGTH_SHORT).show();
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
         }
 
-        if (sharedPreferences.getBoolean("loggedIn", false))
-            startActivity(new Intent(getApplicationContext(), LandingPageActivity.class));
+        if (sharedPreferences.getBoolean("loggedIn", false)) {
+            Intent intent = LandingPageActivity.LandingPageIntentFactory(getApplicationContext());
+            startActivity(intent);
+        }
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
         binding.loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-                intent.putExtra("createAccount", false);
+                Intent intent = LoginActivity.LoginActivityIntentFactory(getApplicationContext(),false);
                 startActivity(intent);
             }
         });
@@ -62,8 +62,7 @@ public class MainActivity extends AppCompatActivity {
         binding.createAccountButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-                intent.putExtra("createAccount", true);
+                Intent intent = LoginActivity.LoginActivityIntentFactory(getApplicationContext(),true);
                 startActivity(intent);
             }
         });
@@ -234,5 +233,7 @@ public class MainActivity extends AppCompatActivity {
         images.add(R.drawable.zyra);
     }
 
-
+    public static Intent MainActivityIntentFactory(Context context){
+        return new Intent(context,MainActivity.class);
+    }
 }

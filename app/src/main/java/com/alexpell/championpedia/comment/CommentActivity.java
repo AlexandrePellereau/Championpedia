@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -93,5 +94,21 @@ public class CommentActivity extends AppCompatActivity {
         SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy", Locale.getDefault());
         Date date = new Date();
         return dateFormat.format(date);
+    }
+
+    private int getImages(String username) {
+        //make the sum of all letters (translated to ASCII) in the username
+        //then use a modulo to get an image from the list
+        List<Integer> images = Arrays.asList(R.drawable.aatrox, R.drawable.ahri, R.drawable.akali, R.drawable.karma, R.drawable.velkoz);
+        int sum = 0;
+        for (int i = 0; i < username.length(); i++) {
+            sum += (int) username.charAt(i);
+        }
+        int index = sum % images.size();
+        return images.get(index);
+    }
+
+    public static Intent CommentIntentFactory(Context context){
+        return new Intent(context, CommentActivity.class);
     }
 }
