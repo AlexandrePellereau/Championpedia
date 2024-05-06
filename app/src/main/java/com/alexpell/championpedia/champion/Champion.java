@@ -27,7 +27,7 @@ public class Champion {
     @ColumnInfo(name = "champion_winrate")
     private double winrate;
 
-    @ColumnInfo(name = "champîon_difficulty")
+    @ColumnInfo(name = "champion_difficulty")
     private int difficulty;
 
     @ColumnInfo(name = "champion_fun")
