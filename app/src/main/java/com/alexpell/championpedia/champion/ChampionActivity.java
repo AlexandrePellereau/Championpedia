@@ -60,7 +60,7 @@ public class ChampionActivity extends AppCompatActivity {
                 if (allDAO.getReview(username,championName) == null)
                     startActivity(new Intent(getApplicationContext(),AddReview.class));
                 else {
-                    Toast.makeText(getApplicationContext(),"You already added a review for this character.",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"You already added a review for this character.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -75,8 +75,6 @@ public class ChampionActivity extends AppCompatActivity {
         setTexts(champion);
     }
 
-
-
     private void setTexts(Champion champion) {
         int resourceId = getResources().getIdentifier(MainActivity.parseString(champion.getName()), "drawable", getPackageName());
 
@@ -86,7 +84,13 @@ public class ChampionActivity extends AppCompatActivity {
 
         binding.championLore.setText(champion.getLore());
 
-        binding.banrate.setText(String.valueOf(champion.getBanrate()));
+        binding.banrate.setText(champion.getBanrate() + " %");
+
+        binding.pickrate.setText(champion.getPickrate() + " %");
+
+        binding.winrate.setText(champion.getWinrate() + " %");
+
+
 
         List<Integer> difficulties = allDAO.getChampionsReviewDifficulty(champion.getName());
 
@@ -97,9 +101,9 @@ public class ChampionActivity extends AppCompatActivity {
         }
 
         if (sum != 0)
-            binding.pickrate.setText(String.valueOf(sum/difficulties.size()));
+            binding.difficulty.setText(String.valueOf(sum/difficulties.size()));
         else {
-            binding.pickrate.setText("No reviews");
+            binding.difficulty.setText("No reviews");
         }
 
         List<Integer> fun = allDAO.getChampionsReviewFun(champion.getName());
@@ -111,11 +115,10 @@ public class ChampionActivity extends AppCompatActivity {
         }
 
         if (sum != 0)
-            binding.pickrate.setText(String.valueOf(sum/fun.size()));
+            binding.fun.setText(String.valueOf(sum/fun.size()));
         else {
-            binding.pickrate.setText("No reviews");
+            binding.fun.setText("No reviews");
         }
-
-
+        
     }
 }
