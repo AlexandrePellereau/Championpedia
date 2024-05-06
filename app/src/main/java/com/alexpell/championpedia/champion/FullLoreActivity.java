@@ -32,7 +32,7 @@ public class FullLoreActivity extends AppCompatActivity {
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),ChampionActivity.class));
+                startActivity(ChampionActivity.ChampionActivityIntentFactory(getApplicationContext()));
             }
         });
         String championName = sharedPreferences.getString("champion","velkoz");

@@ -64,13 +64,13 @@ public class LandingPageActivity extends AppCompatActivity {
                 editor.putBoolean("loggedIn",false);
                 editor.putBoolean("isAdmin",false);
                 editor.apply();
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                startActivity(MainActivity.MainActivityIntentFactory(getApplicationContext()));
             }
         });
         findViewById(R.id.admin_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), AdminActivity.class));
+                startActivity(AdminActivity.AdminIntentFactory(getApplicationContext()));
             }
         });
     }

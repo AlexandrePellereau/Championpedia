@@ -103,7 +103,7 @@ public class AddReviewActivity extends AppCompatActivity {
                     Toast.makeText(AddReviewActivity.this, "Review added succesfully", Toast.LENGTH_SHORT).show();
                     String username = allDAO.getUser(sharedPreferences.getInt("userId",0)).getUsername() ;
                     allDAO.insert(new Review(username,champion.getName(),difficulty,fun));
-                    startActivity(new Intent(AddReviewActivity.this,ChampionActivity.class));
+                    startActivity(ChampionActivity.ChampionActivityIntentFactory(getApplicationContext()));
                 }
             }
         });

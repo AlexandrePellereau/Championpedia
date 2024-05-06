@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.media.Image;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -47,11 +48,10 @@ public class MainActivity extends AppCompatActivity {
                 throw new RuntimeException(e);
             }
         }
+        
+        if (sharedPreferences.getBoolean("loggedIn", false))
+            startActivity(LandingPageActivity.LandingPageIntentFactory(getApplicationContext()));
 
-        if (sharedPreferences.getBoolean("loggedIn", false)) {
-            Intent intent = LandingPageActivity.LandingPageIntentFactory(getApplicationContext());
-            startActivity(intent);
-        }
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
@@ -241,6 +241,10 @@ public class MainActivity extends AppCompatActivity {
         images.add(R.drawable.zyra);
         */
     }
+    public static Intent MainActivityIntentFactory(Context context){
+        return new Intent(context,MainActivity.class);
+    }
+
     public static Intent MainActivityIntentFactory(Context context){
         return new Intent(context,MainActivity.class);
     }

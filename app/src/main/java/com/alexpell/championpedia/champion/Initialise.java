@@ -73,6 +73,8 @@ public class Initialise {
             for (Champion champion : champions) {
                 allDAO.insert(champion);
             }
+            allDAO.insert(new User("testuser1","testuser1",false));
+            allDAO.insert(new User("admin2","admin2",true));
         });
     }
 

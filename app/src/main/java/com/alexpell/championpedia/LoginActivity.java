@@ -128,5 +128,4 @@ public class LoginActivity extends AppCompatActivity {
         intent.putExtra("createAccount", receivedValue);
         return intent;
     }
-
 }
