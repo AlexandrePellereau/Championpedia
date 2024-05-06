@@ -4,6 +4,7 @@ import static android.content.Context.MODE_PRIVATE;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -61,15 +62,13 @@ public class UserRVAdapter extends RecyclerView.Adapter<UserRVAdapter.MyViewHold
         holder.delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (userModel.getId() == context.getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE).getInt("userId", 42)) {
+                    Toast.makeText(context, "You cannot delete yourself", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 allDAO.deleteUser(userModel.getId());
                 userModels.remove(position);
                 notifyItemRemoved(position);
-                if (userModel.getId() == context.getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE).getInt("userId", 42)) {
-                    Toast.makeText(context, "You have been deleted", Toast.LENGTH_SHORT).show();
-                    context.getSharedPreferences("com.alexpell.championpedia", MODE_PRIVATE).edit()
-                            .putBoolean("loggedIn", false).apply();
-                    context.startActivity(new Intent(context, MainActivity.class));
-                }
             }
         });
     }

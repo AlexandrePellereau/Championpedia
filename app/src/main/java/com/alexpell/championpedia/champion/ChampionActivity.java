@@ -14,6 +14,7 @@ import android.widget.Toast;
 import com.alexpell.championpedia.DB.AllDAO;
 import com.alexpell.championpedia.DB.AppDataBase;
 import com.alexpell.championpedia.LandingPage;
+import com.alexpell.championpedia.comment.CommentActivity;
 import com.alexpell.championpedia.databinding.ActivityChampionBinding;
 
 public class ChampionActivity extends AppCompatActivity {
@@ -58,6 +59,13 @@ public class ChampionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),AddReview.class));
+            }
+        });
+
+        binding.commentButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), CommentActivity.class));
             }
         });
 

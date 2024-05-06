@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.room.Room;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -37,13 +38,12 @@ public class CommentActivity extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
 
-        allDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
-                .allowMainThreadQueries()
-                .build()
-                .getAllDAO();
+        allDAO = AppDataBase.getInstance(getApplicationContext()).getAllDAO();
+        String championName = getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE)
+                .getString("champion","velkoz");
+        int championId = allDAO.getChampionByName(championName).getId();
 
-
-        setUpCommentModels();
+        setUpCommentModels(championId);
         RecyclerView recyclerView = binding.commentRecyclerView;
         CommentRVAdapter commentRVAdapter = new CommentRVAdapter(this, commentModels);
         recyclerView.setAdapter(commentRVAdapter);
@@ -55,7 +55,7 @@ public class CommentActivity extends AppCompatActivity {
                 String username = allDAO.getUser(getUserId()).getUsername();
                 String date = getDateTime();
                 String content = binding.commentEditText.getText().toString();
-                allDAO.insert(new Comment(1, getUserId(), content, date));//TODO : change championId to the current champion
+                allDAO.insert(new Comment(championId, getUserId(), content, date));//TODO : change championId to the current champion
                 Comment comment = allDAO.getLastComment();
                 commentModels.add(new CommentModel(comment.getId(), username, date, content, getImages(username)));
                 commentRVAdapter.notifyItemInserted(commentModels.size() - 1);
@@ -65,14 +65,22 @@ public class CommentActivity extends AppCompatActivity {
                 }
             }
         });
+        
+        binding.backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
     private int getUserId() {
         return getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE).getInt("userId", 42);
     }
 
-    private void setUpCommentModels() {
-        List<Comment> comments = allDAO.getCommentsByChampion(1);//TODO : change championId to the current champion
+    private void setUpCommentModels(int championId) {
+
+        List<Comment> comments = allDAO.getCommentsByChampion(championId);
         if (comments.size() == 0) {
             binding.commentEmpty.setVisibility(View.VISIBLE);
             return;

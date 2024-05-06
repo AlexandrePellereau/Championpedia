@@ -43,6 +43,7 @@ public abstract class AppDataBase extends RoomDatabase {
         @Override
         public void onCreate(@NonNull SupportSQLiteDatabase db) {
             super.onCreate(db);
+            //Not working
             Log.d("AppDataBase", "onCreate: ");
             try {
                 Initialise.initialiseDB(ContextProvider.getContext());

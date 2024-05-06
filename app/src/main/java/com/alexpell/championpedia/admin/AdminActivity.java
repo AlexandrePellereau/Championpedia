@@ -37,13 +37,17 @@ public class AdminActivity extends AppCompatActivity {
         UserRVAdapter userRVAdapter = new UserRVAdapter(this, userModels);
         recyclerView.setAdapter(userRVAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        binding.backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 
     private void setUpUserModels() {
-        AllDAO allDAO = Room.databaseBuilder(this, AppDataBase.class, AppDataBase.DATABASE_NAME)
-                .allowMainThreadQueries()
-                .build()
-                .getAllDAO();
+        AllDAO allDAO = AppDataBase.getInstance(getApplicationContext()).getAllDAO();
         for (User user : allDAO.getUsers()) {
             userModels.add(new UserModel(user.getId(), user.getUsername()));
         }
