@@ -27,6 +27,7 @@ public class ExampleUnitTest {
 
     @Test
     public void testGetImageFromUsername() {
-        assertNotEquals(0, MainActivity.getImageFromUsername("admin"));
+        MainActivity.initImages();
+        assertEquals(R.drawable.quinn, MainActivity.getImageFromUsername("admin"));
     }
 }

@@ -21,6 +21,9 @@
       <entry key="testFillChampionTable()">
         <State />
       </entry>
+      <entry key="testGetImageFromUsername()">
+        <State />
+      </entry>
     </value>
   </component>
 </project>
