@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 throw new RuntimeException(e);
             }
         }
-        
+
         if (sharedPreferences.getBoolean("loggedIn", false))
             startActivity(LandingPageActivity.LandingPageIntentFactory(getApplicationContext()));
 
@@ -241,10 +241,6 @@ public class MainActivity extends AppCompatActivity {
         images.add(R.drawable.zyra);
         */
     }
-    public static Intent MainActivityIntentFactory(Context context){
-        return new Intent(context,MainActivity.class);
-    }
-
     public static Intent MainActivityIntentFactory(Context context){
         return new Intent(context,MainActivity.class);
     }
