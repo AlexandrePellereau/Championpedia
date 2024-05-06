@@ -4,137 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LegacyLandingPage"
+    tools:context=".landing_page.LandingPageActivity"
     android:background="#332F2F">
 
     <TextView
         android:id="@+id/login_text"
-        android:layout_width="101dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
         android:text="@string/logged_in_as"
         android:textAlignment="center"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/image_aatrox"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="100dp"
-        android:contentDescription="@string/aatrox"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/aatrox"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/text_aatrox"
-        android:layout_width="150dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/aatrox"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_aatrox" />
-
-    <ImageView
-        android:id="@+id/image_ahri"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="32dp"
-        android:contentDescription="@string/ahri"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ahri"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/text_ahri"
-        android:layout_width="150dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/ahri"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_ahri" />
-
-    <ImageView
-        android:id="@+id/image_akali"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_aatrox"
-        app:srcCompat="@drawable/akali"
-        android:contentDescription="@string/akali" />
-
-    <TextView
-        android:id="@+id/text_akali"
-        android:layout_width="150dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/akali"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_akali" />
-
-    <ImageView
-        android:id="@+id/image_karma"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_ahri"
-        app:srcCompat="@drawable/karma"
-        android:contentDescription="@string/karma" />
-
-    <TextView
-        android:id="@+id/text_karma"
-        android:layout_width="150dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/karma"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_karma" />
-
-    <ImageView
-        android:id="@+id/image_vel_koz"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_karma"
-        app:srcCompat="@drawable/velkoz"
-        android:contentDescription="@string/vel_koz" />
-
-    <TextView
-        android:id="@+id/text_vel_koz"
-        android:layout_width="150dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/vel_koz"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_vel_koz" />
+        app:layout_constraintVertical_bias="0.021" />
 
     <Button
         android:id="@+id/logout_button"
@@ -156,6 +41,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/championRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

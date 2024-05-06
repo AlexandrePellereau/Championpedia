@@ -3,13 +3,13 @@ package com.alexpell.championpedia.landing_page;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.alexpell.championpedia.DB.AllDAO;
@@ -18,8 +18,6 @@ import com.alexpell.championpedia.MainActivity;
 import com.alexpell.championpedia.R;
 import com.alexpell.championpedia.admin.AdminActivity;
 import com.alexpell.championpedia.champion.Champion;
-import com.alexpell.championpedia.champion.ChampionActivity;
-import com.alexpell.championpedia.comment.CommentRVAdapter;
 import com.alexpell.championpedia.databinding.ActivityLandingPageBinding;
 
 import java.util.ArrayList;
@@ -30,27 +28,29 @@ public class LandingPageActivity extends AppCompatActivity {
     AllDAO allDAO;
     ArrayList<ChampionModel> championModels = new ArrayList<>();
     SharedPreferences sharedPreferences;
-    ActivityLandingPageBinding binding;
+    //ActivityLandingPageBinding binding;
     SharedPreferences.Editor editor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         sharedPreferences = getSharedPreferences("com.alexpell.championpedia", Context.MODE_PRIVATE);
-        binding = ActivityLandingPageBinding.inflate(getLayoutInflater());
-        setContentView(R.layout.activity_landing_page2);
+        //binding = ActivityLandingPageBinding.inflate(getLayoutInflater());
+        setContentView(R.layout.activity_landing_page);
 
         //check if user is admin
+        Button adminButton = findViewById(R.id.admin_button);
         if (sharedPreferences.getBoolean("isAdmin",false)){
-            binding.adminButton.setVisibility(View.VISIBLE);
+            adminButton.setVisibility(View.VISIBLE);
         }
         else{
-            binding.adminButton.setVisibility(View.INVISIBLE);
+            adminButton.setVisibility(View.INVISIBLE);
         }
 
         //log as user
         allDAO = AppDataBase.getInstance(getApplicationContext()).getAllDAO();
-        binding.loginText.setText(String.format("%s%s", getString(R.string.logged_in_as), allDAO.getUser(sharedPreferences.getInt("userId", 0)).getUsername()));
+        TextView loginText = findViewById(R.id.login_text);
+        loginText.setText(String.format("%s%s", getString(R.string.logged_in_as), allDAO.getUser(sharedPreferences.getInt("userId", 0)).getUsername()));
 
         setUpChampionModels();
         RecyclerView recyclerView = findViewById(R.id.championRecyclerView);
@@ -58,7 +58,7 @@ public class LandingPageActivity extends AppCompatActivity {
         recyclerView.setAdapter(championRVAdapter);
         recyclerView.setLayoutManager(new GridLayoutManager(this, 3));
 
-        binding.logoutButton.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.logout_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 editor = sharedPreferences.edit();
@@ -68,7 +68,7 @@ public class LandingPageActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
             }
         });
-        binding.adminButton.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.admin_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), AdminActivity.class));
